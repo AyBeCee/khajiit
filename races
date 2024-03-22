@@ -21,7 +21,6 @@
                 "Jeweler's tools"
             ],
             "Bonus Language": [
-                "Altmeris",
                 "Bosmeris",
                 "Dunmeris",
                 "Jel",
@@ -29,7 +28,22 @@
                 "Orcish",
                 "Ta'agra",
                 "Tamrielic",
-                "Yoku"
+                "Yoku",
+                "Akaviri",
+                "Ald Chimeris",
+                "Aldmeris",
+                "Ayleidoon",
+                "Daedric",
+                "Dovahzul",
+                "Dwemeris",
+                "Ehlnofex",
+                "Falmeris",
+                "Hist",
+                "Nedic",
+                "Pyandonean",
+                "Sload",
+                "Reach-tongue",
+                "Tsaesci"
             ]
         }
     },
