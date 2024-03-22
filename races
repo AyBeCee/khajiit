@@ -10,20 +10,17 @@
         },
         "Trait options": {
             "Studious Nature": [
-                "checkbox",
                 "Arcana",
                 "History",
                 "Nature",
                 "Religion"
             ],
             "Tool Proficiency": [
-                "radio",
                 "Alchemist's supplies",
                 "Calligrapher's supplies",
                 "Jeweler's tools"
             ],
             "Bonus Language": [
-                "radio",
                 "Bosmeris",
                 "Dunmeris",
                 "Jel",
