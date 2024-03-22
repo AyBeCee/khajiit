@@ -9,9 +9,28 @@
             "Bonus Language": " You learn one additional common or uncommon language of your choice."
         },
         "Trait options": {
-            "Studious Nature": [ "Arcana", "History", "Nature", "Religion"],
-            "Tool Proficiency": [ "Alchemist's supplies", "Calligrapher's supplies", "Jeweler's tools"],
-            "Bonus Language": [            "Altmeris", "Bosmeris", "Dunmeris", "Jel", "Nordic", "Orcish", "Ta'agra", "Tamrielic / Cyrodiilic", "Yoku"], 
+            "Studious Nature": [
+                "Arcana",
+                "History",
+                "Nature",
+                "Religion"
+            ],
+            "Tool Proficiency": [
+                "Alchemist's supplies",
+                "Calligrapher's supplies",
+                "Jeweler's tools"
+            ],
+            "Bonus Language": [
+                "Altmeris",
+                "Bosmeris",
+                "Dunmeris",
+                "Jel",
+                "Nordic",
+                "Orcish",
+                "Ta'agra",
+                "Tamrielic",
+                "Yoku"
+            ]
         }
     },
     "Khajiit": {
