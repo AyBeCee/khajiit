@@ -1,44 +1,46 @@
 [
     {
-        "Brief":"The Khajiit are a race of feline humanoids hailing from the province of Elsweyr, well-known for their keen intelligence and agility. While these traits make them superb thieves and acrobats, Khajiit are also fearsome warriors. However, strenuous training must typically be undertaken to make wielding magic a serious option, either in passive or aggressive actions. Khajiit are said to rarely take to the sea, though piracy and the skooma trade does draw some to work as sailors.",
-        "Summary": "Physiologically, Khajiit differ greatly from both the varied races of man and mer, not only in their skeletal structure (possessing a tail and, in some forms, a digitigrade stance, i.e. toe walking) and dermal makeup (the 'fur' that covers their bodies) but in their digestion and metabolism as well. The Khajiit, along with the Argonians and theImga, make up the so called 'beast races' of the Empire, due to their anthropomorphic qualities. Khajiit have a lifespan similar to that of humans. It is currently unclear whether a successful union between Khajiit and other races may occur, for no well-documented cases exist despite rumors. The divergent appearance and mannerisms of the Khajiit often lead bigoted members of other races to look down on them.",
-        "Basics": "Attribute Score Increase. Your Agility score increases by 2.        <br><br>        <b>Age.</b> Different Khajiit born under different cycles have significantly different life spans. They can range from 150 to 400 years, if not more.        <br><br>        <b>Alignment.</b> Khajiit tend toward chaotic alignments, as they let impulse and fancy guide their decisions. They are rarely evil, except for those driven by greed or other dark impulses.        <br><br>        <b>Speed.</b> Your base walking speed is 35 feet.        <br><br>        <b>Languages.</b> You can speak, read, and write Tamrielic and Ta'agra. Ta'agra script combines unique and fluid motions. Artistic interpretation is praised and varies greatly between authors.",
-        "Traits": {
-            "Quick Claws": "Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
-            "Eye of Night": "Your khajiit ancestry grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
-            "Eye of Fear": "You know how to use your cat-like eyes to demoralize others. You gain proficiency in the Intimidation skill."
-        },
-        "Subrace summary": "There are many subraces of the Khajiit. Many of the subraces are humanoid in shape, but there are others, such as the Alfiq, that more resemble a house cat, or the senche, which are tiger-like battle cats.",
-        "Subraces": {
-            "Ohmes": {
-                "Description": "The Ohmes generally look more similar to the Bosmer, although slightly smaller in stature, than they do to their feline brothers. Many Ohmes will paint or tattoo their faces to resemble their feline heritage. Unlike other Khajiit, they have no fur, no tail, or any other distinguishable Khajiit feature.                <br><br>                Ohmes-raht have slightly larger builds than their ohmes cousins, usually similar in size and appearance of men, other than their short light fur and tails. Also similar to men, the Ohmes-raht walk on their heels as opposed to the balls of their feet like many other species of Khajiit.",
-                "Basics": "<b>Attribute Score Increase.</b> Your Personality score increases by 1.                <br><br>                <b>Size.</b> Ohmes Khajiit are similar in size to the Bosmer, rarely taller than 5 feet tall, whereas Ohmes-raht range from 5 to 6 feet tall. Your size is medium.",
-                "Traits": {
-                    "Ambassador": "Your elven-like form makes you a natural ambassador to the other races. You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.",
-                    "Ohmes Combat Training": "The Ohmes do not have natural claws, like other Khajiit, so they don't benefit from the Quick Claws trait, but they are still proficient in Hand-to-Hand and Short Blade to make up for their natural handicap."
-                }
+        "Khajiit": {
+            "Brief": "The Khajiit are a race of feline humanoids hailing from the province of Elsweyr, well-known for their keen intelligence and agility. While these traits make them superb thieves and acrobats, Khajiit are also fearsome warriors. However, strenuous training must typically be undertaken to make wielding magic a serious option, either in passive or aggressive actions. Khajiit are said to rarely take to the sea, though piracy and the skooma trade does draw some to work as sailors.",
+            "Summary": "Physiologically, Khajiit differ greatly from both the varied races of man and mer, not only in their skeletal structure (possessing a tail and, in some forms, a digitigrade stance, i.e. toe walking) and dermal makeup (the 'fur' that covers their bodies) but in their digestion and metabolism as well. The Khajiit, along with the Argonians and theImga, make up the so called 'beast races' of the Empire, due to their anthropomorphic qualities. Khajiit have a lifespan similar to that of humans. It is currently unclear whether a successful union between Khajiit and other races may occur, for no well-documented cases exist despite rumors. The divergent appearance and mannerisms of the Khajiit often lead bigoted members of other races to look down on them.",
+            "Basics": "Attribute Score Increase. Your Agility score increases by 2.        <br><br>        <b>Age.</b> Different Khajiit born under different cycles have significantly different life spans. They can range from 150 to 400 years, if not more.        <br><br>        <b>Alignment.</b> Khajiit tend toward chaotic alignments, as they let impulse and fancy guide their decisions. They are rarely evil, except for those driven by greed or other dark impulses.        <br><br>        <b>Speed.</b> Your base walking speed is 35 feet.        <br><br>        <b>Languages.</b> You can speak, read, and write Tamrielic and Ta'agra. Ta'agra script combines unique and fluid motions. Artistic interpretation is praised and varies greatly between authors.",
+            "Traits": {
+                "Quick Claws": "Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+                "Eye of Night": "Your khajiit ancestry grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+                "Eye of Fear": "You know how to use your cat-like eyes to demoralize others. You gain proficiency in the Intimidation skill."
             },
-            "Suthay": {
-                "Description": "Similar in height to the Ohmes but that is mostly where the similarities end. The Suthay are much more cat like in appearance with their high set ears and feline facial features, along with a long tail and digitigrade legs.                <br><br>                Suthay-raht are nearly the same as the Suthay in all their features except their stature closer resembles the height of men. The Suthay-raht are the most common breed of Khajiit outside of Elsweyr.",
-                "Basics": "<b>Attribute Score Increase.</b> Your Endurance score increases by 1.                <br><br>                <b>Size.</b> Suthay Khajiit are similar in size to the Ohmes, rarely taller than 5 feet tall. Suthay-raht range from 5 feet to 6 feet tall. Your size is medium.",
-                "Traits": {
-                    "Natural Bandit": "You are able to use your claws as thieves' tools. You can add your proficiency modifier to any check using your claws in this way, even if you are not proficient in thieves' tools.",
-                    "Feline Agility": "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
-                }
-            },
-            "Cathay": {
-                "Description": "Similar to the Suthay-raht in appearance and bi-pedalism, however they possess greater stature and strength.                <br><br>                Cathay-raht are larger and more powerful and are often described as 'jaguar-men'.",
-                "Basics": "<b>Attribute Score Increase.</b> Your Strength score increases by 1.                <br><br>                <b>Size.</b> Cathay Khajiit are similar in size to most men and range from 5 feet to 6 ½ feet. Your size is medium.",
-                "Traits": {
-                    "Powerful Build": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
-                    "Savage Attacks": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
-                }
-            },
-            "Dagi": {
-                "Description": "Dagi live in the trees of the Tenmar forest. Due to their smaller size and light weight, they are able to dwell in the higher branches which even the Bosmer cannot reach. The Dagi have a natural affinity for magic, and are known spellcasters, a characteristic often taken advantage of in Khajiiti battle-tactics.            <br><br>            The Dagi-raht are similar in all respects, while their size is somewhat larger.",
-                "Basics": "<b>Attribute Score Increase.</b> Your Intelligence score increases by 1.            <br><br>            <b>Size.</b> Dagi and Dagi-raht average about 3 to 4 feet tall and weigh around 40 pounds. Your Size is small.",
-                "Traits": {
-                    "Natural Magic": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Witch Bolt spell as a 2nd level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Darkness spell once with this trait and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+            "Subrace summary": "There are many subraces of the Khajiit. Many of the subraces are humanoid in shape, but there are others, such as the Alfiq, that more resemble a house cat, or the senche, which are tiger-like battle cats.",
+            "Subraces": {
+                "Ohmes": {
+                    "Description": "The Ohmes generally look more similar to the Bosmer, although slightly smaller in stature, than they do to their feline brothers. Many Ohmes will paint or tattoo their faces to resemble their feline heritage. Unlike other Khajiit, they have no fur, no tail, or any other distinguishable Khajiit feature.                <br><br>                Ohmes-raht have slightly larger builds than their ohmes cousins, usually similar in size and appearance of men, other than their short light fur and tails. Also similar to men, the Ohmes-raht walk on their heels as opposed to the balls of their feet like many other species of Khajiit.",
+                    "Basics": "<b>Attribute Score Increase.</b> Your Personality score increases by 1.                <br><br>                <b>Size.</b> Ohmes Khajiit are similar in size to the Bosmer, rarely taller than 5 feet tall, whereas Ohmes-raht range from 5 to 6 feet tall. Your size is medium.",
+                    "Traits": {
+                        "Ambassador": "Your elven-like form makes you a natural ambassador to the other races. You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.",
+                        "Ohmes Combat Training": "The Ohmes do not have natural claws, like other Khajiit, so they don't benefit from the Quick Claws trait, but they are still proficient in Hand-to-Hand and Short Blade to make up for their natural handicap."
+                    }
+                },
+                "Suthay": {
+                    "Description": "Similar in height to the Ohmes but that is mostly where the similarities end. The Suthay are much more cat like in appearance with their high set ears and feline facial features, along with a long tail and digitigrade legs.                <br><br>                Suthay-raht are nearly the same as the Suthay in all their features except their stature closer resembles the height of men. The Suthay-raht are the most common breed of Khajiit outside of Elsweyr.",
+                    "Basics": "<b>Attribute Score Increase.</b> Your Endurance score increases by 1.                <br><br>                <b>Size.</b> Suthay Khajiit are similar in size to the Ohmes, rarely taller than 5 feet tall. Suthay-raht range from 5 feet to 6 feet tall. Your size is medium.",
+                    "Traits": {
+                        "Natural Bandit": "You are able to use your claws as thieves' tools. You can add your proficiency modifier to any check using your claws in this way, even if you are not proficient in thieves' tools.",
+                        "Feline Agility": "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+                    }
+                },
+                "Cathay": {
+                    "Description": "Similar to the Suthay-raht in appearance and bi-pedalism, however they possess greater stature and strength.                <br><br>                Cathay-raht are larger and more powerful and are often described as 'jaguar-men'.",
+                    "Basics": "<b>Attribute Score Increase.</b> Your Strength score increases by 1.                <br><br>                <b>Size.</b> Cathay Khajiit are similar in size to most men and range from 5 feet to 6 ½ feet. Your size is medium.",
+                    "Traits": {
+                        "Powerful Build": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+                        "Savage Attacks": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+                    }
+                },
+                "Dagi": {
+                    "Description": "Dagi live in the trees of the Tenmar forest. Due to their smaller size and light weight, they are able to dwell in the higher branches which even the Bosmer cannot reach. The Dagi have a natural affinity for magic, and are known spellcasters, a characteristic often taken advantage of in Khajiiti battle-tactics.            <br><br>            The Dagi-raht are similar in all respects, while their size is somewhat larger.",
+                    "Basics": "<b>Attribute Score Increase.</b> Your Intelligence score increases by 1.            <br><br>            <b>Size.</b> Dagi and Dagi-raht average about 3 to 4 feet tall and weigh around 40 pounds. Your Size is small.",
+                    "Traits": {
+                        "Natural Magic": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Witch Bolt spell as a 2nd level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Darkness spell once with this trait and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+                    }
                 }
             }
         }
