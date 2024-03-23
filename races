@@ -116,11 +116,13 @@
         },
         "Trait options": {
             "Magical Studies": [
+                [
                 2,
                 "Arcana",
-                "Nature",
+                "Nature"],
+                [
                 "Cantrip[mage]",
-                "Cantrip[warden]"
+                "Cantrip[warden]"]
             ]
         }
     },
