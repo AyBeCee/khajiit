@@ -61,7 +61,7 @@
 "Protective Scales": "You have tough, scaly skin. When you aren't wearing armor, your AC is 12 + your Agility modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
 "Water-breathing": "Argonians are able to breathe underwater indefinitely."
         },
-        "Subrace summary": "There are many subraces of the Khajiit. Many of the subraces are humanoid in shape, but there are others, such as the Alfiq, that more resemble a house cat, or the senche, which are tiger-like battle cats.",
+        "Subrace summary": "The two most known cultures of Argonians are the Saxhleel and the Naga. Choose one of these two subcultures.",
         "Subraces": {
             "Naga": {
                 "Description": "One of the lesser known ancestries of Argonians is known as the Naga. They mostly live in the inner swamps of the Black Marsh and are hardly seen in other parts of Tamriel. The Naga are fierce and strategic warriors that know how to survive in the harsh conditions of Black Marsh.",
