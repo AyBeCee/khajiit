@@ -95,11 +95,15 @@
         },
         "Trait options": {
             "Y'ffre's Gift": [
-                2,
-                "Intelligence",
-                "Willpower",
-                "Personality",
-                "Cantrip[warden]"
+                [
+                    2,
+                    "Intelligence",
+                    "Willpower",
+                    "Personality"
+                ],
+                [
+                    "Cantrip[warden]"
+                ]
             ]
         }
     },
@@ -117,12 +121,14 @@
         "Trait options": {
             "Magical Studies": [
                 [
-                2,
-                "Arcana",
-                "Nature"],
+                    2,
+                    "Arcana",
+                    "Nature"
+                ],
                 [
-                "Cantrip[mage]",
-                "Cantrip[warden]"]
+                    "Cantrip[mage]",
+                    "Cantrip[warden]"
+                ]
             ]
         }
     },
