@@ -156,6 +156,57 @@
             ]
         }
     },
+    "Imperial": {
+        "Brief": "Also known as Cyrodiils, Cyrodilics, Cyro-Nordics and Imperial Cyrods, the well-educated and well-spoken Imperials are the natives of the civilized, cosmopolitan province of Cyrodiil. Imperials are also known for the discipline and training of their citizen armies, and their respect for the rule of law.",
+        "Summary": "Though physically less imposing than the other races, the Imperials have proved to be shrewd diplomats and traders, and these traits, along with their remarkable skill and training as light infantry, have enabled them to subdue all the other nations and races and erect the monument to peace and prosperity that comprises the Glorious Empire. Their hegemony has waxed and waned throughout the eras, and most historians refer to three distinct Empires, the ends of which each mark a new epoch in Tamrielic history.",
+        "Basics": "<b>Attribute Score Increases.</b> A classic depiction of an Imperial would suggest that your Personality score increases by 2. <br><br><b>Alignment.</b> Each ancestry has stereotypes about what they believe, but these are broad strokes that might only apply to a group, rather than to an individual. Each player character’s alignment is entirely under the purview of the player.<br><br><b>Speed.</b>Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>Speed.</b>Size.</b> Imperials range from 5 to 6 feet tall, and vary in build. Your size is medium.<br><br><b>Speed.</b> Your base walking speed is 30 feet.        ",
+        "Traits": {
+            "Imperial Cunning": "You have advantage on all Intelligence and Personality saving throws against magic.",
+            "Imperial Luck": "You have a number of Imperial Luck Dice, which are d4s, equal to your proficiency bonus. You can expend one Imperial Luck Die to add it to an attribute check, attack roll, or saving throw you make. You can wait until after you roll the d20 before deciding to use the Imperial Luck Dice, but must decide before the GM determines whether the roll succeeds or fails. You regain your expended Imperial Luck Dice when you finish a long rest.",
+            "Bonus Language": "You learn one additional common or uncommon language of your choice.",
+            "Legion Combat Training": "You are proficient in your choice of either the Blunt or Blade weapon type.",
+            "Diplomat": "You gain proficiency in the Persuasion skill."
+        },
+        "Trait options": {
+            "Bonus Language": [
+                1,
+                "Athletics",
+                "Arcana",
+                "Stealth"
+            ],
+            "Legion Combat Training": [
+                1,
+                "Blade",
+                "Blunt"
+            ]
+        },        
+        "Subrace summary": "Two unique types of people are found within Cyrodiil: Colovians and Nibenese.",
+        "Subraces": {
+            "Colovian": {
+                "Description": "The Cyro-Nords that settled in the west created the Colovian Estates, and in turn called themselves Colovians. They are typically more rugged and hardy than their Nibenese counterparts. They are uncomplicated, self-sufficient, and extremely loyal to other Colovians.",
+                "Basics": "<b>Attribute Score Increase.</b> Increase your Strength by 1.",
+                "Traits": {
+                    "Star of the West": "Your hardy upbringing lets you push past the normal boundaries of exhaustion. When you are exhausted, you suffer the effects of one level less than your current level of exhaustion. For example, at 1st level, you suffer no adverse effects.",
+                    "Red Diamond": "When you finish a long rest, you gain a number of temporary hit points equal to 1d6 + your Endurance modifier."
+                }
+            },
+            "Nibenese": {
+                "Description": "The Imperials that settled in the East, by the Nibenay, became the Nibenese. This area was brought together by the Alessian order and maintains strong merchant guilds. Nibenese are proud cosmopolitan people who maintain strong relationships with the other provinces through merchant guilds. They are more given to the studies of magic, philosophy, and the evolution of ancient tradition. Many outfit themselves in garish clothing, tattoos, and brandings.",
+                "Basics": "<b>Attribute Score Increase.</b> Your Intelligence score increases by 1.",
+                "Traits": {
+                    "Voice of the Emperor": "You know the charm person spell. Once between long rests, you are able to cast this spell without expending magicka points and without your target knowing it was cast on them. Intelligence, Willpower, or Personality is your spellcasting ability for this spell (your choice when you choose this ancestry)"
+                },
+                "Trait options": {
+                    "Voice of the Emperor": [
+                        1,
+                        "Intelligence",
+                        "Willpower",
+                        "Personality"
+                    ]
+                }
+            }
+        }
+    },
     "Khajiit": {
         "Brief": "The Khajiit are feline humanoids hailing from the province of Elsweyr, well-known for their keen intelligence and agility. While these traits make them superb thieves and acrobats, Khajiit are also fearsome warriors. However, strenuous training must typically be undertaken to make wielding magic a serious option, either in passive or aggressive actions. Khajiit are said to rarely take to the sea, though piracy and the skooma trade does draw some to work as sailors.",
         "Summary": "Physiologically, Khajiit differ greatly from both the varied races of man and mer, not only in their skeletal structure (possessing a tail and, in some forms, a digitigrade stance, i.e. toe walking) and dermal makeup (the 'fur' that covers their bodies) but in their digestion and metabolism as well. The Khajiit, along with the Argonians and theImga, make up the so called 'beast races' of the Empire, due to their anthropomorphic qualities. Khajiit have a lifespan similar to that of humans. It is currently unclear whether a successful union between Khajiit and other races may occur, for no well-documented cases exist despite rumors. The divergent appearance and mannerisms of the Khajiit often lead bigoted members of other races to look down on them.",
