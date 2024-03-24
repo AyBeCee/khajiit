@@ -132,6 +132,30 @@
             ]
         }
     },
+    "Dunmer": {
+        "Brief": "The Dunmer, also known as Dark Elves, are the ash-skinned, typically red-eyed elven peoples of Morrowind. 'Dark' is commonly understood as meaning such characteristics as 'dark-skinned', 'gloomy', 'ill-favored by fate' and so on. The Dunmer and their national identity, however, embrace these various connotations with enthusiasm. In the Empire, 'Dark Elf' is the common usage, but among their Aldmeri brethren they are called 'Dunmer'. Their combination of powerful intellects with strong and agile physiques produce superior warriors and sorcerers. On the battlefield, Dunmer are noted for their skill with a balanced integration of the sword, the bow and destruction magic. Dunmer live two to three times as long as humans; with a 200-year-old Dunmer being old and a 300-year-old Dunmer being very, very old. In character, they are grim, aloof, and reserved, as well as distrusting and disdainful of other races.",
+        "Summary": "Dunmer distrust and are treated distrustfully by other races. They are often proud, clannish, ruthless, and cruel, from an outsider's point of view, but greatly value loyalty and family. Despite their powerful skills and strengths, the Dunmer's vengeful nature, age-old conflicts, betrayals, and ill-reputation prevent them from gaining more influence. Those born in their homeland of Morrowind before its devastation were known to be considerably less friendly than those who grew up in the Imperial tradition.<br><br>Most Dunmer have red, glowing eyes with skin tones varying from somewhat greenish and the more common gray to the occasional light blue. They are known to be strong, intelligent, and quick, however, are also said to be ill favored by fate. Both male and female Dunmer have a height similar to most of the human races. This means that they are generally taller than their Bosmer cousins and shorter than the Altmer.",
+        "Basics": "<b>Attribute Score Increases.</b> When determining your attribute scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.<br><br><b>Alignment.</b> Each ancestry has stereotypes about what they believe, but these are broad strokes that might only apply to a group, rather than to an individual. Each player character’s alignment is entirely under the purview of the player.<br><br>Dunmer tend to be neutral with a propensity for chaos. They have rejected many of the traditions that were set before them, while adopting new customs of their own.<br><br><b>Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>Age.</b> As all elves, Dunmer are long lived, maturing at the same rate as humans, but possibly living longer than 300 years.<br><br><b>Size.</b> Dark Elves have average builds, and their height is between 5 and 6 feet tall. Your size is Medium.<br><br><b>Speed.</b> Your base walking speed is 30 feet.",
+        "Traits": {
+            "Ancestor Guardian": "When you take damage from an attack, you can use your reaction to call forth your ancestors to protect you. Your ancestors appear as incorporeal beings in an unoccupied space within 5 feet of you and within 5 feet of your attacker. The damage dealt by the attack is reduced by 1d6 + your Willpower modifier and the attacker takes an amount of damage equal to the amount rolled. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+            "Ashlander": "You have a natural resistance to fire damage.",
+            "Dunmer Combat Training": "You are proficient in your choice of either the Blade and Marksman weapon type.",
+            "Skill Proficiency": "You gain proficiency in your choice of the Athletics, Arcana, or Stealth skill."
+        },
+        "Trait options": {
+            "Dunmer Combat Training": [
+                1,
+                "Blade",
+                "Marksman"
+            ],
+            "Skill Proficiency": [
+                1,
+                "Athletics",
+                "Arcana",
+                "Stealth"
+            ]
+        }
+    },
     "Khajiit": {
         "Brief": "The Khajiit are feline humanoids hailing from the province of Elsweyr, well-known for their keen intelligence and agility. While these traits make them superb thieves and acrobats, Khajiit are also fearsome warriors. However, strenuous training must typically be undertaken to make wielding magic a serious option, either in passive or aggressive actions. Khajiit are said to rarely take to the sea, though piracy and the skooma trade does draw some to work as sailors.",
         "Summary": "Physiologically, Khajiit differ greatly from both the varied races of man and mer, not only in their skeletal structure (possessing a tail and, in some forms, a digitigrade stance, i.e. toe walking) and dermal makeup (the 'fur' that covers their bodies) but in their digestion and metabolism as well. The Khajiit, along with the Argonians and theImga, make up the so called 'beast races' of the Empire, due to their anthropomorphic qualities. Khajiit have a lifespan similar to that of humans. It is currently unclear whether a successful union between Khajiit and other races may occur, for no well-documented cases exist despite rumors. The divergent appearance and mannerisms of the Khajiit often lead bigoted members of other races to look down on them.",
