@@ -200,7 +200,7 @@
                 "Blade",
                 "Blunt"
             ]
-        },        
+        },
         "Subrace summary": "Two unique types of people are found within Cyrodiil: Colovians and Nibenese.",
         "Subraces": {
             "Colovian": {
@@ -268,6 +268,102 @@
                 "Basics": "<b>Attribute Score Increase.</b> Your Intelligence score increases by 1.            <br><br>            <b>Size.</b> Dagi and Dagi-raht average about 3 to 4 feet tall and weigh around 40 pounds. Your Size is small.",
                 "Traits": {
                     "Natural Magic": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Witch Bolt spell as a 2nd level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Darkness spell once with this trait and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+                }
+            }
+        }
+    },
+    "Nord": {
+        "Brief": "The Nords are the children of the sky, a race of tall and fair-haired humans from Skyrim who are known for their incredible resistance to cold and magical frost. They are fierce, strong and enthusiastic warriors, and many become renowned warriors, soldiers and mercenaries all over Tamriel.",
+        "Summary": "Eager to augment their martial skills beyond the traditional methods of Skyrim, they excel in all manner of warfare, and are known as a militant people by their neighbors. Nords are also natural seamen, and have benefited from nautical trade since their first migrations from Atmora. They captain and crew many merchant fleets, and may be found all along the coasts of Tamriel.",
+        "Basics": "<b>Attribute Score Increases.</b> A classic depiction of a Nord would suggest that your Endurance score increases by 2 and your Strength scores increase by 1.<br><br><b>Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>Age.</b> Nords, like most men, are not particularly long lived, and they mature at a normal rate, and almost never live longer than a century.<br><br><b>Size.</b> Nords are the largest of men, ranging from 6 to 6½ feet tall. Your size is Medium.<br><br><b>Speed.</b> Your base walking speed is 30 feet.",
+        "Traits": {
+            "Atmoran Ancestry": "Your ancestral history of living in harsh, northern climates. You have resistance to cold damage.",
+            "Battlecry": "As an action, you shout a battle cry that strikes fear into an enemy. Choose one creature that is within 30 feet of you that can see and hear you. That target must succeed on a Willpower saving throw or become frightened of you. The difficulty check of this save is equal to 8 + your Endurance modifier + your proficiency bonus. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. When you reach 5th level, you can instead choose to force each creature of your choice in a 30-foot cone to make this saving throw, rather than a single target. Once you use this trait, you can't use it again until you finish a short or long rest.",
+            "Toughness": "Your hit point maximum is increased by 1, and it increases by 1 every time you level.",
+            "Equipment Proficiency": "You are proficient with the Axe weapon type and with spears.",
+            "Reveler": "You have advantage on saving throws against being poisoned.",
+            "Rugged Training": "You gain proficiency in the Athletics skill."
+        }
+    },
+    "Orsimer": {
+        "Brief": "Orcs, also called Orsimer, or 'Pariah Folk' in ancient times, are considered sophisticated barbarian beast peoples, despite being a type of Mer. They are from the Wrothgarian and Dragontail Mountains and are noted for their unshakable courage in war and their unflinching endurance of hardships. In the past, Orcs have been widely feared and hated by the other nations and races of Tamriel, but they have slowly won acceptance in the Empire, in particular for their distinguished service in the Emperor's Legions.",
+        "Summary": "Orcs were born during the latter days of the Dawn Era. History has mislabeled them beastfolk, related to the goblin races, but the Orcs are actually the children of Trinimac, strongest of the Aldmeri ancestor spirits. When Trinimac was eaten by the Daedric Prince Boethiah, and transformed in that foul god's insides, the Orcs were transformed as well. The ancient name for the 'Orsimer,' which means 'The Pariah Folk.' They now follow Malauch, better known as Malacath, the remains of Trinimac.",
+        "Basics": "<b>Attribute Score Increases.</b> A classic depiction of an Orsimer would suggest that your Endurance and Willpower scores increase by 1.<br><br><b>        Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>Age.</b> While they are Mer, Orcs do not live as long as their distant cousins. They could live up to 80 years old, but the Code of Malacath demands that an old Orc should end his life before he becomes weak and a burden to his clan. They rarely live longer than 50 years. They reach adulthood at age 16.<br><br><b>Size.</b> Orcs are broad and hardy, they are usually around 6 feet tall and weigh around 200 pounds. Your size is Medium.<br><br><b>Speed.</b> Your base walking speed is 30 feet.",
+        "Traits": {
+            "Aggressive": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.",
+            "Berserk": "As bonus action, you gain temporary hit points equal to twice your character level for the next minute. Additionally, you gain advantage on the first attack you make on each of your turns during this time. Once you use this trait, you can't use it again until you finish a long rest.",
+            "Blood-Kin": "You share a connection with all of your Orsimer kinfolk. You can use Strength in place of Personality for any skill check made when interacting with other Orsimer.",
+            "Menacing": "You have proficiency in the Intimidation skill.",
+            "Tool Proficiency": "You gain proficiency with artisan's tools (smith's tools)."
+        },
+        "Subrace summary": "Three main Orsimer subcultures influence the continent of Tamriel: City Orcs, Wild Orcs, and Wood Orcs.",
+        "Subraces": {
+            "City Orc": {
+                "Description": "Not all Orsimer choose to live in the strongholds. Those that choose to live in the cities live a much more cosmopolitan life, but they are sometimes derided by other orcs for doing so.",
+                "Basics": "<b>Attribute Score Increase.</b> Increase your Intelligence by 1 ",
+                "Traits": {
+                    "Well Read": "You have proficiency in one skill of your choice from Arcana, History, Nature, or Religion."
+                },
+                "Trait options": {
+                    "Well Read": [
+                        1,
+                        "Arcana",
+                        "History",
+                        "Nature",
+                        "Religion"
+                    ]
+                }
+            },
+            "Wild Orc": {
+                "Description": "Traditional Orsimer society is centered around living in stronghold settlements. These independent villages follow the Code of Malacath, and the strength of each tribe depends on their strongest warrior.",
+                "Basics": "<b>Attribute Score Increase.</b> increase your Strength by 1",
+                "Traits": {
+                    "Powerful Build": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+                }
+            },
+            "Wood Orc": {
+                "Description": "Valenwood is typically home to the Bosmer, but many tribes of Orismer have made this forested province their home. Like other orcs, they prize strength and honor, but to the wood orcs this means having agility and mobility as much as it does muscular power and endurance.",
+                "Basics": "<b>Attribute Score Increase.</b> Increase your Willpower by 1",
+                "Traits": {
+                    "Keen Hearing and Smell": "You have advantage on Willpower (Perception) checks that rely on hearing or smell."
+                }
+            }
+        }
+    },
+    "Redguard": {
+        "Brief": "The most naturally talented warriors in Tamriel, the dark-skinned, wiry-haired Redguards of Hammerfell seem born to battle, though their pride and fierce independence of spirit makes them more suitable as scouts or skirmishers, or as free-ranging heroes and adventurers, than as rank-and-file soldiers. In addition to their cultural affinities for many weapon and armor styles, Redguards are also physically blessed with hardy constitutions and quickness of foot.",
+        "Summary": "Custom and dress differ by district; the Redguards of Elinhir are Colovian in fashion and taste, while some in Rihad go naked in the streets. In demeanor, they are haughty and easily provoked, and, obsessed with personal honor.<br><br>There is no standing army in Hammerfell, only paid militias of the oft-contested border-states and along its coastline. Ancient tradition has predisposed the Redguards to knightly order, though, customarily in the service of royal families. Initiates of these orders must prove themselves in dangerous, even deadly, tests of skill.",
+        "Basics": "<b>Attribute Score Increases.</b> A classic depiction of a Redguard would suggest that your Your Agility, Endurance, and Strength scores increase by 1.<br><br><b>Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>Age.</b> Redguards age as the rest of the the human races, rarely living over a century.<br><br><b>Size.</b> Redguards are strong and tall, often over 6 feet tall. Your size is Medium.<br><br><b>Speed.</b> Your base walking speed is 30 feet.",
+        "Traits": {
+            "Adrenaline Rush": "You have a bonus to your initiative rolls equal to your Endurance modifier. At the start of your first turn on each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. On this turn, you can add a d4 to one attack roll you make. If the attack hits, it deals an extra 1d4 damage of the same type.",
+            "Ra’Gada Spirit": "When you fail a saving throw against a spell or magical effect, you can use your reaction to reroll the saving throw, possibly turning the failure into a success. Once you use this trait, you must finish a long rest before you can do so again.",
+            "Yokudan Lineage": "Thanks to your Yokudan heritage, you have advantage on saving throws against being diseased.",
+            "Redguard Combat Training": "You are proficient with Blade weapons.",
+            "Skill Proficiency": "You gain proficiency in the Athletics skill."
+        },
+        "Subrace summary": "Two Redguard subcultures divide their people: the Crowns and the Forebears.",
+        "Subraces": {
+            "Crowns": {
+                "Description": "Descendants of the Na-Totambu, the Crowns revere tradition and shun outsiders. They typically come from the harsh interior of Hammerfell and take pride in their traditions and religion.",
+                "Basics": " ",
+                "Traits": {
+                    "Na-Totambu Discipline": "You have advantage on saving throws you make to avoid or end the charmed condition on yourself."
+                }
+            },
+            "Forebears": {
+                "Description": "                The warriors of the Ra’Gada that first came to Tamriel from Yokuda eventually became known as the Forebears. Most Forebear settlements exist on the edges of Hammerfell, and they are a progressive and cosmopolitan people.",
+                "Basics": " ",
+                "Traits": {
+                    "Nomadic Intuition": "You gain proficiency in vehicles (either land or water, your choice). Additionally, you gain proficiency with one of the following skills of your choice: Medicine, Nature, Perception, or Survival."
+                },
+                "Trait options": {
+                    "Nomadic Intuition": [
+                        1,
+                        "Medicine",
+                        "Nature",
+                        "Perception",
+                        "Survival"
+                    ]
                 }
             }
         }
