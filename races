@@ -170,9 +170,30 @@
         "Trait options": {
             "Bonus Language": [
                 1,
-                "Athletics",
-                "Arcana",
-                "Stealth"
+                "Altmeris",
+                "Bosmeris",
+                "Dunmeris",
+                "Jel",
+                "Nordic",
+                "Orcish",
+                "Ta'agra",
+                "Tamrielic",
+                "Yoku",
+                "Akaviri",
+                "Ald Chimeris",
+                "Aldmeris",
+                "Ayleidoon",
+                "Daedric",
+                "Dovahzul",
+                "Dwemeris",
+                "Ehlnofex",
+                "Falmeris",
+                "Hist",
+                "Nedic",
+                "Pyandonean",
+                "Sload",
+                "Reach-tongue",
+                "Tsaesci"
             ],
             "Legion Combat Training": [
                 1,
