@@ -343,14 +343,14 @@
         },
         "Subrace summary": "Two Redguard subcultures divide their people: the Crowns and the Forebears.",
         "Subraces": {
-            "Crowns": {
+            "Crown": {
                 "Description": "Descendants of the Na-Totambu, the Crowns revere tradition and shun outsiders. They typically come from the harsh interior of Hammerfell and take pride in their traditions and religion.",
                 "Basics": " ",
                 "Traits": {
                     "Na-Totambu Discipline": "You have advantage on saving throws you make to avoid or end the charmed condition on yourself."
                 }
             },
-            "Forebears": {
+            "Forebear": {
                 "Description": "                The warriors of the Ra’Gada that first came to Tamriel from Yokuda eventually became known as the Forebears. Most Forebear settlements exist on the edges of Hammerfell, and they are a progressive and cosmopolitan people.",
                 "Basics": " ",
                 "Traits": {
