@@ -1,6 +1,14 @@
 {
     "Barbarian": {
         "Description": "        These barbarians, different as they might be, are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea. For some, their rage springs from a connection with ancient traditions. Others draw from a roiling reservoir of anger from memories of past battles. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.",
+        "Basics": {
+            "Hit Die": 12,
+            "Primary Ability": "Strength",
+            "Saves": [
+                "Strength",
+                "Endurance"
+            ]
+        },
         "Class table": {
             "1": {
                 "Proficiency Bonus": "+2",
