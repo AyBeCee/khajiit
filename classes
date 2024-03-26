@@ -9,6 +9,32 @@
                 "Endurance"
             ]
         },
+        "Proficiencies": {
+            "Armor": [
+                "Light armor",
+                "Medium armor",
+                "Shield"
+            ],
+            "Weapons": [
+                "Axe",
+                "Blunt",
+                "Hand-to-hand",
+                "Long blade",
+                "Marksman",
+                "Polearm",
+                "Short blade"
+            ],
+            "Tools": "None",
+            "Skills": [
+                2,
+                "Animal Handling",
+                "Athletics",
+                "Intimidation",
+                "Nature",
+                "Perception",
+                "Survival"
+            ]
+        },
         "Class table": {
             "1": {
                 "Proficiency Bonus": "+2",
