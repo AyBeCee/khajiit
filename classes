@@ -179,7 +179,7 @@
         },
         "Subclasses summary": {
             "Name": "Primal paths",
-            "Summary": "Rage burns in every barbarian's heart, a furnace that drives them towards greatness. Different barbarians attribute their rage to different sources, however. For some, their scars become symbols of victories won, while others look within to their unyielding spirits.",
+            "Summary": "Rage burns in every barbarian's heart, a furnace that drives them towards greatness. Different barbarians attribute their rage to different sources, however. For some, their scars become symbols of victories won, while others look within to their unyielding spirits."
         },
         "Subclasses": {
             "Path of the Battleworn": {
@@ -307,77 +307,77 @@
                     }
                 },
                 "Subclass spells summary": {
-                    "Name":"Dragon Shouts",
-                    "Summary":"The dragon shouts are presented in alphabetical order. If a shout has prerequisites, you must meet them to learn it. You can learn the shout at the same time that you meet its prerequisites. A level prerequisite refers to your level in this class."
+                    "Name": "Dragon Shouts",
+                    "Summary": "The dragon shouts are presented in alphabetical order. If a shout has prerequisites, you must meet them to learn it. You can learn the shout at the same time that you meet its prerequisites. A level prerequisite refers to your level in this class."
                 },
                 "Subclass spells": {
                     "Animal Allegiance (Raan Mir Tah)": {
-                        "Prerequisite":6,
-                        "Description":"As an action, You can spend 2 shout points to summon beasts of the wild. You conjure fey spirits that take on the form of Beasts, as though you had cast the conjure animals spell at 3rd level. The number of creatures that appear is twice as many if you spend 2 additional shout points, three times as many with 3 additional shout points, and four times as many with 4 additional shout points."
+                        "Prerequisite": 6,
+                        "Description": "As an action, You can spend 2 shout points to summon beasts of the wild. You conjure fey spirits that take on the form of Beasts, as though you had cast the conjure animals spell at 3rd level. The number of creatures that appear is twice as many if you spend 2 additional shout points, three times as many with 3 additional shout points, and four times as many with 4 additional shout points."
                     },
                     "Aura Whisper (Laas Yah Nir)": {
-                        "Prerequisite":0,
-                        "Description":"As an action, you can spend 1 shout point to whisper a short phrase, revealing all life forces to yourself, as though you had cast the detect life spell. The range increases by 10 feet for each additional shout point you spend."
+                        "Prerequisite": 0,
+                        "Description": "As an action, you can spend 1 shout point to whisper a short phrase, revealing all life forces to yourself, as though you had cast the detect life spell. The range increases by 10 feet for each additional shout point you spend."
                     },
                     "Battle Fury (Mid Vur Shaan)": {
-                        "Prerequisite":6,
-                        "Description":"As a bonus action, you can spend 1 shout point to enchant your allies’ weapons, allowing them to make a quick attack. One creature of your choice that is within 30 feet of you can immediately use their reaction to make a weapon attack.<br><br>One additional creature within 30 feet of you can use their reaction to make a weapon attack for each additional shout point you spend."
+                        "Prerequisite": 6,
+                        "Description": "As a bonus action, you can spend 1 shout point to enchant your allies’ weapons, allowing them to make a quick attack. One creature of your choice that is within 30 feet of you can immediately use their reaction to make a weapon attack.<br><br>One additional creature within 30 feet of you can use their reaction to make a weapon attack for each additional shout point you spend."
                     },
                     "Call of Valor (Hun Kaal Zoor)": {
-                        "Prerequisite":6,
-                        "Description":"As an action, you can spend 2 shout points to summon a valiant warrior of ages past that journeys beyond space and time to aid you. The spirit appears in an unoccupied space that you can see within 60 feet of you. The spirit is considered to be a Celestial and it disappears after 1 minute, when it drops to 0 hit points, or if you become unconscious.<br><br>The summoned spirit is friendly to you and your companions. Roll initiative for the spirit, which has its own turns. It obeys any verbal commands that you issue it (no action required by you). If you don’t issue any commands to the spirit, it defends itself from hostile creatures but otherwise takes no actions. See this creature’s game statistics in the Valiant Warrior, stat block (Enemies of Elsweyr), but you add your level to its hit points and half your proficiency bonus to its attack roll and damage roll."
+                        "Prerequisite": 6,
+                        "Description": "As an action, you can spend 2 shout points to summon a valiant warrior of ages past that journeys beyond space and time to aid you. The spirit appears in an unoccupied space that you can see within 60 feet of you. The spirit is considered to be a Celestial and it disappears after 1 minute, when it drops to 0 hit points, or if you become unconscious.<br><br>The summoned spirit is friendly to you and your companions. Roll initiative for the spirit, which has its own turns. It obeys any verbal commands that you issue it (no action required by you). If you don’t issue any commands to the spirit, it defends itself from hostile creatures but otherwise takes no actions. See this creature’s game statistics in the Valiant Warrior, stat block (Enemies of Elsweyr), but you add your level to its hit points and half your proficiency bonus to its attack roll and damage roll."
                     },
                     "Clear Skies (Lok Vah Koor)": {
-                        "Prerequisite":0,
-                        "Description":"As an action, you can spend 1 shout point to use your voice to dispel any natural or magical inclement weather that you can see within 1 mile, forcing only clear skies to remain. Clouds of fog, mist, or other natural or magical weather effects also end. The range increases by a mile for each additional shout point you spend."
+                        "Prerequisite": 0,
+                        "Description": "As an action, you can spend 1 shout point to use your voice to dispel any natural or magical inclement weather that you can see within 1 mile, forcing only clear skies to remain. Clouds of fog, mist, or other natural or magical weather effects also end. The range increases by a mile for each additional shout point you spend."
                     },
                     "Cyclone (Ven Gar Nos)": {
-                        "Prerequisite":14,
-                        "Description":"As an action, you can spend 4 shout points to create a whirling 5-foot radius cyclone that appears in a location within 60 feet of you that you can see. When the cyclone appears, each creature within 5 feet of it must make a Strength saving throw, taking 2d8 bludgeoning damage on a failed save, or half as much damage on a successful save. A creature must repeat this save when it comes within 5 feet of the cyclone for the first time on a turn or ends its turn there.<br><br>As a bonus action, you can move the cyclone up to 30 feet in any direction. The cyclone heavily obscures its area and sucks up any small materials, such as loose rocks, sand, or coins, within a 10-foot radius of it. The cyclone ends after one minute, if you end it as an action or if you are incapacitated.<br><br>The damage increases by 1d8 for each additional shout point you spend."
+                        "Prerequisite": 14,
+                        "Description": "As an action, you can spend 4 shout points to create a whirling 5-foot radius cyclone that appears in a location within 60 feet of you that you can see. When the cyclone appears, each creature within 5 feet of it must make a Strength saving throw, taking 2d8 bludgeoning damage on a failed save, or half as much damage on a successful save. A creature must repeat this save when it comes within 5 feet of the cyclone for the first time on a turn or ends its turn there.<br><br>As a bonus action, you can move the cyclone up to 30 feet in any direction. The cyclone heavily obscures its area and sucks up any small materials, such as loose rocks, sand, or coins, within a 10-foot radius of it. The cyclone ends after one minute, if you end it as an action or if you are incapacitated.<br><br>The damage increases by 1d8 for each additional shout point you spend."
                     },
                     "Disarm (Zun Haal Viik)": {
-                        "Prerequisite":6,
-                        "Description":"As an action, you use 2 shout points to create a shout that defies matter. One creature of your choice that you can see within 30 feet of you must make a Strength saving throw. On a failed save, the creature drops one object of your choice it is holding in its hands and the object lands at a point of your choosing within 15 feet of the target. On a successful save, the creature continues to hold on to the objects in their hands, but they have disadvantage on any rolls made using the object, such as weapon attacks, until the end of their next turn."
+                        "Prerequisite": 6,
+                        "Description": "As an action, you use 2 shout points to create a shout that defies matter. One creature of your choice that you can see within 30 feet of you must make a Strength saving throw. On a failed save, the creature drops one object of your choice it is holding in its hands and the object lands at a point of your choosing within 15 feet of the target. On a successful save, the creature continues to hold on to the objects in their hands, but they have disadvantage on any rolls made using the object, such as weapon attacks, until the end of their next turn."
                     },
                     "Dismay (Faas Ru Maar)": {
-                        "Prerequisite":10,
-                        "Description":"As an action, you can spend 2 shout points to speak a force of terror. You use your voice to frighten a creature as though you had cast the fear spell at 3rd level."
+                        "Prerequisite": 10,
+                        "Description": "As an action, you can spend 2 shout points to speak a force of terror. You use your voice to frighten a creature as though you had cast the fear spell at 3rd level."
                     },
                     "Dragon Aspect (Mul Qah Diiv)": {
-                        "Prerequisite":14,
-                        "Description":"As a bonus action, you can spend 6 shout points to take on the aspect of a dragon for 1 minute. You gain mystical dragon hide armor and your AC can’t be less than 20. Additionally, each of your weapon attacks gain a +2 bonus to attack and damage rolls."
+                        "Prerequisite": 14,
+                        "Description": "As a bonus action, you can spend 6 shout points to take on the aspect of a dragon for 1 minute. You gain mystical dragon hide armor and your AC can’t be less than 20. Additionally, each of your weapon attacks gain a +2 bonus to attack and damage rolls."
                     },
                     "Elemental Breath": {
-                        "Prerequisite":6,
-                        "Description":"You can spend 2 shout points to exhale an element of your choice. Choose either fire, cold or lightning. Each creature in a 15-foot cone must make an Agility saving throw. A creature takes 4d8 elemental damage on a failed save, and half as much on a successful one. The shouts are: Fire Breath (Yol Toor Shul), Frost Breath (Fo Krah Diin) and Storm Breath (Sov Ag Slen). The damage increases by 1d8 and the size of its cone increases by 15 feet for each additional shout point you spend."
+                        "Prerequisite": 6,
+                        "Description": "You can spend 2 shout points to exhale an element of your choice. Choose either fire, cold or lightning. Each creature in a 15-foot cone must make an Agility saving throw. A creature takes 4d8 elemental damage on a failed save, and half as much on a successful one. The shouts are: Fire Breath (Yol Toor Shul), Frost Breath (Fo Krah Diin) and Storm Breath (Sov Ag Slen). The damage increases by 1d8 and the size of its cone increases by 15 feet for each additional shout point you spend."
                     },
                     "Gale Winds (Ven Mul Riik)": {
-                        "Prerequisite":10,
-                        "Description":"As an action, you spend 1 shout point to create a powerful wind storm, in a 30-foot radius, centered on you. The wind blows in all directions, causing dust and refuse to heavily obscure the area.<br><br>Additionally, the area is considered difficult terrain, and any projectile that is within or enters the area has disadvantage on hitting its target.<br><br>The winds last up to 1 minute. You can use an action to disperse the winds at any time. The range increases by 10 feet for each additional shout point you spend."
+                        "Prerequisite": 10,
+                        "Description": "As an action, you spend 1 shout point to create a powerful wind storm, in a 30-foot radius, centered on you. The wind blows in all directions, causing dust and refuse to heavily obscure the area.<br><br>Additionally, the area is considered difficult terrain, and any projectile that is within or enters the area has disadvantage on hitting its target.<br><br>The winds last up to 1 minute. You can use an action to disperse the winds at any time. The range increases by 10 feet for each additional shout point you spend."
                     },
                     "Ice Form (Iiz Slen Nus)": {
-                        "Prerequisite":14,
-                        "Description":"As an action, you can spend 4 shout points to freeze a creature. One creature of your choice that you can see within 90 feet of you must succeed on an Endurance saving throw or take 4d8 cold damage and be encased in a shell of ice. The encased creature is immobilized and can't speak, hear, move, or take any actions. The creature takes this damage again at the start of its turn while encased. The creature restrained by this spell must make another Endurance saving throw at the end of each of their turns to try and break free. If it successfully saves against this effect three times, the effect ends. If it fails its save three times, the frost hardens and the creature is subjected to the frozen condition. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind.<br><br>While the effect is active, the frost shell has an AC of 10 and has 30 hit points. When the frost shell reaches 0 hit points, the shell breaks, ending the effect. A dispel magic spell can also end the effects. The damage increases by 1d8 for each additional shout point you spend."
+                        "Prerequisite": 14,
+                        "Description": "As an action, you can spend 4 shout points to freeze a creature. One creature of your choice that you can see within 90 feet of you must succeed on an Endurance saving throw or take 4d8 cold damage and be encased in a shell of ice. The encased creature is immobilized and can't speak, hear, move, or take any actions. The creature takes this damage again at the start of its turn while encased. The creature restrained by this spell must make another Endurance saving throw at the end of each of their turns to try and break free. If it successfully saves against this effect three times, the effect ends. If it fails its save three times, the frost hardens and the creature is subjected to the frozen condition. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind.<br><br>While the effect is active, the frost shell has an AC of 10 and has 30 hit points. When the frost shell reaches 0 hit points, the shell breaks, ending the effect. A dispel magic spell can also end the effects. The damage increases by 1d8 for each additional shout point you spend."
                     },
                     "Kyne’s Peace (Kaan Drem Ov)": {
-                        "Prerequisite":0,
-                        "Description":"As an action, you can spend 1 shout point to speak to a group of animals to soothe them. Each Beast that is within 60 feet of you and can hear you must make a Personality saving throw; a creature can choose to fail this saving throw if it wishes. If the creature fails the saving throw, any effect causing the target to be charmed or frightened ends, and the target becomes indifferent about any creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its allies being harmed. The creature becomes hostile again after 1 minute, unless the GM rules otherwise. The duration increases by 1 minute for each additional shout point you spend."
+                        "Prerequisite": 0,
+                        "Description": "As an action, you can spend 1 shout point to speak to a group of animals to soothe them. Each Beast that is within 60 feet of you and can hear you must make a Personality saving throw; a creature can choose to fail this saving throw if it wishes. If the creature fails the saving throw, any effect causing the target to be charmed or frightened ends, and the target becomes indifferent about any creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its allies being harmed. The creature becomes hostile again after 1 minute, unless the GM rules otherwise. The duration increases by 1 minute for each additional shout point you spend."
                     },
                     "Marked for Death (Krii Lun Aus)": {
-                        "Prerequisite":0,
-                        "Description":"As a bonus action, you can spend 1 shout point to mark a creature as though you cast the hunter’s mark spell at 1st level. The duration increases to 8 hours if you spend an additional shout point, and to 24 hours if you spend 2 additional shout points."
+                        "Prerequisite": 0,
+                        "Description": "As a bonus action, you can spend 1 shout point to mark a creature as though you cast the hunter’s mark spell at 1st level. The duration increases to 8 hours if you spend an additional shout point, and to 24 hours if you spend 2 additional shout points."
                     },
                     "Storm Call (Strun Bah Qo)": {
-                        "Prerequisite":6,
-                        "Description":"As an action, you can spend 2 shout points to awaken the destructive force of Nirn. You summon a storm as though you had cast the call lightning spell at 3rd level. The damage increases by 1d10 for each additional shout point you spend."
+                        "Prerequisite": 6,
+                        "Description": "As an action, you can spend 2 shout points to awaken the destructive force of Nirn. You summon a storm as though you had cast the call lightning spell at 3rd level. The damage increases by 1d10 for each additional shout point you spend."
                     },
                     "Unrelenting Force (Fus Ro Dah)": {
-                        "Prerequisite":0,
-                        "Description":"As an action, you can spend 1 shout point to exhale a blast of force in a 30-foot cone. Each creature in that cone must make a Strength saving throw. On a failed save, a creature takes 3d6 force damage, is knocked back 20 feet, and falls prone. On a successful save, the creature takes half as much damage, isn’t knocked back, and remains standing. The damage increases by 1d6 for each additional shout point you spend."
+                        "Prerequisite": 0,
+                        "Description": "As an action, you can spend 1 shout point to exhale a blast of force in a 30-foot cone. Each creature in that cone must make a Strength saving throw. On a failed save, a creature takes 3d6 force damage, is knocked back 20 feet, and falls prone. On a successful save, the creature takes half as much damage, isn’t knocked back, and remains standing. The damage increases by 1d6 for each additional shout point you spend."
                     },
                     "Whirlwind Sprint (Wuld Nah Kest)": {
-                        "Prerequisite":0,
-                        "Description":"You can use a bonus action to spend 1 shout point to take the Dash action. Any opportunity attacks made against you have disadvantage until the end of your turn. Your speed increases by 10 feet for each additional shout point you spend."
+                        "Prerequisite": 0,
+                        "Description": "You can use a bonus action to spend 1 shout point to take the Dash action. Any opportunity attacks made against you have disadvantage until the end of your turn. Your speed increases by 10 feet for each additional shout point you spend."
                     }
                 }
             },
