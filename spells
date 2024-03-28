@@ -1,6 +1,6 @@
 {
     "Absorb Attribute": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -11,7 +11,7 @@
         ]
     },
     "Absorb Health": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -23,7 +23,7 @@
         ]
     },
     "Absorb Luck": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -35,7 +35,7 @@
         ]
     },
     "Absorb Magicka": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -46,7 +46,7 @@
         ]
     },
     "Absorb Skill": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -59,7 +59,7 @@
         ]
     },
     "Aedric Spear": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -69,7 +69,7 @@
         ]
     },
     "Alad's Caliginy": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Illusion",
         "Casting time": "1 reaction",
         "Ritual": "No",
@@ -79,7 +79,7 @@
         ]
     },
     "Animate Skeletal Mage": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -89,7 +89,7 @@
         ]
     },
     "Arctic Blow": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -101,7 +101,7 @@
         ]
     },
     "Arniel's Convection": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Destruction",
         "Casting time": "1 bonus action",
         "Ritual": "No",
@@ -112,7 +112,7 @@
         ]
     },
     "Ash Cloud": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -122,7 +122,7 @@
         ]
     },
     "Aurora Javelin": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -132,7 +132,7 @@
         ]
     },
     "Backlash": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -142,7 +142,7 @@
         ]
     },
     "Bane of the Undead": {
-        "Level": "9th",
+        "Level": "9",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -152,7 +152,7 @@
         ]
     },
     "Baronoff's Bloody Icicle": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -165,7 +165,7 @@
         ]
     },
     "Betty Netch": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Conjuration",
         "Casting time": "1 bonus action",
         "Ritual": "No",
@@ -175,7 +175,7 @@
         ]
     },
     "Black Hand": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -189,7 +189,7 @@
         ]
     },
     "Black Winter": {
-        "Level": "5th",
+        "Level": "5",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -200,7 +200,7 @@
         ]
     },
     "Blastbones": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -210,7 +210,7 @@
         ]
     },
     "Bolt Escape": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -220,7 +220,7 @@
         ]
     },
     "Bone Armor": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -230,7 +230,7 @@
         ]
     },
     "Bone Guard": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -240,7 +240,7 @@
         ]
     },
     "Boneyard": {
-        "Level": "6th",
+        "Level": "6",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "Yes",
@@ -250,7 +250,7 @@
         ]
     },
     "Bound Armor": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -262,7 +262,7 @@
         ]
     },
     "Bound Weapon": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Conjuration",
         "Casting time": "1 bonus action",
         "Ritual": "No",
@@ -276,7 +276,7 @@
         ]
     },
     "Burden": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Alteration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -291,7 +291,7 @@
         ]
     },
     "Chameleon": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -303,7 +303,7 @@
         ]
     },
     "Cleansing Ritual": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "Yes",
@@ -314,7 +314,7 @@
         ]
     },
     "Combustion": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Destruction",
         "Casting time": "1 reaction",
         "Ritual": "No",
@@ -324,7 +324,7 @@
         ]
     },
     "Command Daedra": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -334,7 +334,7 @@
         ]
     },
     "Conjure Familiar": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Conjuration",
         "Casting time": "1 hour",
         "Ritual": "No",
@@ -345,7 +345,7 @@
         ]
     },
     "Conjure Gargoyle": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -355,7 +355,7 @@
         ]
     },
     "Consuming Darkness": {
-        "Level": "6th",
+        "Level": "6",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -366,7 +366,7 @@
         ]
     },
     "Convalescence": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -378,7 +378,7 @@
         ]
     },
     "Create Black Soul Gem": {
-        "Level": "5th",
+        "Level": "5",
         "School": "Necromancy",
         "Casting time": "1 hour",
         "Ritual": "Yes",
@@ -391,7 +391,7 @@
         ]
     },
     "Cruel Earwig": {
-        "Level": "5th",
+        "Level": "5",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -402,7 +402,7 @@
         ]
     },
     "Crystal Shards": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -412,7 +412,7 @@
         ]
     },
     "Curative Curse": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Necromancy",
         "Casting time": "1 bonus action",
         "Ritual": "No",
@@ -423,7 +423,7 @@
         ]
     },
     "Daedric Curse": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Mysticism",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -433,7 +433,7 @@
         ]
     },
     "Daedric Mines": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -443,7 +443,7 @@
         ]
     },
     "Dark Flare": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -454,7 +454,7 @@
         ]
     },
     "Dark Talons": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -464,7 +464,7 @@
         ]
     },
     "Dawn's Wrath": {
-        "Level": "9th",
+        "Level": "9",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -474,7 +474,7 @@
         ]
     },
     "Death Scythe": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -484,7 +484,7 @@
         ]
     },
     "Detect Dead": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Mysticism",
         "Casting time": "1 action",
         "Ritual": "Yes",
@@ -499,7 +499,7 @@
         ]
     },
     "Detect Life": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Mysticism",
         "Casting time": "1 action",
         "Ritual": "Yes",
@@ -515,7 +515,7 @@
         ]
     },
     "Detonating Siphon": {
-        "Level": "5th",
+        "Level": "5",
         "School": "Necromancy",
         "Casting time": "1 reaction",
         "Ritual": "No",
@@ -525,7 +525,7 @@
         ]
     },
     "Disintegrate Armor": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -537,7 +537,7 @@
         ]
     },
     "Disintegrate Weapon": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Destruction",
         "Casting time": "1 reaction",
         "Ritual": "No",
@@ -549,7 +549,7 @@
         ]
     },
     "Dragon Fire Scales": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Alteration",
         "Casting time": "1 bonus action",
         "Ritual": "No",
@@ -559,7 +559,7 @@
         ]
     },
     "Dragon Leap": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -569,7 +569,7 @@
         ]
     },
     "Drain Attribute": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -584,7 +584,7 @@
         ]
     },
     "Drain Health": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -596,7 +596,7 @@
         ]
     },
     "Drain Luck": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -607,7 +607,7 @@
         ]
     },
     "Drain Skill": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -619,7 +619,7 @@
         ]
     },
     "Ebonyflesh": {
-        "Level": "6th",
+        "Level": "6",
         "School": "Alteration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -630,7 +630,7 @@
         ]
     },
     "Eclipse": {
-        "Level": "6th",
+        "Level": "6",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -640,7 +640,7 @@
         ]
     },
     "Elemental Fists": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -652,7 +652,7 @@
         ]
     },
     "Empowering Chains": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -662,7 +662,7 @@
         ]
     },
     "Engulfling Breath": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -672,7 +672,7 @@
         ]
     },
     "Erevlam's Wild Sty": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -685,7 +685,7 @@
         ]
     },
     "Explosive Charge": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -695,7 +695,7 @@
         ]
     },
     "Expunge": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Necromancy",
         "Casting time": "1 bonus action",
         "Ritual": "No",
@@ -705,7 +705,7 @@
         ]
     },
     "Feather": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Alteration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -718,7 +718,7 @@
         ]
     },
     "Finger of the Mountain": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -729,7 +729,7 @@
         ]
     },
     "Fire Bite": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -744,7 +744,7 @@
         ]
     },
     "Flames": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -755,7 +755,7 @@
         ]
     },
     "Flame Skull": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -765,7 +765,7 @@
         ]
     },
     "Flaming Familiar": {
-        "Level": "6th",
+        "Level": "6",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -776,7 +776,7 @@
         ]
     },
     "Fortify Attribute": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -789,7 +789,7 @@
         ]
     },
     "Fortify Health": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -799,7 +799,7 @@
         ]
     },
     "Fortify Magicka": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -811,7 +811,7 @@
         ]
     },
     "Fortify Skill": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -823,7 +823,7 @@
         ]
     },
     "Frenzy": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -837,7 +837,7 @@
         ]
     },
     "Frozen Gate": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -847,7 +847,7 @@
         ]
     },
     "Funnel Health": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -857,7 +857,7 @@
         ]
     },
     "Ghostwalk": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Mysticism",
         "Casting time": "1 bonus action",
         "Ritual": "No",
@@ -869,7 +869,7 @@
         ]
     },
     "Grave Grasp": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -879,7 +879,7 @@
         ]
     },
     "Greater Ward": {
-        "Level": "7th",
+        "Level": "7",
         "School": "Alteration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -890,7 +890,7 @@
         ]
     },
     "Grim Focus": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Illusion",
         "Casting time": "1 bonus action",
         "Ritual": "No",
@@ -900,7 +900,7 @@
         ]
     },
     "Hand of Decay": {
-        "Level": "8th",
+        "Level": "8",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -910,7 +910,7 @@
         ]
     },
     "Heal Undead": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -920,7 +920,7 @@
         ]
     },
     "Healing Seeds": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -930,7 +930,7 @@
         ]
     },
     "Hush": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -943,7 +943,7 @@
         ]
     },
     "Hysteria": {
-        "Level": "7th",
+        "Level": "7",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -953,7 +953,7 @@
         ]
     },
     "Icy Blast": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -963,7 +963,7 @@
         ]
     },
     "Impaling Shards": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -973,7 +973,7 @@
         ]
     },
     "Inferno": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -983,7 +983,7 @@
         ]
     },
     "Lava Whip": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -993,7 +993,7 @@
         ]
     },
     "Lesser Ward": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Alteration",
         "Casting time": "1 reaction",
         "Ritual": "No",
@@ -1005,7 +1005,7 @@
         ]
     },
     "Lightning Form": {
-        "Level": "6th",
+        "Level": "6",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1015,7 +1015,7 @@
         ]
     },
     "Llivam's Reversal": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Mysticism",
         "Casting time": "1 reaction",
         "Ritual": "No",
@@ -1026,7 +1026,7 @@
         ]
     },
     "Luminous Shards": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1036,7 +1036,7 @@
         ]
     },
     "Mage Light": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Alteration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1048,7 +1048,7 @@
         ]
     },
     "Magicka Drain": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1061,7 +1061,7 @@
         ]
     },
     "Magicka Surge": {
-        "Level": "8th",
+        "Level": "8",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1072,7 +1072,7 @@
         ]
     },
     "Magicka Vortex": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Mysticism",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1083,7 +1083,7 @@
         ]
     },
     "Magma Armor": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Alteration",
         "Casting time": "1 reaction",
         "Ritual": "No",
@@ -1093,7 +1093,7 @@
         ]
     },
     "Mara's Grace": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1104,7 +1104,7 @@
         ]
     },
     "Mark & Recall": {
-        "Level": "6th",
+        "Level": "6",
         "School": "Mysticism",
         "Casting time": "Varies",
         "Ritual": "No",
@@ -1115,7 +1115,7 @@
         ]
     },
     "Mass Frenzy": {
-        "Level": "7th",
+        "Level": "7",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1126,7 +1126,7 @@
         ]
     },
     "Mayhem": {
-        "Level": "8th",
+        "Level": "8",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1138,7 +1138,7 @@
         ]
     },
     "Mora's Agony": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1148,7 +1148,7 @@
         ]
     },
     "Mora's Curse": {
-        "Level": "7th",
+        "Level": "7",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1159,7 +1159,7 @@
         ]
     },
     "Mora's Grasp": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1169,7 +1169,7 @@
         ]
     },
     "Muffle": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1181,7 +1181,7 @@
         ]
     },
     "Nature's Grasp": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1191,7 +1191,7 @@
         ]
     },
     "Night Eye": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1203,7 +1203,7 @@
         ]
     },
     "Night Form": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1213,7 +1213,7 @@
         ]
     },
     "Night Mother's Caress": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Restoration",
         "Casting time": "1 bonus action",
         "Ritual": "No",
@@ -1223,7 +1223,7 @@
         ]
     },
     "Northern Storm": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1233,7 +1233,7 @@
         ]
     },
     "Orum's Aquatic Escape": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Alteration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1245,7 +1245,7 @@
         ]
     },
     "Overload": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Destruction",
         "Casting time": "1 bonus action",
         "Ritual": "No",
@@ -1255,7 +1255,7 @@
         ]
     },
     "Paralyzing Touch": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1269,7 +1269,7 @@
         ]
     },
     "Path of Darkness": {
-        "Level": "5th",
+        "Level": "5",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1279,7 +1279,7 @@
         ]
     },
     "Petrify": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Alteration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1289,7 +1289,7 @@
         ]
     },
     "Pride of Hirstaang": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1299,7 +1299,7 @@
         ]
     },
     "Radiant Shield": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1309,7 +1309,7 @@
         ]
     },
     "Rally": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1323,7 +1323,7 @@
         ]
     },
     "Rallying Inspiration": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Illusion",
         "Casting time": "1 reaction",
         "Ritual": "No",
@@ -1333,7 +1333,7 @@
         ]
     },
     "Raise Animal": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Necromancy",
         "Casting time": "1 minute",
         "Ritual": "No",
@@ -1343,7 +1343,7 @@
         ]
     },
     "Reanimate Corpse": {
-        "Level": "6th",
+        "Level": "6",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "Yes",
@@ -1353,7 +1353,7 @@
         ]
     },
     "Reaping Mark": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Necromancy",
         "Casting time": "1 bonus action",
         "Ritual": "No",
@@ -1363,7 +1363,7 @@
         ]
     },
     "Reincarnate": {
-        "Level": "5th",
+        "Level": "5",
         "School": "Restoration",
         "Casting time": "1 hour",
         "Ritual": "No",
@@ -1373,7 +1373,7 @@
         ]
     },
     "Reflect Damage": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Mysticism",
         "Casting time": "1 reaction",
         "Ritual": "No",
@@ -1385,7 +1385,7 @@
         ]
     },
     "Repentance": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Restoration",
         "Casting time": "1 reaction",
         "Ritual": "No",
@@ -1395,7 +1395,7 @@
         ]
     },
     "Restore Attribute": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1405,7 +1405,7 @@
         ]
     },
     "Restoring Tether": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1415,7 +1415,7 @@
         ]
     },
     "Rune Prison": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Mysticism",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1425,7 +1425,7 @@
         ]
     },
     "Searing Strike": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1435,7 +1435,7 @@
         ]
     },
     "Secluded Grove": {
-        "Level": "7th",
+        "Level": "7",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1445,7 +1445,7 @@
         ]
     },
     "Second Barrier": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Alteration",
         "Casting time": "1 reaction",
         "Ritual": "No",
@@ -1456,7 +1456,7 @@
         ]
     },
     "Shalidor's Mirror": {
-        "Level": "8th",
+        "Level": "8",
         "School": "Mysticism",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1467,7 +1467,7 @@
         ]
     },
     "Shattering Prison": {
-        "Level": "5th",
+        "Level": "5",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1477,7 +1477,7 @@
         ]
     },
     "Shield Wall": {
-        "Level": "6th",
+        "Level": "6",
         "School": "Alteration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1487,7 +1487,7 @@
         ]
     },
     "Shockball": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1499,7 +1499,7 @@
         ]
     },
     "Shocking Siphon": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Necromancy",
         "Casting time": "1 reaction",
         "Ritual": "No",
@@ -1509,7 +1509,7 @@
         ]
     },
     "Shroudwalk": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1519,7 +1519,7 @@
         ]
     },
     "Snow Flare": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1532,7 +1532,7 @@
         ]
     },
     "Solar Barrage": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1543,7 +1543,7 @@
         ]
     },
     "Soul Shred": {
-        "Level": "8th",
+        "Level": "8",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1553,7 +1553,7 @@
         ]
     },
     "Soul Trap": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Mysticism",
         "Casting time": "1 bonus action",
         "Ritual": "No",
@@ -1568,7 +1568,7 @@
         ]
     },
     "Sparks": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1580,7 +1580,7 @@
         ]
     },
     "Spectral Arrow": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1591,7 +1591,7 @@
         ]
     },
     "Spell Absorption": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Mysticism",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1602,7 +1602,7 @@
         ]
     },
     "Spell Reflection": {
-        "Level": "4th",
+        "Level": "4",
         "School": "Mysticism",
         "Casting time": "1 reaction",
         "Ritual": "No",
@@ -1615,7 +1615,7 @@
         ]
     },
     "Spell Ward": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Alteration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1628,7 +1628,7 @@
         ]
     },
     "Sphere of Negation": {
-        "Level": "9th",
+        "Level": "9",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1640,7 +1640,7 @@
         ]
     },
     "Stormhand": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1652,7 +1652,7 @@
         ]
     },
     "Stendarr's Aura": {
-        "Level": "5th",
+        "Level": "5",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1663,7 +1663,7 @@
         ]
     },
     "Stonefist": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Alteration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1673,7 +1673,7 @@
         ]
     },
     "Strangulation": {
-        "Level": "6th",
+        "Level": "6",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1684,7 +1684,7 @@
         ]
     },
     "Sun Fire": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1694,7 +1694,7 @@
         ]
     },
     "Summon Daedra": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1705,7 +1705,7 @@
         ]
     },
     "Summon Undead Dragon": {
-        "Level": "9th",
+        "Level": "9",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1715,7 +1715,7 @@
         ]
     },
     "Teleport Strike": {
-        "Level": "1st",
+        "Level": "1",
         "School": "Conjuration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1725,7 +1725,7 @@
         ]
     },
     "Thunderbolt": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1737,7 +1737,7 @@
         ]
     },
     "Transmute Mineral Ore": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Alteration",
         "Casting time": "1 hour",
         "Ritual": "Yes",
@@ -1747,7 +1747,7 @@
         ]
     },
     "Troll's Blood": {
-        "Level": "2nd",
+        "Level": "2",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1757,7 +1757,7 @@
         ]
     },
     "Urelu's Loathsome Coercion": {
-        "Level": "9th",
+        "Level": "9",
         "School": "Necromancy",
         "Casting time": "8 hours",
         "Ritual": "No",
@@ -1767,7 +1767,7 @@
         ]
     },
     "Vampire's Bane": {
-        "Level": "5th",
+        "Level": "5",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1778,7 +1778,7 @@
         ]
     },
     "Veiled Strike": {
-        "Level": "0 (Cantrip)",
+        "Level": "0",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1788,7 +1788,7 @@
         ]
     },
     "Weakness": {
-        "Level": "6th",
+        "Level": "6",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1799,7 +1799,7 @@
         ]
     },
     "Weakness to Elements": {
-        "Level": "3rd",
+        "Level": "3",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1813,7 +1813,7 @@
         ]
     },
     "Winter's Embrace": {
-        "Level": "8th",
+        "Level": "8",
         "School": "Alteration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1823,7 +1823,7 @@
         ]
     },
     "Winter's Grasp": {
-        "Level": "6th",
+        "Level": "6",
         "School": "Alteration",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1833,7 +1833,7 @@
         ]
     },
     "Witchwither": {
-        "Level": "8th",
+        "Level": "8",
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1843,7 +1843,7 @@
         ]
     },
     "Wizard Rend": {
-        "Level": "6th",
+        "Level": "6",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
@@ -1857,7 +1857,7 @@
         ]
     },
     "Wizard's Fury": {
-        "Level": "9th",
+        "Level": "9",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
