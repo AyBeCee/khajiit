@@ -102,7 +102,7 @@
                     "Personality"
                 ],
                 [
-                    "Cantrip[warden]"
+                    "LVL_START0LVL_END_CLASS_STARTWardenCLASS_END"
                 ]
             ]
         }
@@ -126,8 +126,7 @@
                     "Nature"
                 ],
                 [
-                    "Cantrip[mage]",
-                    "Cantrip[warden]"
+                    "LVL_START0LVL_END_CLASS_STARTWarden, MageCLASS_END"
                 ]
             ]
         }
@@ -250,10 +249,11 @@
                 "Trait options": {
                     "Compensating for Size": [
                         [
-                            "Cantrip[warden]"
+
+                    "LVL_START0LVL_END_CLASS_STARTWardenCLASS_END"
                         ],
                         [
-                            "Spell1[warden]"
+                    "LVL_START1LVL_END_CLASS_STARTWardenCLASS_END"
                         ],
                         [
                             1,
