@@ -1,13 +1,50 @@
 {
+    "Absorb Luck": {
+        "Level": "1",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade"
+        ]
+    },
+    "Abi-Dalzim's Horrid Wilting*": {
+        "Level": "8",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
     "Absorb Attribute": {
         "Level": "3",
         "School": "Restoration",
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
             "Nightblade"
+        ]
+    },
+    "Absorb Elements*": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 reaction",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Spellsword",
+            "Warden"
         ]
     },
     "Absorb Health": {
@@ -16,21 +53,9 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Necromancer",
-            "Nightblade"
-        ]
-    },
-    "Absorb Luck": {
-        "Level": "1",
-        "School": "Restoration",
-        "Casting time": "1 action",
-        "Ritual": "No",
-        "Concentration": "No",
-        "Class": [
-            "Bard",
-            "Mage",
             "Nightblade"
         ]
     },
@@ -40,7 +65,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer"
         ]
@@ -51,10 +76,32 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Mage",
             "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Acid Arrow": {
+        "Level": "2",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Acid Splash": {
+        "Level": "0",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer",
             "Sorcerer"
         ]
     },
@@ -64,8 +111,31 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Priest"
+        ]
+    },
+    "Aganazzar's Scorcher*": {
+        "Level": "2",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Aid": {
+        "Level": "2",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Priest",
+            "Spellsword"
         ]
     },
     "Alad's Caliginy": {
@@ -74,8 +144,86 @@
         "Casting time": "1 reaction",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Nightblade"
+        ]
+    },
+    "Alarm": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer"
+        ]
+    },
+    "Alter Self": {
+        "Level": "2",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Animal Friendship": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Warden"
+        ]
+    },
+    "Animal Messenger": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Warden"
+        ]
+    },
+    "Animal Shapes": {
+        "Level": "8",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Animate Dead": {
+        "Level": "3",
+        "School": "Necromancy",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Priest",
+            "Sorcerer"
+        ]
+    },
+    "Animate Objects": {
+        "Level": "5",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Animate Skeletal Mage": {
@@ -84,8 +232,106 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Necromancer"
+        ]
+    },
+    "Antilife Shell": {
+        "Level": "5",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Necromancer",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Antimagic Field": {
+        "Level": "8",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Priest"
+        ]
+    },
+    "Antipathy/Sympathy": {
+        "Level": "8",
+        "School": "Illusion",
+        "Casting time": "1 hour",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Warden"
+        ]
+    },
+    "Arcane Eye": {
+        "Level": "4",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Arcane Gate": {
+        "Level": "6",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Arcane Hand": {
+        "Level": "5",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Arcane Lock": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Arcane Sword": {
+        "Level": "7",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage"
+        ]
+    },
+    "Arcanist's Magic Aura": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
         ]
     },
     "Arctic Blow": {
@@ -94,10 +340,32 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer",
             "Warden"
+        ]
+    },
+    "Armor of Agathys*": {
+        "Level": "1",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Arms of Hadar*": {
+        "Level": "1",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Nightblade",
+            "Sorcerer"
         ]
     },
     "Arniel's Convection": {
@@ -106,7 +374,7 @@
         "Casting time": "1 bonus action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer"
         ]
@@ -117,8 +385,64 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Spellsword"
+        ]
+    },
+    "Astral Projection": {
+        "Level": "9",
+        "School": "Mysticism",
+        "Casting time": "1 hour",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Priest"
+        ]
+    },
+    "Augury": {
+        "Level": "2",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Aura of Life*": {
+        "Level": "4",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Aura of Purity*": {
+        "Level": "4",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Aura of Vitality*": {
+        "Level": "3",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Priest"
         ]
     },
     "Aurora Javelin": {
@@ -127,8 +451,19 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Crusader"
+        ]
+    },
+    "Awaken": {
+        "Level": "5",
+        "School": "Mysticism",
+        "Casting time": "8 hours",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Warden"
         ]
     },
     "Backlash": {
@@ -137,8 +472,20 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Crusader"
+        ]
+    },
+    "Bane": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Necromancer",
+            "Priest"
         ]
     },
     "Bane of the Undead": {
@@ -147,8 +494,45 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Priest"
+        ]
+    },
+    "Banishing Smite*": {
+        "Level": "5",
+        "School": "Restoration",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Spellsword"
+        ]
+    },
+    "Banishment": {
+        "Level": "4",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Priest",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Barkskin": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
         ]
     },
     "Baronoff's Bloody Icicle": {
@@ -157,11 +541,55 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
             "Necromancer",
             "Sorcerer",
             "Warden"
+        ]
+    },
+    "Beacon of Hope": {
+        "Level": "3",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Beast Bond*": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Beast Sense*": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Bestow Curse": {
+        "Level": "3",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Priest"
         ]
     },
     "Betty Netch": {
@@ -170,7 +598,7 @@
         "Casting time": "1 bonus action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Warden"
         ]
     },
@@ -180,12 +608,23 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Necromancer",
             "Nightblade",
             "Sorcerer",
             "Spellsword"
+        ]
+    },
+    "Black Tentacles": {
+        "Level": "4",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Black Winter": {
@@ -194,9 +633,34 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer"
+        ]
+    },
+    "Blade Barrier": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Blade Ward*": {
+        "Level": "0",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
         ]
     },
     "Blastbones": {
@@ -205,8 +669,80 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Necromancer"
+        ]
+    },
+    "Bless": {
+        "Level": "1",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Blight": {
+        "Level": "4",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Blinding Smite*": {
+        "Level": "3",
+        "School": "Restoration",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Spellsword"
+        ]
+    },
+    "Blindness/Deafness": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Priest",
+            "Sorcerer"
+        ]
+    },
+    "Blink": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Blur": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Bolt Escape": {
@@ -215,7 +751,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Sorcerer"
         ]
     },
@@ -225,7 +761,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Necromancer"
         ]
     },
@@ -235,8 +771,18 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Necromancer"
+        ]
+    },
+    "Bones of the Earth*": {
+        "Level": "6",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Warden"
         ]
     },
     "Boneyard": {
@@ -245,8 +791,21 @@
         "Casting time": "1 action",
         "Ritual": "Yes",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Necromancer"
+        ]
+    },
+    "Booming Blade*": {
+        "Level": "0",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
         ]
     },
     "Bound Armor": {
@@ -255,7 +814,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Sorcerer",
             "Spellsword",
             "Warden"
@@ -267,11 +826,22 @@
         "Casting time": "1 bonus action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Crusader",
             "Mage",
             "Nightblade",
             "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Branding Smite": {
+        "Level": "2",
+        "School": "Restoration",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
             "Spellsword"
         ]
     },
@@ -281,7 +851,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Mage",
             "Priest",
@@ -290,16 +860,203 @@
             "Warden"
         ]
     },
+    "Burning Hands": {
+        "Level": "1",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Call Lightning": {
+        "Level": "3",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Calm Emotions": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Priest"
+        ]
+    },
+    "Catapult*": {
+        "Level": "1",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Catnap*": {
+        "Level": "3",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Sorcerer"
+        ]
+    },
+    "Cause Fear*": {
+        "Level": "1",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Ceremony*": {
+        "Level": "1",
+        "School": "Restoration",
+        "Casting time": "1 hour",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Chain Lightning": {
+        "Level": "6",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
     "Chameleon": {
         "Level": "1",
         "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
             "Nightblade",
             "Warden"
+        ]
+    },
+    "Chaos Bolt*": {
+        "Level": "1",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Sorcerer"
+        ]
+    },
+    "Charm Monster*": {
+        "Level": "4",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Charm Person": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Chill Touch": {
+        "Level": "0",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Chromatic Orb*": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Circle of Death": {
+        "Level": "6",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Circle of Power*": {
+        "Level": "5",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader"
+        ]
+    },
+    "Clairvoyance": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Priest",
+            "Sorcerer"
         ]
     },
     "Cleansing Ritual": {
@@ -308,9 +1065,56 @@
         "Casting time": "1 action",
         "Ritual": "Yes",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Crusader",
             "Priest"
+        ]
+    },
+    "Clone": {
+        "Level": "8",
+        "School": "Necromancy",
+        "Casting time": "1 hour",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Cloud of Daggers*": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Cloudkill": {
+        "Level": "5",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Color Spray": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Combustion": {
@@ -319,8 +1123,19 @@
         "Casting time": "1 reaction",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Spellsword"
+        ]
+    },
+    "Command": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Priest"
         ]
     },
     "Command Daedra": {
@@ -329,8 +1144,120 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Sorcerer"
+        ]
+    },
+    "Commune": {
+        "Level": "5",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Commune with Nature": {
+        "Level": "5",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Compelled Duel*": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Spellsword"
+        ]
+    },
+    "Comprehend Languages": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Compulsion": {
+        "Level": "4",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard"
+        ]
+    },
+    "Cone of Cold": {
+        "Level": "5",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Confusion": {
+        "Level": "4",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Conjure Animals": {
+        "Level": "3",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Conjure Celestial": {
+        "Level": "7",
+        "School": "Conjuration",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Conjure Elemental": {
+        "Level": "5",
+        "School": "Conjuration",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Warden"
         ]
     },
     "Conjure Familiar": {
@@ -339,19 +1266,41 @@
         "Casting time": "1 hour",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Warden"
         ]
     },
-    "Conjure Gargoyle": {
-        "Level": "3",
+    "Conjure Fey": {
+        "Level": "6",
         "School": "Conjuration",
-        "Casting time": "1 action",
+        "Casting time": "1 minute",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
-            "Special"
+        "Classes": [
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Conjure Minor Elementals": {
+        "Level": "4",
+        "School": "Conjuration",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Warden"
+        ]
+    },
+    "Conjure Woodland Beings": {
+        "Level": "4",
+        "School": "Conjuration",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
         ]
     },
     "Consuming Darkness": {
@@ -360,9 +1309,104 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Necromancer",
             "Nightblade"
+        ]
+    },
+    "Contact Other Plane": {
+        "Level": "5",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Contagion": {
+        "Level": "5",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Priest",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Contingency": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer"
+        ]
+    },
+    "Continual Flame": {
+        "Level": "2",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Priest"
+        ]
+    },
+    "Control Flames*": {
+        "Level": "0",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Control Water": {
+        "Level": "4",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Control Weather": {
+        "Level": "8",
+        "School": "Alteration",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Control Winds*": {
+        "Level": "5",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
         ]
     },
     "Convalescence": {
@@ -371,10 +1415,24 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Crusader",
             "Priest",
             "Warden"
+        ]
+    },
+    "Counterspell": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 reaction",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
         ]
     },
     "Create Black Soul Gem": {
@@ -383,10 +1441,103 @@
         "Casting time": "1 hour",
         "Ritual": "Yes",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Necromancer",
             "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Create Bonfire*": {
+        "Level": "0",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Create Food and Water": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Create Homunculus*": {
+        "Level": "6",
+        "School": "Conjuration",
+        "Casting time": "1 hour",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Create or Destroy Water": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Create Undead": {
+        "Level": "6",
+        "School": "Necromancy",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Priest",
+            "Sorcerer"
+        ]
+    },
+    "Creation": {
+        "Level": "5",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Crown of Madness*": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Crown of Stars*": {
+        "Level": "7",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
             "Sorcerer"
         ]
     },
@@ -396,9 +1547,19 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Nightblade"
+        ]
+    },
+    "Crusader's Mantle*": {
+        "Level": "3",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader"
         ]
     },
     "Crystal Shards": {
@@ -407,7 +1568,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Sorcerer"
         ]
     },
@@ -417,18 +1578,32 @@
         "Casting time": "1 bonus action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Necromancer",
             "Nightblade"
         ]
     },
+    "Cure Wounds": {
+        "Level": "1",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Crusader",
+            "Priest",
+            "Spellsword",
+            "Warden"
+        ]
+    },
     "Daedric Curse": {
         "Level": "3",
-        "School": "Mysticism",
+        "School": "Mysicism",
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Nightblade"
         ]
     },
@@ -438,7 +1613,31 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
+            "Sorcerer"
+        ]
+    },
+    "Dancing Lights": {
+        "Level": "0",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Danse Macabre*": {
+        "Level": "5",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Necromancer",
+            "Nightblade",
             "Sorcerer"
         ]
     },
@@ -448,7 +1647,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Crusader",
             "Priest"
         ]
@@ -459,8 +1658,46 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Spellsword"
+        ]
+    },
+    "Darkness": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Darkvision": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Dawn*": {
+        "Level": "5",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Mage",
+            "Priest"
         ]
     },
     "Dawn's Wrath": {
@@ -469,8 +1706,21 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Priest"
+        ]
+    },
+    "Daylight": {
+        "Level": "3",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Priest",
+            "Sorcerer",
+            "Warden"
         ]
     },
     "Death Scythe": {
@@ -479,8 +1729,54 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Necromancer"
+        ]
+    },
+    "Death Ward": {
+        "Level": "4",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Necromancer",
+            "Priest",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Delayed Blast Fireball": {
+        "Level": "7",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Demiplane": {
+        "Level": "8",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Nightblade"
+        ]
+    },
+    "Destructive Wave*": {
+        "Level": "5",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader"
         ]
     },
     "Detect Dead": {
@@ -489,7 +1785,7 @@
         "Casting time": "1 action",
         "Ritual": "Yes",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Crusader",
             "Mage",
             "Necromancer",
@@ -498,13 +1794,25 @@
             "Sorcerer"
         ]
     },
+    "Detect Evil and Good": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Necromancer",
+            "Priest"
+        ]
+    },
     "Detect Life": {
         "Level": "2",
         "School": "Mysticism",
         "Casting time": "1 action",
         "Ritual": "Yes",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Crusader",
             "Mage",
@@ -514,14 +1822,96 @@
             "Warden"
         ]
     },
+    "Detect Magic": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Crusader",
+            "Mage",
+            "Necromancer",
+            "Priest",
+            "Sorcerer",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Detect Poison and Disease": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Necromancer",
+            "Priest",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Detect Thoughts": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer"
+        ]
+    },
     "Detonating Siphon": {
         "Level": "5",
         "School": "Necromancy",
         "Casting time": "1 reaction",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Necromancer"
+        ]
+    },
+    "Dimension Door": {
+        "Level": "4",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Disguise Self": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Disintegrate": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Sorcerer"
         ]
     },
     "Disintegrate Armor": {
@@ -530,7 +1920,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Nightblade",
             "Sorcerer"
@@ -542,9 +1932,126 @@
         "Casting time": "1 reaction",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Dispel Evil and Good": {
+        "Level": "5",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Dispel Magic": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Crusader",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Priest",
+            "Sorcerer",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Dissonant Whispers*": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Sorcerer"
+        ]
+    },
+    "Distort Value*": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard"
+        ]
+    },
+    "Divination": {
+        "Level": "4",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Divine Favor": {
+        "Level": "1",
+        "School": "Restoration",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader"
+        ]
+    },
+    "Divine Word": {
+        "Level": "7",
+        "School": "Mysticism",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Dominate Beast": {
+        "Level": "4",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Dominate Monster": {
+        "Level": "8",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Dominate Person": {
+        "Level": "5",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
             "Sorcerer"
         ]
     },
@@ -554,7 +2061,7 @@
         "Casting time": "1 bonus action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Spellsword"
         ]
     },
@@ -564,8 +2071,19 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Spellsword"
+        ]
+    },
+    "Dragon's Breath*": {
+        "Level": "2",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Drain Attribute": {
@@ -574,13 +2092,12 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Mage",
             "Necromancer",
             "Nightblade",
-            "Sorcerer",
-            "Spellsword"
+            "Sorcerer"
         ]
     },
     "Drain Health": {
@@ -589,7 +2106,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Necromancer",
             "Nightblade",
             "Sorcerer"
@@ -601,7 +2118,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Nightblade"
         ]
@@ -612,10 +2129,92 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Mage",
             "Nightblade"
+        ]
+    },
+    "Dream": {
+        "Level": "5",
+        "School": "Illusion",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade"
+        ]
+    },
+    "Druid Grove": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Druidcraft": {
+        "Level": "0",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Dust Devil*": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Earth Tremor*": {
+        "Level": "1",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Earthbind*": {
+        "Level": "2",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Earthquake": {
+        "Level": "8",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Priest",
+            "Sorcerer",
+            "Warden"
         ]
     },
     "Ebonyflesh": {
@@ -624,7 +2223,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Priest",
             "Warden"
         ]
@@ -635,8 +2234,33 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Priest"
+        ]
+    },
+    "Eldritch Blast": {
+        "Level": "0",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Nightblade",
+            "Spellsword"
+        ]
+    },
+    "Elemental Bane*": {
+        "Level": "4",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword",
+            "Warden"
         ]
     },
     "Elemental Fists": {
@@ -645,10 +2269,20 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
-            "Spellsword",
-            "Warden"
+            "Spellsword"
+        ]
+    },
+    "Elemental Weapon*": {
+        "Level": "3",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Spellsword"
         ]
     },
     "Empowering Chains": {
@@ -657,18 +2291,91 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Spellsword"
         ]
     },
-    "Engulfling Breath": {
+    "Enemies Abound*": {
+        "Level": "3",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Enervation*": {
+        "Level": "5",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Engulfing Breath": {
         "Level": "2",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Spellsword"
+        ]
+    },
+    "Enhance Ability": {
+        "Level": "2",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Necromancer",
+            "Priest",
+            "Sorcerer",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Enlarge/Reduce": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Entangle": {
+        "Level": "1",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Enthrall": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Nightblade"
         ]
     },
     "Erevlam's Wild Sty": {
@@ -677,11 +2384,51 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
-            "Priest",
             "Necromancer",
-            "Nightblade"
+            "Nightblade",
+            "Priest"
+        ]
+    },
+    "Erupting Earth*": {
+        "Level": "3",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Etherealness": {
+        "Level": "7",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Priest",
+            "Sorcerer"
+        ]
+    },
+    "Expeditious Retreat": {
+        "Level": "1",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
         ]
     },
     "Explosive Charge": {
@@ -690,7 +2437,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Crusader"
         ]
     },
@@ -700,8 +2447,100 @@
         "Casting time": "1 bonus action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Necromancer"
+        ]
+    },
+    "Eyebite": {
+        "Level": "6",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Fabricate": {
+        "Level": "4",
+        "School": "Alteration",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Faerie Fire": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Warden"
+        ]
+    },
+    "Faithful Hound": {
+        "Level": "4",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "False Life": {
+        "Level": "1",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Far Step*": {
+        "Level": "5",
+        "School": "Mysticism",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Fast Friends*": {
+        "Level": "3",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Fear": {
+        "Level": "3",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
         ]
     },
     "Feather": {
@@ -710,10 +2549,116 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Mage",
             "Priest",
+            "Sorcerer"
+        ]
+    },
+    "Feather Fall": {
+        "Level": "1",
+        "School": "Alteration",
+        "Casting time": "1 reaction",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Feeblemind": {
+        "Level": "8",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Feign Death*": {
+        "Level": "3",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Necromancer",
+            "Priest",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Find Familiar": {
+        "Level": "1",
+        "School": "Conjuration",
+        "Casting time": "1 hour",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Find Greater Steed*": {
+        "Level": "4",
+        "School": "Conjuration",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader"
+        ]
+    },
+    "Find Steed": {
+        "Level": "2",
+        "School": "Conjuration",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader"
+        ]
+    },
+    "Find the Path": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Find Traps": {
+        "Level": "2",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Finger of Death": {
+        "Level": "7",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Nightblade",
             "Sorcerer"
         ]
     },
@@ -723,7 +2668,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer"
         ]
@@ -734,7 +2679,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Crusader",
             "Mage",
             "Priest",
@@ -743,15 +2688,71 @@
             "Warden"
         ]
     },
-    "Flames": {
+    "Fire Bolt": {
         "Level": "0",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer"
+        ]
+    },
+    "Fire Shield": {
+        "Level": "4",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Fire Storm": {
+        "Level": "7",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Fireball": {
+        "Level": "3",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Flame Arrows*": {
+        "Level": "3",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Flame Blade": {
+        "Level": "2",
+        "School": "Conjuration",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
         ]
     },
     "Flame Skull": {
@@ -760,8 +2761,30 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Necromancer"
+        ]
+    },
+    "Flame Strike": {
+        "Level": "5",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest",
+            "Spellsword"
+        ]
+    },
+    "Flames": {
+        "Level": "0",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Flaming Familiar": {
@@ -770,9 +2793,102 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer"
+        ]
+    },
+    "Flaming Sphere": {
+        "Level": "2",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Warden"
+        ]
+    },
+    "Flesh to Stone": {
+        "Level": "6",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade"
+        ]
+    },
+    "Floating Disk": {
+        "Level": "1",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Fly": {
+        "Level": "3",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Fog Cloud": {
+        "Level": "1",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Forbiddance": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "10 minutes",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Forcecage": {
+        "Level": "7",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade"
+        ]
+    },
+    "Foresight": {
+        "Level": "9",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Warden"
         ]
     },
     "Fortify Attribute": {
@@ -781,7 +2897,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Crusader",
             "Priest",
@@ -794,7 +2910,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Priest"
         ]
     },
@@ -804,7 +2920,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Priest",
             "Sorcerer"
@@ -816,10 +2932,32 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Priest",
             "Warden"
+        ]
+    },
+    "Freedom of Movement": {
+        "Level": "4",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Freezing Sphere": {
+        "Level": "6",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
         ]
     },
     "Frenzy": {
@@ -828,12 +2966,38 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Mage",
             "Necromancer",
             "Nightblade",
             "Sorcerer"
+        ]
+    },
+    "Friends*": {
+        "Level": "0",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Frostbite*": {
+        "Level": "0",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
         ]
     },
     "Frozen Gate": {
@@ -842,7 +3006,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Warden"
         ]
     },
@@ -852,8 +3016,58 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Nightblade"
+        ]
+    },
+    "Gaseous Form": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Gate": {
+        "Level": "9",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Priest",
+            "Sorcerer"
+        ]
+    },
+    "Geas": {
+        "Level": "5",
+        "School": "Illusion",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Crusader",
+            "Mage",
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Gentle Repose": {
+        "Level": "2",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Priest"
         ]
     },
     "Ghostwalk": {
@@ -862,10 +3076,74 @@
         "Casting time": "1 bonus action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Bard",
             "Mage",
             "Nightblade"
+        ]
+    },
+    "Giant Insect": {
+        "Level": "4",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Glibness": {
+        "Level": "8",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Nightblade"
+        ]
+    },
+    "Globe of Invulnerability": {
+        "Level": "6",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Glyph of Warding": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 Hour",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Priest"
+        ]
+    },
+    "Goodberry": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Grasping Vine": {
+        "Level": "4",
+        "School": "Conjuration",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
         ]
     },
     "Grave Grasp": {
@@ -873,9 +3151,43 @@
         "School": "Necromancy",
         "Casting time": "1 action",
         "Ritual": "No",
-        "Concentration": "Yes",
-        "Class": [
+        "Concentration": "No",
+        "Classes": [
             "Necromancer"
+        ]
+    },
+    "Grease": {
+        "Level": "1",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Greater Invisibility": {
+        "Level": "4",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Greater Restoration": {
+        "Level": "5",
+        "School": "Restoration",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Priest",
+            "Warden"
         ]
     },
     "Greater Ward": {
@@ -884,9 +3196,22 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Priest",
             "Warden"
+        ]
+    },
+    "Green-Flame Blade*": {
+        "Level": "0",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
         ]
     },
     "Grim Focus": {
@@ -895,8 +3220,110 @@
         "Casting time": "1 bonus action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Nightblade"
+        ]
+    },
+    "Guardian of Faith": {
+        "Level": "4",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Guardian of Nature*": {
+        "Level": "4",
+        "School": "Alteration",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Guards and Wards": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage"
+        ]
+    },
+    "Guidance": {
+        "Level": "0",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Guiding Bolt": {
+        "Level": "1",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Gust of Wind": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Gust*": {
+        "Level": "0",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Hallow": {
+        "Level": "5",
+        "School": "Restoration",
+        "Casting time": "24 hours",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Hallucinatory Terrain": {
+        "Level": "4",
+        "School": "Illusion",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Warden"
         ]
     },
     "Hand of Decay": {
@@ -905,8 +3332,43 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Necromancer"
+        ]
+    },
+    "Harm": {
+        "Level": "6",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Priest",
+            "Sorcerer"
+        ]
+    },
+    "Haste": {
+        "Level": "3",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Heal": {
+        "Level": "6",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest",
+            "Warden"
         ]
     },
     "Heal Undead": {
@@ -915,7 +3377,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Necromancer"
         ]
     },
@@ -925,7 +3387,170 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Healing Spirit*": {
+        "Level": "2",
+        "School": "Restoration",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Healing Word": {
+        "Level": "1",
+        "School": "Restoration",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Heat Metal": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Warden"
+        ]
+    },
+    "Hellish Rebuke": {
+        "Level": "1",
+        "School": "Destruction",
+        "Casting time": "1 reaction",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Nightblade"
+        ]
+    },
+    "Heroes' Feast": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Heroism": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Crusader",
+            "Spellsword"
+        ]
+    },
+    "Hex*": {
+        "Level": "1",
+        "School": "Destruction",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Necromancer",
+            "Nightblade",
+            "Spellsword"
+        ]
+    },
+    "Hideous Laughter": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Hold Monster": {
+        "Level": "5",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Hold Person": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Priest",
+            "Sorcerer"
+        ]
+    },
+    "Holy Aura": {
+        "Level": "8",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Holy Weapon*": {
+        "Level": "5",
+        "School": "Restoration",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Hunger of Hadar*": {
+        "Level": "3",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Hunter's Mark": {
+        "Level": "1",
+        "School": "Destruction",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
             "Warden"
         ]
     },
@@ -935,11 +3560,25 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Mage",
             "Priest",
             "Sorcerer"
+        ]
+    },
+    "Hypnotic Pattern": {
+        "Level": "3",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
         ]
     },
     "Hysteria": {
@@ -948,8 +3587,33 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard"
+        ]
+    },
+    "Ice Knife*": {
+        "Level": "1",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Ice Storm": {
+        "Level": "4",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
         ]
     },
     "Icy Blast": {
@@ -958,8 +3622,52 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Warden"
+        ]
+    },
+    "Identify": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage"
+        ]
+    },
+    "Illusory Dragon*": {
+        "Level": "8",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Illusory Script": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade"
+        ]
+    },
+    "Immolation*": {
+        "Level": "5",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Impaling Shards": {
@@ -968,8 +3676,53 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Warden"
+        ]
+    },
+    "Imprisonment": {
+        "Level": "9",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Incendiary Cloud": {
+        "Level": "8",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Incite Greed*": {
+        "Level": "3",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Infernal Calling*": {
+        "Level": "5",
+        "School": "Conjuration",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Nightblade",
+            "Sorcerer"
         ]
     },
     "Inferno": {
@@ -978,8 +3731,157 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Spellsword"
+        ]
+    },
+    "Infestation*": {
+        "Level": "0",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Inflict Wounds": {
+        "Level": "1",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Nightblade",
+            "Priest",
+            "Sorcerer"
+        ]
+    },
+    "Insect Plague": {
+        "Level": "5",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Priest",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Instant Summons": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Investiture of Flame*": {
+        "Level": "6",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Investiture of Ice*": {
+        "Level": "6",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Investiture of Stone*": {
+        "Level": "6",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Investiture of Wind*": {
+        "Level": "6",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Nightblade",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Invisibility": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Invulnerability*": {
+        "Level": "9",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Jump": {
+        "Level": "1",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Knock": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Lava Whip": {
@@ -988,8 +3890,35 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Spellsword"
+        ]
+    },
+    "Legend Lore": {
+        "Level": "5",
+        "School": "Mysticism",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Priest",
+            "Spellsword"
+        ]
+    },
+    "Lesser Restoration": {
+        "Level": "2",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Crusader",
+            "Priest",
+            "Spellsword",
+            "Warden"
         ]
     },
     "Lesser Ward": {
@@ -998,10 +3927,58 @@
         "Casting time": "1 reaction",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Crusader",
             "Priest",
             "Spellsword"
+        ]
+    },
+    "Levitate": {
+        "Level": "2",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Life Transference*": {
+        "Level": "3",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Necromancer",
+            "Priest",
+            "Sorcerer"
+        ]
+    },
+    "Light": {
+        "Level": "0",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Priest",
+            "Sorcerer"
+        ]
+    },
+    "Lightning Bolt": {
+        "Level": "3",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Lightning Form": {
@@ -1010,7 +3987,19 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
+            "Sorcerer"
+        ]
+    },
+    "Lightning Lure*": {
+        "Level": "0",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Nightblade",
             "Sorcerer"
         ]
     },
@@ -1020,9 +4009,59 @@
         "Casting time": "1 reaction",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Priest"
+        ]
+    },
+    "Locate Animals or Plants": {
+        "Level": "2",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Warden"
+        ]
+    },
+    "Locate Creature": {
+        "Level": "4",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Crusader",
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Locate Object": {
+        "Level": "2",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Crusader",
+            "Mage",
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Longstrider": {
+        "Level": "1",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Warden"
         ]
     },
     "Luminous Shards": {
@@ -1031,8 +4070,54 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Crusader"
+        ]
+    },
+    "Maddening Darkness*": {
+        "Level": "8",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade"
+        ]
+    },
+    "Maelstrom*": {
+        "Level": "5",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Mage Armor": {
+        "Level": "1",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Mage Hand": {
+        "Level": "0",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
         ]
     },
     "Mage Light": {
@@ -1041,10 +4126,81 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer",
             "Warden"
+        ]
+    },
+    "Magic Circle": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Priest",
+            "Spellsword"
+        ]
+    },
+    "Magic Jar": {
+        "Level": "6",
+        "School": "Necromancy",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Magic Missile": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Magic Mouth": {
+        "Level": "2",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage"
+        ]
+    },
+    "Magic Stone*": {
+        "Level": "0",
+        "School": "Alteration",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Nightblade",
+            "Warden"
+        ]
+    },
+    "Magic Weapon": {
+        "Level": "2",
+        "School": "Mysticism",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Mage",
+            "Spellsword"
         ]
     },
     "Magicka Drain": {
@@ -1053,7 +4209,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Crusader",
             "Nightblade",
             "Sorcerer",
@@ -1066,7 +4222,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Priest",
             "Sorcerer"
         ]
@@ -1077,7 +4233,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer"
         ]
@@ -1088,8 +4244,32 @@
         "Casting time": "1 reaction",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Spellsword"
+        ]
+    },
+    "Magnificent Mansion": {
+        "Level": "7",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage"
+        ]
+    },
+    "Major Image": {
+        "Level": "3",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
         ]
     },
     "Mara's Grace": {
@@ -1098,7 +4278,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Crusader",
             "Priest"
         ]
@@ -1109,9 +4289,21 @@
         "Casting time": "Varies",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer"
+        ]
+    },
+    "Mass Cure Wounds": {
+        "Level": "5",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Priest",
+            "Warden"
         ]
     },
     "Mass Frenzy": {
@@ -1120,9 +4312,65 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Nightblade"
+        ]
+    },
+    "Mass Heal": {
+        "Level": "9",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Mass Healing Word": {
+        "Level": "3",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Mass Polymorph*": {
+        "Level": "9",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Mass Suggestion": {
+        "Level": "6",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Maximilian’s Earthen Grasp*": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Mayhem": {
@@ -1131,10 +4379,220 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Nightblade",
             "Sorcerer"
+        ]
+    },
+    "Maze": {
+        "Level": "8",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Meld into Stone": {
+        "Level": "3",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Melf’s Minute Meteors*": {
+        "Level": "3",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Mending": {
+        "Level": "0",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Priest",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Mental Prison*": {
+        "Level": "6",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Message": {
+        "Level": "0",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Meteor Swarm": {
+        "Level": "9",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Mighty Fortress*": {
+        "Level": "8",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Mind Blank": {
+        "Level": "9",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage"
+        ]
+    },
+    "Mind Spike*": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Minor Illusion": {
+        "Level": "0",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Mirage Arcane": {
+        "Level": "7",
+        "School": "Illusion",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Warden"
+        ]
+    },
+    "Mirror Image": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Mislead": {
+        "Level": "5",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage"
+        ]
+    },
+    "Misty Step": {
+        "Level": "2",
+        "School": "Mysticism",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Modify Memory": {
+        "Level": "5",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage"
+        ]
+    },
+    "Mold Earth*": {
+        "Level": "0",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Moonbeam": {
+        "Level": "2",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
         ]
     },
     "Mora's Agony": {
@@ -1143,7 +4601,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Sorcerer"
         ]
     },
@@ -1153,7 +4611,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Necromancer",
             "Sorcerer"
         ]
@@ -1164,8 +4622,20 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Sorcerer"
+        ]
+    },
+    "Move Earth": {
+        "Level": "6",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
         ]
     },
     "Muffle": {
@@ -1174,7 +4644,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Nightblade",
             "Spellsword",
             "Warden"
@@ -1186,8 +4656,20 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Warden"
+        ]
+    },
+    "Negative Energy Flood*": {
+        "Level": "5",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
         ]
     },
     "Night Eye": {
@@ -1196,7 +4678,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Necromancer",
             "Nightblade",
             "Warden"
@@ -1208,7 +4690,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Nightblade"
         ]
     },
@@ -1218,8 +4700,20 @@
         "Casting time": "1 bonus action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Nightblade"
+        ]
+    },
+    "Nondetection": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer"
         ]
     },
     "Northern Storm": {
@@ -1228,7 +4722,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Warden"
         ]
     },
@@ -1238,10 +4732,21 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Mage",
             "Warden"
+        ]
+    },
+    "Otto’s Irresistible Dance": {
+        "Level": "6",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage"
         ]
     },
     "Overload": {
@@ -1250,7 +4755,7 @@
         "Casting time": "1 bonus action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Sorcerer"
         ]
     },
@@ -1260,12 +4765,33 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Bard",
             "Mage",
             "Necromancer",
             "Nightblade",
             "Sorcerer"
+        ]
+    },
+    "Pass Without Trace": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Nightblade",
+            "Warden"
+        ]
+    },
+    "Passwall": {
+        "Level": "5",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
         ]
     },
     "Path of Darkness": {
@@ -1274,7 +4800,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Nightblade"
         ]
     },
@@ -1284,7 +4810,190 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
+            "Spellsword"
+        ]
+    },
+    "Phantasmal Force*": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Phantasmal Killer": {
+        "Level": "4",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Phantom Steed": {
+        "Level": "3",
+        "School": "Conjuration",
+        "Casting time": "1 minute",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Planar Ally": {
+        "Level": "6",
+        "School": "Conjuration",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Planar Binding": {
+        "Level": "5",
+        "School": "Conjuration",
+        "Casting time": "1 hour",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Plane Shift": {
+        "Level": "7",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Priest",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Plant Growth": {
+        "Level": "3",
+        "School": "Alteration",
+        "Casting time": "1 action or 8 hours",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Warden"
+        ]
+    },
+    "Poison Spray": {
+        "Level": "0",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Polymorph": {
+        "Level": "4",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Power Word Heal*": {
+        "Level": "9",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Priest"
+        ]
+    },
+    "Power Word Kill": {
+        "Level": "9",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Power Word Pain*": {
+        "Level": "7",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Power Word Stun": {
+        "Level": "8",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Prayer of Healing": {
+        "Level": "2",
+        "School": "Restoration",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Prestidigitation": {
+        "Level": "0",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
             "Spellsword"
         ]
     },
@@ -1294,8 +5003,171 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Warden"
+        ]
+    },
+    "Primal Savagery": {
+        "Level": "0",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Primordial Ward*": {
+        "Level": "6",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Prismatic Spray": {
+        "Level": "7",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Prismatic Wall": {
+        "Level": "9",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Private Sanctum": {
+        "Level": "4",
+        "School": "Alteration",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Produce Flame": {
+        "Level": "0",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Programmed Illusion": {
+        "Level": "6",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage"
+        ]
+    },
+    "Project Image": {
+        "Level": "7",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage"
+        ]
+    },
+    "Protection from Energy": {
+        "Level": "3",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Priest",
+            "Sorcerer",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Protection from Evil and Good": {
+        "Level": "1",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Priest",
+            "Spellsword"
+        ]
+    },
+    "Protection from Poison": {
+        "Level": "1",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Necromancer",
+            "Priest",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Psychic Scream*": {
+        "Level": "9",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Purify Food and Drink": {
+        "Level": "1",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Pyrotechnics*": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Radiant Shield": {
@@ -1304,8 +5176,30 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Crusader"
+        ]
+    },
+    "Raise Animal": {
+        "Level": "2",
+        "School": "Necromancy",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer"
+        ]
+    },
+    "Raise Dead": {
+        "Level": "5",
+        "School": "Restoration",
+        "Casting time": "1 hour",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Crusader",
+            "Priest"
         ]
     },
     "Rally": {
@@ -1314,7 +5208,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Crusader",
             "Mage",
@@ -1328,18 +5222,44 @@
         "Casting time": "1 reaction",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard"
         ]
     },
-    "Raise Animal": {
+    "Ray of Enfeeblement": {
         "Level": "2",
         "School": "Necromancy",
-        "Casting time": "1 minute",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Ray of Frost": {
+        "Level": "0",
+        "School": "Destruction",
+        "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
-            "Necromancer"
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Ray of Sickness*": {
+        "Level": "1",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Sorcerer"
         ]
     },
     "Reanimate Corpse": {
@@ -1348,7 +5268,7 @@
         "Casting time": "1 action",
         "Ritual": "Yes",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Necromancer"
         ]
     },
@@ -1358,18 +5278,8 @@
         "Casting time": "1 bonus action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Nightblade"
-        ]
-    },
-    "Reincarnate": {
-        "Level": "5",
-        "School": "Restoration",
-        "Casting time": "1 hour",
-        "Ritual": "No",
-        "Concentration": "No",
-        "Class": [
-            "Warden"
         ]
     },
     "Reflect Damage": {
@@ -1378,10 +5288,47 @@
         "Casting time": "1 reaction",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Nightblade",
             "Sorcerer"
+        ]
+    },
+    "Regenerate": {
+        "Level": "7",
+        "School": "Restoration",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Reincarnate": {
+        "Level": "5",
+        "School": "Restoration",
+        "Casting time": "1 hour",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Remove Curse": {
+        "Level": "3",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Priest",
+            "Spellsword"
         ]
     },
     "Repentance": {
@@ -1390,8 +5337,30 @@
         "Casting time": "1 reaction",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Priest"
+        ]
+    },
+    "Resilient Sphere": {
+        "Level": "4",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Resistance": {
+        "Level": "0",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Necromancer",
+            "Priest",
+            "Warden"
         ]
     },
     "Restore Attribute": {
@@ -1400,7 +5369,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Priest"
         ]
     },
@@ -1410,8 +5379,53 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Necromancer"
+        ]
+    },
+    "Resurrection": {
+        "Level": "7",
+        "School": "Restoration",
+        "Casting time": "1 hour",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Priest"
+        ]
+    },
+    "Reverse Gravity": {
+        "Level": "7",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Revivify": {
+        "Level": "3",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Necromancer",
+            "Priest"
+        ]
+    },
+    "Rope Trick": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
         ]
     },
     "Rune Prison": {
@@ -1420,8 +5434,79 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Sorcerer"
+        ]
+    },
+    "Sacred Flame": {
+        "Level": "0",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Sanctuary": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Scatter*": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Scorching Ray": {
+        "Level": "2",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Scrying": {
+        "Level": "5",
+        "School": "Mysticism",
+        "Casting time": "10 minutes",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Priest",
+            "Spellsword",
+            "Warden"
+        ]
+    },
+    "Searing Smite*": {
+        "Level": "1",
+        "School": "Destruction",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Spellsword"
         ]
     },
     "Searing Strike": {
@@ -1430,7 +5515,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Spellsword"
         ]
     },
@@ -1440,7 +5525,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Warden"
         ]
     },
@@ -1450,9 +5535,90 @@
         "Casting time": "1 reaction",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Priest",
             "Spellsword"
+        ]
+    },
+    "Secret Chest": {
+        "Level": "4",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "See Invisibility": {
+        "Level": "2",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Seeming": {
+        "Level": "5",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Sending": {
+        "Level": "3",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Priest"
+        ]
+    },
+    "Sequester": {
+        "Level": "7",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Shadow Blade*": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Shadow of Moil*": {
+        "Level": "4",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Necromancer",
+            "Nightblade"
         ]
     },
     "Shalidor's Mirror": {
@@ -1461,9 +5627,46 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer"
+        ]
+    },
+    "Shape Water*": {
+        "Level": "0",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Shapechange": {
+        "Level": "9",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Warden"
+        ]
+    },
+    "Shatter": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
         ]
     },
     "Shattering Prison": {
@@ -1472,8 +5675,31 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Sorcerer"
+        ]
+    },
+    "Shield": {
+        "Level": "1",
+        "School": "Alteration",
+        "Casting time": "1 reaction",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Shield of Faith": {
+        "Level": "1",
+        "School": "Restoration",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Priest"
         ]
     },
     "Shield Wall": {
@@ -1482,8 +5708,18 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Priest"
+        ]
+    },
+    "Shillelagh": {
+        "Level": "0",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Warden"
         ]
     },
     "Shockball": {
@@ -1492,10 +5728,21 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer",
             "Warden"
+        ]
+    },
+    "Shocking Grasp": {
+        "Level": "0",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Shocking Siphon": {
@@ -1504,7 +5751,7 @@
         "Casting time": "1 reaction",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Necromancer"
         ]
     },
@@ -1514,8 +5761,136 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Nightblade"
+        ]
+    },
+    "Sickening Radiance*": {
+        "Level": "4",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Silence": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Priest"
+        ]
+    },
+    "Silent Image": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Simulacrum": {
+        "Level": "7",
+        "School": "Mysticism",
+        "Casting time": "12 hours",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Skill Empowerment*": {
+        "Level": "5",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Priest",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Skywrite*": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Warden"
+        ]
+    },
+    "Sleep": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Sleet Storm": {
+        "Level": "3",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Slow": {
+        "Level": "3",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Snare*": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Warden"
+        ]
+    },
+    "Snilloc's Snowball Swarm*": {
+        "Level": "2",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Snow Flare": {
@@ -1524,7 +5899,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Necromancer",
             "Spellsword",
@@ -1533,13 +5908,25 @@
     },
     "Solar Barrage": {
         "Level": "3",
-        "School": "Restoration",
+        "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Crusader",
             "Priest"
+        ]
+    },
+    "Soul Cage*": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "1 reaction",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
         ]
     },
     "Soul Shred": {
@@ -1548,7 +5935,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Nightblade"
         ]
     },
@@ -1558,7 +5945,7 @@
         "Casting time": "1 bonus action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Necromancer",
             "Nightblade",
@@ -1567,16 +5954,62 @@
             "Spellsword"
         ]
     },
+    "Spare the Dying": {
+        "Level": "0",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Priest"
+        ]
+    },
     "Sparks": {
         "Level": "0",
         "School": "Destruction",
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Necromancer",
             "Sorcerer"
+        ]
+    },
+    "Speak with Animals": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Warden"
+        ]
+    },
+    "Speak with Dead": {
+        "Level": "3",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Necromancer",
+            "Priest",
+            "Sorcerer"
+        ]
+    },
+    "Speak with Plants": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Warden"
         ]
     },
     "Spectral Arrow": {
@@ -1585,7 +6018,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Nightblade"
         ]
@@ -1596,7 +6029,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Sorcerer",
             "Spellsword"
         ]
@@ -1607,7 +6040,7 @@
         "Casting time": "1 reaction",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Bard",
             "Mage",
             "Priest",
@@ -1620,7 +6053,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Bard",
             "Mage",
             "Priest",
@@ -1633,9 +6066,165 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
             "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Spider Climb": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Spike Growth": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Spirit Guardians": {
+        "Level": "3",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Necromancer",
+            "Priest"
+        ]
+    },
+    "Spirit Shroud": {
+        "Level": "3",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Spiritual Weapon": {
+        "Level": "2",
+        "School": "Conjuration",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Staggering Smite*": {
+        "Level": "4",
+        "School": "Mysticism",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Nightblade",
+            "Spellsword"
+        ]
+    },
+    "Steel Wind Strike*": {
+        "Level": "5",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Spellsword"
+        ]
+    },
+    "Stendarr's Aura": {
+        "Level": "5",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Priest"
+        ]
+    },
+    "Stinking Cloud": {
+        "Level": "3",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Sorcerer"
+        ]
+    },
+    "Stone Shape": {
+        "Level": "4",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Priest",
+            "Warden"
+        ]
+    },
+    "Stonefist": {
+        "Level": "0",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Spellsword"
+        ]
+    },
+    "Stoneskin": {
+        "Level": "4",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Storm of Vengeance": {
+        "Level": "9",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Storm Sphere*": {
+        "Level": "4",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
             "Sorcerer"
         ]
     },
@@ -1645,31 +6234,10 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer",
             "Warden"
-        ]
-    },
-    "Stendarr's Aura": {
-        "Level": "5",
-        "School": "Restoration",
-        "Casting time": "1 action",
-        "Ritual": "No",
-        "Concentration": "Yes",
-        "Class": [
-            "Crusader",
-            "Priest"
-        ]
-    },
-    "Stonefist": {
-        "Level": "0",
-        "School": "Alteration",
-        "Casting time": "1 action",
-        "Ritual": "No",
-        "Concentration": "No",
-        "Class": [
-            "Spellsword"
         ]
     },
     "Strangulation": {
@@ -1678,18 +6246,33 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Nightblade",
             "Sorcerer"
         ]
     },
-    "Sun Fire": {
-        "Level": "0",
-        "School": "Destruction",
+    "Suggestion": {
+        "Level": "2",
+        "School": "Illusion",
         "Casting time": "1 action",
         "Ritual": "No",
-        "Concentration": "No",
-        "Class": [
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Summon Celestial": {
+        "Level": "5",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
             "Priest"
         ]
     },
@@ -1699,8 +6282,30 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Summon Greater Demon*": {
+        "Level": "4",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Summon Lesser Demons*": {
+        "Level": "3",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Nightblade",
             "Sorcerer"
         ]
     },
@@ -1710,8 +6315,125 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Necromancer"
+        ]
+    },
+    "Sun Fire": {
+        "Level": "0",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Sunbeam": {
+        "Level": "6",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Priest",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Sunburst": {
+        "Level": "8",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Priest",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Sword Burst*": {
+        "Level": "0",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Symbol": {
+        "Level": "7",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Priest"
+        ]
+    },
+    "Synaptic Static*": {
+        "Level": "5",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Telekinesis": {
+        "Level": "5",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Telepathic Bond": {
+        "Level": "5",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Telepathy*": {
+        "Level": "8",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Teleport": {
+        "Level": "7",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer"
         ]
     },
     "Teleport Strike": {
@@ -1720,8 +6442,73 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Nightblade"
+        ]
+    },
+    "Teleportation Circle": {
+        "Level": "5",
+        "School": "Conjuration",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Temple of the Gods*": {
+        "Level": "7",
+        "School": "Conjuration",
+        "Casting time": "1 hour",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Tenser's Transformation*": {
+        "Level": "6",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Thaumaturgy": {
+        "Level": "0",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Priest"
+        ]
+    },
+    "Thorn Whip*": {
+        "Level": "0",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Thunder Step*": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
         ]
     },
     "Thunderbolt": {
@@ -1730,10 +6517,119 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage",
             "Spellsword",
             "Warden"
+        ]
+    },
+    "Thunderclap*": {
+        "Level": "0",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Thunderous Smite*": {
+        "Level": "1",
+        "School": "Destruction",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Spellsword"
+        ]
+    },
+    "Thunderwave": {
+        "Level": "1",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Tidal Wave*": {
+        "Level": "3",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Time Stop": {
+        "Level": "9",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Tiny Hut": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage"
+        ]
+    },
+    "Tiny Servant*": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Toll the Dead*": {
+        "Level": "0",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Necromancer",
+            "Nightblade",
+            "Priest",
+            "Sorcerer"
+        ]
+    },
+    "Tongues": {
+        "Level": "3",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Priest",
+            "Sorcerer"
         ]
     },
     "Transmute Mineral Ore": {
@@ -1742,8 +6638,39 @@
         "Casting time": "1 hour",
         "Ritual": "Yes",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Mage"
+        ]
+    },
+    "Transmute Rock*": {
+        "Level": "5",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Warden"
+        ]
+    },
+    "Transport via Plants": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Tree Stride": {
+        "Level": "5",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
         ]
     },
     "Troll's Blood": {
@@ -1752,8 +6679,84 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Warden"
+        ]
+    },
+    "True Polymorph": {
+        "Level": "9",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade"
+        ]
+    },
+    "True Resurrection": {
+        "Level": "9",
+        "School": "Restoration",
+        "Casting time": "1 hour",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest",
+            "Warden"
+        ]
+    },
+    "True Seeing": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Priest",
+            "Sorcerer"
+        ]
+    },
+    "True Strike": {
+        "Level": "0",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
+        ]
+    },
+    "Tsunami*": {
+        "Level": "8",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Unseen Servant": {
+        "Level": "1",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
         ]
     },
     "Urelu's Loathsome Coercion": {
@@ -1762,7 +6765,7 @@
         "Casting time": "8 hours",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Necromancer"
         ]
     },
@@ -1772,9 +6775,21 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Crusader",
             "Priest"
+        ]
+    },
+    "Vampiric Touch": {
+        "Level": "3",
+        "School": "Necromancy",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer"
         ]
     },
     "Veiled Strike": {
@@ -1783,8 +6798,177 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "No",
-        "Class": [
+        "Classes": [
             "Nightblade"
+        ]
+    },
+    "Vicious Mockery": {
+        "Level": "0",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Bard"
+        ]
+    },
+    "Vitriolic Sphere*": {
+        "Level": "4",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Nightblade",
+            "Sorcerer"
+        ]
+    },
+    "Wall of Fire": {
+        "Level": "4",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Wall of Force": {
+        "Level": "5",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Wall of Ice": {
+        "Level": "6",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Wall of Light*": {
+        "Level": "5",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Priest"
+        ]
+    },
+    "Wall of Sand*": {
+        "Level": "3",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Wall of Stone": {
+        "Level": "5",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Wall of Thorns": {
+        "Level": "6",
+        "School": "Destruction",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Wall of Water*": {
+        "Level": "3",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Warding Bond": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest",
+            "Spellsword"
+        ]
+    },
+    "Warding Wind*": {
+        "Level": "2",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Water Breathing": {
+        "Level": "3",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Water Walk": {
+        "Level": "3",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "Yes",
+        "Concentration": "No",
+        "Classes": [
+            "Priest",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Watery Sphere*": {
+        "Level": "4",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
         ]
     },
     "Weakness": {
@@ -1793,7 +6977,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Necromancer",
             "Nightblade"
         ]
@@ -1804,11 +6988,64 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
             "Necromancer",
             "Priest",
             "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Web": {
+        "Level": "2",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Weird": {
+        "Level": "9",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage"
+        ]
+    },
+    "Whirlwind*": {
+        "Level": "7",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Sorcerer",
+            "Warden"
+        ]
+    },
+    "Wind Walk": {
+        "Level": "6",
+        "School": "Mysticism",
+        "Casting time": "1 minute",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Wind Wall": {
+        "Level": "3",
+        "School": "Alteration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
             "Warden"
         ]
     },
@@ -1818,7 +7055,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Warden"
         ]
     },
@@ -1828,8 +7065,33 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Warden"
+        ]
+    },
+    "Wish": {
+        "Level": "9",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Mage",
+            "Sorcerer"
+        ]
+    },
+    "Witch Bolt*": {
+        "Level": "1",
+        "School": "Mysticism",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Mage",
+            "Necromancer",
+            "Nightblade",
+            "Sorcerer",
+            "Spellsword"
         ]
     },
     "Witchwither": {
@@ -1838,7 +7100,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Necromancer"
         ]
     },
@@ -1848,7 +7110,7 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Bard",
             "Mage",
             "Necromancer",
@@ -1862,9 +7124,72 @@
         "Casting time": "1 action",
         "Ritual": "No",
         "Concentration": "Yes",
-        "Class": [
+        "Classes": [
             "Mage",
             "Sorcerer"
         ]
+    },
+    "Word of Radiance": {
+        "Level": "0",
+        "School": "Restoration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Word of Recall": {
+        "Level": "6",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "No",
+        "Classes": [
+            "Priest"
+        ]
+    },
+    "Wrath of Nature*": {
+        "Level": "5",
+        "School": "Conjuration",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Warden"
+        ]
+    },
+    "Wrathful Smite*": {
+        "Level": "1",
+        "School": "Illusion",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Crusader",
+            "Nightblade"
+        ]
+    },
+    "Zephyr Strike*": {
+        "Level": "1",
+        "School": "Alteration",
+        "Casting time": "1 bonus action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Spellsword"
+        ]
+    },
+    "Zone of Truth": {
+        "Level": "2",
+        "School": "Illusion",
+        "Casting time": "1 action",
+        "Ritual": "No",
+        "Concentration": "Yes",
+        "Classes": [
+            "Bard",
+            "Crusader",
+            "Priest"
+        ]
     }
-}
+}d
