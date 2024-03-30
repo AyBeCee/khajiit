@@ -29,7 +29,7 @@
         },
         "Trait options": {
             "Studious Nature": {
-                "Proficiency Type": "Skill",
+                "Type": "SkillProficiency",
                 "Options": [
                     2,
                     "Arcana",
@@ -39,7 +39,7 @@
                 ]
             },
             "Tool Proficiency": {
-                "Proficiency Type": "Tool",
+                "Type": "ToolProficiency",
                 "Options": [
                     1,
                     "Alchemist's supplies",
@@ -48,7 +48,7 @@
                 ]
             },
             "Bonus Language": {
-                "Proficiency Type": "Language",
+                "Type": "LanguageProficiency",
                 "Options": [
                     1,
                     "Bosmeris",
@@ -235,7 +235,7 @@
         },
         "Trait options": {
             "Magical Skill": {
-                "Proficiency Type": "Skill",
+                "Type": "SkillProficiency",
                 "Options": [
                     [
                         1,
@@ -289,7 +289,7 @@
         },
         "Trait options": {
             "Dunmer Combat Training": {
-                "Proficiency Type": "Weapon",
+                "Type": "WeaponProficiency",
                 "Options": [
                     1,
                     "Blade",
@@ -297,7 +297,7 @@
                 ]
             },
             "Skill Proficiency": {
-                "Proficiency Type": "Skill",
+                "Type": "SkillProficiency",
                 "Options": [
                     1,
                     "Athletics",
@@ -337,7 +337,7 @@
         },
         "Trait options": {
             "Polyglot": {
-                "Proficiency Type": "Language",
+                "Type": "LanguageProficiency",
                 "Options": [
                     1,
                     "Altmeris",
@@ -367,7 +367,7 @@
                 ]
             },
             "Legion Combat Training": {
-                "Proficiency Type": "Weapon",
+                "Type": "WeaponProficiency",
                 "Options": [
                     1,
                     "Blade",
@@ -709,7 +709,7 @@
                 },
                 "Trait options": {
                     "Well Read": {
-                        "Proficiency Type": "Skill",
+                        "Type": "SkillProficiency",
                         "Options": [
                             1,
                             "Arcana",
@@ -849,7 +849,7 @@
                 },
                 "Trait options": {
                     "Nomadic Intuition": {
-                        "Proficiency Type": "Skill",
+                        "Type": "SkillProficiency",
                         "Options": [
                             1,
                             "Medicine",
