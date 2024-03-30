@@ -11,45 +11,54 @@
             "Bonus Language": " You learn one additional common or uncommon language of your choice."
         },
         "Trait options": {
-            "Studious Nature": [
-                2,
-                "Arcana",
-                "History",
-                "Nature",
-                "Religion"
-            ],
-            "Tool Proficiency": [
-                1,
-                "Alchemist's supplies",
-                "Calligrapher's supplies",
-                "Jeweler's tools"
-            ],
-            "Bonus Language": [
-                1,
-                "Bosmeris",
-                "Dunmeris",
-                "Jel",
-                "Nordic",
-                "Orcish",
-                "Ta'agra",
-                "Tamrielic",
-                "Yoku",
-                "Akaviri",
-                "Ald Chimeris",
-                "Aldmeris",
-                "Ayleidoon",
-                "Daedric",
-                "Dovahzul",
-                "Dwemeris",
-                "Ehlnofex",
-                "Falmeris",
-                "Hist",
-                "Nedic",
-                "Pyandonean",
-                "Sload",
-                "Reach-tongue",
-                "Tsaesci"
-            ]
+            "Studious Nature": {
+                "Proficiency Type": "Skill",
+                "Options": [
+                    2,
+                    "Arcana",
+                    "History",
+                    "Nature",
+                    "Religion"
+                ]
+            },
+            "Tool Proficiency": {
+                "Proficiency Type": "Tool",
+                "Options": [
+                    1,
+                    "Alchemist's supplies",
+                    "Calligrapher's supplies",
+                    "Jeweler's tools"
+                ]
+            },
+            "Bonus Language": {
+                "Proficiency Type": "Language",
+                "Options": [
+                    1,
+                    "Bosmeris",
+                    "Dunmeris",
+                    "Jel",
+                    "Nordic",
+                    "Orcish",
+                    "Ta'agra",
+                    "Tamrielic",
+                    "Yoku",
+                    "Akaviri",
+                    "Ald Chimeris",
+                    "Aldmeris",
+                    "Ayleidoon",
+                    "Daedric",
+                    "Dovahzul",
+                    "Dwemeris",
+                    "Ehlnofex",
+                    "Falmeris",
+                    "Hist",
+                    "Nedic",
+                    "Pyandonean",
+                    "Sload",
+                    "Reach-tongue",
+                    "Tsaesci"
+                ]
+            }
         }
     },
     "Argonian": {
@@ -94,17 +103,20 @@
             "Nimble Skills": "You are proficient in the Acrobatics skill."
         },
         "Trait options": {
-            "Y'ffre's Gift": [
-                [
-                    1,
-                    "Intelligence",
-                    "Willpower",
-                    "Personality"
-                ],
-                [
-                    "LVL_START0LVL_END_CLASS_STARTWardenCLASS_END"
+            "Y'ffre's Gift": {
+                "Type": "Spell",
+                "Options": [
+                    [
+                        1,
+                        "Intelligence",
+                        "Willpower",
+                        "Personality"
+                    ],
+                    [
+                        "LVL_START0LVL_END_CLASS_STARTWardenCLASS_END"
+                    ]
                 ]
-            ]
+            }
         }
     },
     "Breton": {
@@ -119,16 +131,19 @@
             "Tool Proficiency": "You have proficiency with artisan's tools (alchemist supplies)."
         },
         "Trait options": {
-            "Magical Studies": [
-                [
-                    1,
-                    "Arcana",
-                    "Nature"
-                ],
-                [
-                    "LVL_START0LVL_END_CLASS_STARTWarden, MageCLASS_END"
+            "Magical Studies": {
+                "Type": "Spell",
+                "Options": [
+                    [
+                        1,
+                        "Arcana",
+                        "Nature"
+                    ],
+                    [
+                        "LVL_START0LVL_END_CLASS_STARTWarden, MageCLASS_END"
+                    ]
                 ]
-            ]
+            }
         }
     },
     "Dunmer": {
@@ -142,17 +157,23 @@
             "Skill Proficiency": "You gain proficiency in your choice of the Athletics, Arcana, or Stealth skill."
         },
         "Trait options": {
-            "Dunmer Combat Training": [
-                1,
-                "Blade",
-                "Marksman"
-            ],
-            "Skill Proficiency": [
-                1,
-                "Athletics",
-                "Arcana",
-                "Stealth"
-            ]
+            "Dunmer Combat Training": {
+                "Proficiency Type": "Weapon",
+                "Options": [
+                    1,
+                    "Blade",
+                    "Marksman"
+                ]
+            },
+            "Skill Proficiency": {
+                "Proficiency Type": "Skill",
+                "Options": [
+                    1,
+                    "Athletics",
+                    "Arcana",
+                    "Stealth"
+                ]
+            }
         }
     },
     "Imperial": {
@@ -167,38 +188,44 @@
             "Diplomat": "You gain proficiency in the Persuasion skill."
         },
         "Trait options": {
-            "Bonus Language": [
-                1,
-                "Altmeris",
-                "Bosmeris",
-                "Dunmeris",
-                "Jel",
-                "Nordic",
-                "Orcish",
-                "Ta'agra",
-                "Tamrielic",
-                "Yoku",
-                "Akaviri",
-                "Ald Chimeris",
-                "Aldmeris",
-                "Ayleidoon",
-                "Daedric",
-                "Dovahzul",
-                "Dwemeris",
-                "Ehlnofex",
-                "Falmeris",
-                "Hist",
-                "Nedic",
-                "Pyandonean",
-                "Sload",
-                "Reach-tongue",
-                "Tsaesci"
-            ],
-            "Legion Combat Training": [
-                1,
-                "Blade",
-                "Blunt"
-            ]
+            "Bonus Language": {
+                "Proficiency Type": "Language",
+                "Options": [
+                    1,
+                    "Altmeris",
+                    "Bosmeris",
+                    "Dunmeris",
+                    "Jel",
+                    "Nordic",
+                    "Orcish",
+                    "Ta'agra",
+                    "Tamrielic",
+                    "Yoku",
+                    "Akaviri",
+                    "Ald Chimeris",
+                    "Aldmeris",
+                    "Ayleidoon",
+                    "Daedric",
+                    "Dovahzul",
+                    "Dwemeris",
+                    "Ehlnofex",
+                    "Falmeris",
+                    "Hist",
+                    "Nedic",
+                    "Pyandonean",
+                    "Sload",
+                    "Reach-tongue",
+                    "Tsaesci"
+                ]
+            },
+            "Legion Combat Training": {
+                "Proficiency Type": "Weapon",
+                "Options": [
+                    1,
+                    "Blade",
+                    "Blunt"
+                ]
+            }
         },
         "Subrace summary": "Two unique types of people are found within Cyrodiil: Colovians and Nibenese.",
         "Subraces": {
@@ -217,12 +244,15 @@
                     "Voice of the Emperor": "You know the charm person spell. Once between long rests, you are able to cast this spell without expending magicka points and without your target knowing it was cast on them. Intelligence, Willpower, or Personality is your spellcasting ability for this spell (your choice when you choose this ancestry)"
                 },
                 "Trait options": {
-                    "Voice of the Emperor": [
-                        1,
-                        "Intelligence",
-                        "Willpower",
-                        "Personality"
-                    ]
+                    "Voice of the Emperor": {
+                        "Type": "Spellcasting Ability",
+                        "Options": [
+                            1,
+                            "Intelligence",
+                            "Willpower",
+                            "Personality"
+                        ]
+                    }
                 }
             }
         }
@@ -247,21 +277,23 @@
                     "Tiny Quadruped": "You are a tiny creature that walks on four legs and doesn't have opposable thumbs. Your reduced size and lack of hands gives you the following traits:<ul><li>You lack the opposable thumbs required to wield weapons and use tools.</li><li>You have advantage on saving throws to resist falling prone, but have disadvantage on Strength saving throws.</li><li>Your unarmed strikes deal slashing damage equal to 1 + your Strength modifier (minimum of 1).</li><li>Your tiny size makes you hard to hit. You gain a +1 bonus to AC and Agility saving throws.</li><li>Your hit die is reduced by one size, which affects your hit points at 1st level, and at higher levels. For example, 1d6 (or 4) becomes 1d4 (or 3).</li><li>Your carrying capacity is equal to your Strength score multiplied by 5.You can occupy another creature's space and vice versa.</li></ul>"
                 },
                 "Trait options": {
-                    "Compensating for Size": [
-                        [
-
-                    "LVL_START0LVL_END_CLASS_STARTWardenCLASS_END"
-                        ],
-                        [
-                    "LVL_START1LVL_END_CLASS_STARTWardenCLASS_END"
-                        ],
-                        [
-                            1,
-                            "Intelligence",
-                            "Willpower",
-                            "Personality"
+                    "Compensating for Size": {
+                        "Type": "Spell",
+                        "Options": [
+                            [
+                                "LVL_START0LVL_END_CLASS_STARTWardenCLASS_END"
+                            ],
+                            [
+                                "LVL_START1LVL_END_CLASS_STARTWardenCLASS_END"
+                            ],
+                            [
+                                1,
+                                "Intelligence",
+                                "Willpower",
+                                "Personality"
+                            ]
                         ]
-                    ]
+                    }
                 }
             },
             "Ohmes": {
@@ -295,12 +327,15 @@
                     "Natural Magic": "You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the magic missile spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Intelligence, Willpower, or Personality is your spellcasting ability for these spells (your choice when you choose this ancestry)."
                 },
                 "Trait options": {
-                    "Natural Magic": [
-                        1,
-                        "Intelligence",
-                        "Willpower",
-                        "Personality"
-                    ]
+                    "Natural Magic": {
+                        "Type": "Spellcasting Ability",
+                        "Options": [
+                            1,
+                            "Intelligence",
+                            "Willpower",
+                            "Personality"
+                        ]
+                    }
                 }
             }
         }
@@ -338,13 +373,16 @@
                     "Well Read": "You have proficiency in one skill of your choice from Arcana, History, Nature, or Religion."
                 },
                 "Trait options": {
-                    "Well Read": [
-                        1,
-                        "Arcana",
-                        "History",
-                        "Nature",
-                        "Religion"
-                    ]
+                    "Well Read": {
+                        "Proficiency Type": "Skill",
+                        "Options": [
+                            1,
+                            "Arcana",
+                            "History",
+                            "Nature",
+                            "Religion"
+                        ]
+                    }
                 }
             },
             "Wild Orc": {
@@ -390,13 +428,16 @@
                     "Nomadic Intuition": "You gain proficiency in vehicles (either land or water, your choice). Additionally, you gain proficiency with one of the following skills of your choice: Medicine, Nature, Perception, or Survival."
                 },
                 "Trait options": {
-                    "Nomadic Intuition": [
-                        1,
-                        "Medicine",
-                        "Nature",
-                        "Perception",
-                        "Survival"
-                    ]
+                    "Nomadic Intuition": {
+                        "Proficiency Type": "Skill",
+                        "Options": [
+                            1,
+                            "Medicine",
+                            "Nature",
+                            "Perception",
+                            "Survival"
+                        ]
+                    }
                 }
             }
         }
