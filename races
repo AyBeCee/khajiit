@@ -195,12 +195,12 @@
         "Traits": {
             "Imperial Cunning": "You have advantage on all Intelligence and Personality saving throws against magic.",
             "Imperial Luck": "You have a number of Imperial Luck Dice, which are d4s, equal to your proficiency bonus. You can expend one Imperial Luck Die to add it to an attribute check, attack roll, or saving throw you make. You can wait until after you roll the d20 before deciding to use the Imperial Luck Dice, but must decide before the GM determines whether the roll succeeds or fails. You regain your expended Imperial Luck Dice when you finish a long rest.",
-            "Bonus Language": "You learn one additional common or uncommon language of your choice.",
+            "Polyglot": "You learn one additional common or uncommon language of your choice.",
             "Legion Combat Training": "You are proficient in your choice of either the Blunt or Blade weapon type.",
             "Diplomat": "You gain proficiency in the Persuasion skill."
         },
         "Trait options": {
-            "Bonus Language": {
+            "Polyglot": {
                 "Proficiency Type": "Language",
                 "Options": [
                     1,
