@@ -127,17 +127,29 @@
             "Dragon Skin": "Your skin thickens to become that of a dragon when harmed. When you take damage from a spell, you can use your reaction to gain resistance against the damage dealt by the spell until the start of your next turn. If the spell deals multiple types of damage, you gain resistance to each of them. Once you use this trait, you must finish a long rest before you can use it again.",
             "Spell Warding": "You have a natural ability to ward off the hazardous effects of magic. Once on each turn, when you take damage from a spell, the total damage is reduced by an amount equal to your proficiency bonus. Additionally, you have advantage on saving throws against magic that cause the burning, chilled, or dazed condition.",
             "Find Familiar": "You know the find familiar spell and can cast it once with this trait. You regain the ability to cast it again when you finish a long rest.",
-            "Magical Studies": "You are proficient in your choice of the Arcana or Nature skill. Additionally, you learn one cantrip from the mage or warden spell list. Intelligence, Willpower, or Personality is your spellcasting ability for this spell (your choice when you choose this culture).",
+            "Magical Skill": "You are proficient in your choice of the Arcana or Nature skill.",            
+            "Magical Studies": "You learn one cantrip from the mage or warden spell list. Intelligence, Willpower, or Personality is your spellcasting ability for this spell (your choice when you choose this culture).",
             "Tool Proficiency": "You have proficiency with artisan's tools (alchemist supplies)."
         },
         "Trait options": {
-            "Magical Studies": {
-                "Type": "Spell",
+            "Magical Skill": {
+                "Proficiency Type": "Skill",
                 "Options": [
                     [
                         1,
                         "Arcana",
                         "Nature"
+                    ]
+                ]
+            },
+            "Magical Studies": {
+                "Type": "Spell",
+                "Options": [
+                    [
+                        1,
+                        "Intelligence",
+                        "Willpower",
+                        "Personality"
                     ],
                     [
                         "LVL_START0LVL_END_CLASS_STARTWarden, MageCLASS_END"
