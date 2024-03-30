@@ -4,21 +4,12 @@
         "Summary": "The Altmer are the most strongly gifted in the arcane arts. They are among the longest living and intelligent races of Tamriel, and they often become powerful magic users due to both their magical affinity and the many years they may devote to their studies.<br><br>On average, Altmer are of smaller build than humans, and thus generally not as strong. Their tall stature also makes them less agile than their Bosmeri cousins. However, Altmer are among the most intelligent and magically-inclined races on Nirn, surpassing even the Bretons in magical aptitude.",
         "Basics": "        <b>Age.</b>The average Altmer can live for over 400 years, although they are known to be able to live for thousands of years. It is rumored that some Altmer on the Summerset Isles are over 4000 years old. They reach puberty at 18 years old and are considered an adult at 30. They mature similar to humans, but their advanced age means that they are still considered young until the age of 60.<br><br>               Size.</b> High Elves are the tallest of the races of Tamriel, sometimes as tall as 7 feet, but they often have slender, thin builds. Your size is Medium.<br><br>                Speed.</b> Your base walking speed is 30 feet.",
         "Race proficiencies": {
-            "Armor": [
-                "sss"
-            ],
-            "Weapon": [
-                "sss"
-            ],
-            "Tool": [
-                "sss"
-            ],
-            "Language": [
-                "sss"
-            ],
-            "Skill": [
-                "sss"
-            ]
+            "Armor": [],
+            "Weapon": [],
+            "Tool": [],
+            "Language": [],
+            "Skill": [],
+            "Resistance": []
         },
         "Traits": {
             "Altmeri Resilience": "You have advantage on saving throws to resist diseases.",
@@ -28,6 +19,15 @@
             "Bonus Language": " You learn one additional common or uncommon language of your choice."
         },
         "Trait options": {
+            "Highborn": {
+                "Type": "Spellcasting Ability",
+                "Options": [
+                    1,
+                    "Intelligence",
+                    "Willpower",
+                    "Personality"
+                ]
+            },
             "Studious Nature": {
                 "Type": "SkillProficiency",
                 "Options": [
@@ -83,21 +83,12 @@
         "Summary": "They are known as the foremost experts in guerrilla warfare throughout the Starry Heart, a reputation brought upon them by defending their borders from enemies for countless centuries. Argonians have a lifespan similar to that of humans. According to the First Era Scholar Brendan the Persistent “the Argonian people have, throughout Tamrielic history, been perhaps the most misunderstood, vilified, and reviled of all the sentient races. Yet, those who have taken the time to experience Argonian culture have gained a greater appreciation for this noble and beautiful people. However, it should be noted that he himself went missing in his final expedition into the deeper swamps of their homeland.<br><br>Outside of the Black Marsh, little is known of their homeland or native culture, and their alien physiology and customs are not well understood by scholars. They have been perhaps the most misunderstood of all the intelligent races.",
         "Basics": "        Attribute Score Increases.</b> When determining your attribute scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.<br><br><b>Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>        Age.</b> An Argonian’s life is usually met with hardship and because of this, their lifespan is typically shorter than it should be. On average they live to 75 years, but living to 200 isn't unattainable.<br><br><b>Speed.</b> Your base walking speed is 30 feet. As an Argonian, you are a naturally gifted swimmer which grants you a swimming speed of 40 feet.",
         "Race proficiencies": {
-            "Armor": [
-                "sss"
-            ],
-            "Weapons": [
-                "sss"
-            ],
-            "Tools": [
-                "sss"
-            ],
-            "Saving": [
-                "sss"
-            ],
-            "Skills": [
-                "sss"
-            ]
+            "Armor": [],
+            "Weapon": [],
+            "Tool": [],
+            "Language": [],
+            "Skill": [],
+            "Resistance": []
         },
         "Traits": {
             "Argonian Resilience": "Your Argonian bloodline grants you advantage on saving throws against disease.",
@@ -110,20 +101,12 @@
                 "Description": "One of the lesser known ancestries of Argonians is known as the Naga. They mostly live in the inner swamps of the Black Marsh and are hardly seen in other parts of Tamriel. The Naga are fierce and strategic warriors that know how to survive in the harsh conditions of Black Marsh.",
                 "Basics": "<b>Size.</b> Tall and slender, Naga stand 7 to 8 feet tall on average and usually weigh less than 250 pounds. Your size is medium.<br><br><b>Appearance.</b> Like their Saxhleel cousins, Naga come with unique cranial features and coloring. Their frills and ridges tend to be more snake-like in nature and they have large mouths with needle-like fangs.",
                 "Race proficiencies": {
-                    "Armor": [
-                        "sss"
-                    ],
-                    "Weapons": [
-                        "sss"
-                    ],
-                    "Tools": [
-                        "sss"
-                    ],
-                    "Saving": [
-                        "sss"
-                    ],
-                    "Skills": [
-                        "sss"
+                    "Armor": [],
+                    "Weapon": [],
+                    "Tool": [],
+                    "Language": [],
+                    "Skill": [
+                        "Survival"
                     ]
                 },
                 "Traits": {
@@ -135,25 +118,25 @@
                 "Description": "As one of the most common Argonian ancestries found outside of the Black Marsh, most people are familiar with you and your connection with the Hist. Saxhleel are known for their dedication to alchemy and creating healing concoctions.",
                 "Basics": "<b>Size.</b> Argonians are about the same size as humans, averaging around 6 feet tall, but their frills and feathers make them appear larger. Your size is Medium.<br><br><b>Appearance.</b> Argonians have a wide variety of cranial features such as fins, feathers, ridges, spines, spikes, or horns. Some Argonians have been known to pierce their cranial features.",
                 "Race proficiencies": {
-                    "Armor": [
-                        "sss"
-                    ],
-                    "Weapons": [
-                        "sss"
-                    ],
-                    "Tools": [
-                        "sss"
-                    ],
-                    "Saving": [
-                        "sss"
-                    ],
-                    "Skills": [
-                        "sss"
-                    ]
+                    "Armor": [],
+                    "Weapon": [],
+                    "Tool": [],
+                    "Language": [],
+                    "Skill": []
                 },
                 "Traits": {
-                    "Natural Magic": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Witch Bolt spell as a 2nd level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Darkness spell once with this trait and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells.",
+                    "Saxhleel Natural Magic": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Witch Bolt spell as a 2nd level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Darkness spell once with this trait and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells.",
                     "Potion Affinity": "You gain proficiency with your choice of artisan's tools: alchemist's supplies or the herbalism kit. Additionally, the amount of time it takes to craft an item using the chosen artisan’s tools is reduced by half."
+                },
+                "Trait options": {
+                    "Potion Affinity": {
+                        "Type": "ToolProficiency",
+                        "Options": [
+                            1,
+                            "Alchemist's supplies",
+                            "Herbalism kit"
+                        ]
+                    }
                 }
             }
         }
@@ -166,16 +149,19 @@
             "Armor": [
                 "sss"
             ],
-            "Weapons": [
+            "Weapon": [
                 "sss"
             ],
-            "Tools": [
+            "Tool": [
                 "sss"
             ],
-            "Saving": [
+            "Language": [
                 "sss"
             ],
-            "Skills": [
+            "Skill": [
+                "sss"
+            ],
+            "Resistance": [
                 "sss"
             ]
         },
@@ -212,16 +198,19 @@
             "Armor": [
                 "sss"
             ],
-            "Weapons": [
+            "Weapon": [
                 "sss"
             ],
-            "Tools": [
+            "Tool": [
                 "sss"
             ],
-            "Saving": [
+            "Language": [
                 "sss"
             ],
-            "Skills": [
+            "Skill": [
+                "sss"
+            ],
+            "Resistance": [
                 "sss"
             ]
         },
@@ -268,16 +257,19 @@
             "Armor": [
                 "sss"
             ],
-            "Weapons": [
+            "Weapon": [
                 "sss"
             ],
-            "Tools": [
+            "Tool": [
                 "sss"
             ],
-            "Saving": [
+            "Language": [
                 "sss"
             ],
-            "Skills": [
+            "Skill": [
+                "sss"
+            ],
+            "Resistance": [
                 "sss"
             ]
         },
@@ -315,16 +307,19 @@
             "Armor": [
                 "sss"
             ],
-            "Weapons": [
+            "Weapon": [
                 "sss"
             ],
-            "Tools": [
+            "Tool": [
                 "sss"
             ],
-            "Saving": [
+            "Language": [
                 "sss"
             ],
-            "Skills": [
+            "Skill": [
+                "sss"
+            ],
+            "Resistance": [
                 "sss"
             ]
         },
@@ -384,16 +379,16 @@
                     "Armor": [
                         "sss"
                     ],
-                    "Weapons": [
+                    "Weapon": [
                         "sss"
                     ],
-                    "Tools": [
+                    "Tool": [
                         "sss"
                     ],
-                    "Saving": [
+                    "Language": [
                         "sss"
                     ],
-                    "Skills": [
+                    "Skill": [
                         "sss"
                     ]
                 },
@@ -409,16 +404,16 @@
                     "Armor": [
                         "sss"
                     ],
-                    "Weapons": [
+                    "Weapon": [
                         "sss"
                     ],
-                    "Tools": [
+                    "Tool": [
                         "sss"
                     ],
-                    "Saving": [
+                    "Language": [
                         "sss"
                     ],
-                    "Skills": [
+                    "Skill": [
                         "sss"
                     ]
                 },
@@ -447,16 +442,19 @@
             "Armor": [
                 "sss"
             ],
-            "Weapons": [
+            "Weapon": [
                 "sss"
             ],
-            "Tools": [
+            "Tool": [
                 "sss"
             ],
-            "Saving": [
+            "Language": [
                 "sss"
             ],
-            "Skills": [
+            "Skill": [
+                "sss"
+            ],
+            "Resistance": [
                 "sss"
             ]
         },
@@ -473,16 +471,16 @@
                     "Armor": [
                         "sss"
                     ],
-                    "Weapons": [
+                    "Weapon": [
                         "sss"
                     ],
-                    "Tools": [
+                    "Tool": [
                         "sss"
                     ],
-                    "Saving": [
+                    "Language": [
                         "sss"
                     ],
-                    "Skills": [
+                    "Skill": [
                         "sss"
                     ]
                 },
@@ -519,16 +517,16 @@
                     "Armor": [
                         "sss"
                     ],
-                    "Weapons": [
+                    "Weapon": [
                         "sss"
                     ],
-                    "Tools": [
+                    "Tool": [
                         "sss"
                     ],
-                    "Saving": [
+                    "Language": [
                         "sss"
                     ],
-                    "Skills": [
+                    "Skill": [
                         "sss"
                     ]
                 },
@@ -544,16 +542,16 @@
                     "Armor": [
                         "sss"
                     ],
-                    "Weapons": [
+                    "Weapon": [
                         "sss"
                     ],
-                    "Tools": [
+                    "Tool": [
                         "sss"
                     ],
-                    "Saving": [
+                    "Language": [
                         "sss"
                     ],
-                    "Skills": [
+                    "Skill": [
                         "sss"
                     ]
                 },
@@ -569,16 +567,16 @@
                     "Armor": [
                         "sss"
                     ],
-                    "Weapons": [
+                    "Weapon": [
                         "sss"
                     ],
-                    "Tools": [
+                    "Tool": [
                         "sss"
                     ],
-                    "Saving": [
+                    "Language": [
                         "sss"
                     ],
-                    "Skills": [
+                    "Skill": [
                         "sss"
                     ]
                 },
@@ -594,16 +592,16 @@
                     "Armor": [
                         "sss"
                     ],
-                    "Weapons": [
+                    "Weapon": [
                         "sss"
                     ],
-                    "Tools": [
+                    "Tool": [
                         "sss"
                     ],
-                    "Saving": [
+                    "Language": [
                         "sss"
                     ],
-                    "Skills": [
+                    "Skill": [
                         "sss"
                     ]
                 },
@@ -632,16 +630,19 @@
             "Armor": [
                 "sss"
             ],
-            "Weapons": [
+            "Weapon": [
                 "sss"
             ],
-            "Tools": [
+            "Tool": [
                 "sss"
             ],
-            "Saving": [
+            "Language": [
                 "sss"
             ],
-            "Skills": [
+            "Skill": [
+                "sss"
+            ],
+            "Resistance": [
                 "sss"
             ]
         },
@@ -662,16 +663,19 @@
             "Armor": [
                 "sss"
             ],
-            "Weapons": [
+            "Weapon": [
                 "sss"
             ],
-            "Tools": [
+            "Tool": [
                 "sss"
             ],
-            "Saving": [
+            "Language": [
                 "sss"
             ],
-            "Skills": [
+            "Skill": [
+                "sss"
+            ],
+            "Resistance": [
                 "sss"
             ]
         },
@@ -691,16 +695,16 @@
                     "Armor": [
                         "sss"
                     ],
-                    "Weapons": [
+                    "Weapon": [
                         "sss"
                     ],
-                    "Tools": [
+                    "Tool": [
                         "sss"
                     ],
-                    "Saving": [
+                    "Language": [
                         "sss"
                     ],
-                    "Skills": [
+                    "Skill": [
                         "sss"
                     ]
                 },
@@ -727,16 +731,16 @@
                     "Armor": [
                         "sss"
                     ],
-                    "Weapons": [
+                    "Weapon": [
                         "sss"
                     ],
-                    "Tools": [
+                    "Tool": [
                         "sss"
                     ],
-                    "Saving": [
+                    "Language": [
                         "sss"
                     ],
-                    "Skills": [
+                    "Skill": [
                         "sss"
                     ]
                 },
@@ -751,16 +755,16 @@
                     "Armor": [
                         "sss"
                     ],
-                    "Weapons": [
+                    "Weapon": [
                         "sss"
                     ],
-                    "Tools": [
+                    "Tool": [
                         "sss"
                     ],
-                    "Saving": [
+                    "Language": [
                         "sss"
                     ],
-                    "Skills": [
+                    "Skill": [
                         "sss"
                     ]
                 },
@@ -778,16 +782,19 @@
             "Armor": [
                 "sss"
             ],
-            "Weapons": [
+            "Weapon": [
                 "sss"
             ],
-            "Tools": [
+            "Tool": [
                 "sss"
             ],
-            "Saving": [
+            "Language": [
                 "sss"
             ],
-            "Skills": [
+            "Skill": [
+                "sss"
+            ],
+            "Resistance": [
                 "sss"
             ]
         },
@@ -807,16 +814,16 @@
                     "Armor": [
                         "sss"
                     ],
-                    "Weapons": [
+                    "Weapon": [
                         "sss"
                     ],
-                    "Tools": [
+                    "Tool": [
                         "sss"
                     ],
-                    "Saving": [
+                    "Language": [
                         "sss"
                     ],
-                    "Skills": [
+                    "Skill": [
                         "sss"
                     ]
                 },
@@ -831,16 +838,16 @@
                     "Armor": [
                         "sss"
                     ],
-                    "Weapons": [
+                    "Weapon": [
                         "sss"
                     ],
-                    "Tools": [
+                    "Tool": [
                         "sss"
                     ],
-                    "Saving": [
+                    "Language": [
                         "sss"
                     ],
-                    "Skills": [
+                    "Skill": [
                         "sss"
                     ]
                 },
