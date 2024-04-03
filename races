@@ -4,7 +4,7 @@
         "Summary": "The Altmer are the most strongly gifted in the arcane arts. They are among the longest living and intelligent races of Tamriel, and they often become powerful magic users due to both their magical affinity and the many years they may devote to their studies.<br><br>On average, Altmer are of smaller build than humans, and thus generally not as strong. Their tall stature also makes them less agile than their Bosmeri cousins. However, Altmer are among the most intelligent and magically-inclined races on Nirn, surpassing even the Bretons in magical aptitude.",
         "Basics": "        <b>Age.</b>The average Altmer can live for over 400 years, although they are known to be able to live for thousands of years. It is rumored that some Altmer on the Summerset Isles are over 4000 years old. They reach puberty at 18 years old and are considered an adult at 30. They mature similar to humans, but their advanced age means that they are still considered young until the age of 60.<br><br>               Size.</b> High Elves are the tallest of the races of Tamriel, sometimes as tall as 7 feet, but they often have slender, thin builds. Your size is Medium.<br><br>                Speed.</b> Your base walking speed is 30 feet.",
         "Race proficiencies": {
-            "Armor": [],
+            
             "Weapon": [],
             "Tool": [],
             "Language": [
@@ -86,7 +86,7 @@
         "Summary": "They are known as the foremost experts in guerrilla warfare throughout the Starry Heart, a reputation brought upon them by defending their borders from enemies for countless centuries. Argonians have a lifespan similar to that of humans. According to the First Era Scholar Brendan the Persistent “the Argonian people have, throughout Tamrielic history, been perhaps the most misunderstood, vilified, and reviled of all the sentient races. Yet, those who have taken the time to experience Argonian culture have gained a greater appreciation for this noble and beautiful people. However, it should be noted that he himself went missing in his final expedition into the deeper swamps of their homeland.<br><br>Outside of the Black Marsh, little is known of their homeland or native culture, and their alien physiology and customs are not well understood by scholars. They have been perhaps the most misunderstood of all the intelligent races.",
         "Basics": "        Attribute Score Increases.</b> When determining your attribute scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.<br><br><b>Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>        Age.</b> An Argonian’s life is usually met with hardship and because of this, their lifespan is typically shorter than it should be. On average they live to 75 years, but living to 200 isn't unattainable.<br><br><b>Speed.</b> Your base walking speed is 30 feet. As an Argonian, you are a naturally gifted swimmer which grants you a swimming speed of 40 feet.",
         "Race proficiencies": {
-            "Armor": [],
+            
             "Weapon": [],
             "Tool": [],
             "Language": [
@@ -107,10 +107,8 @@
                 "Description": "One of the lesser known ancestries of Argonians is known as the Naga. They mostly live in the inner swamps of the Black Marsh and are hardly seen in other parts of Tamriel. The Naga are fierce and strategic warriors that know how to survive in the harsh conditions of Black Marsh.",
                 "Basics": "<b>Size.</b> Tall and slender, Naga stand 7 to 8 feet tall on average and usually weigh less than 250 pounds. Your size is medium.<br><br><b>Appearance.</b> Like their Saxhleel cousins, Naga come with unique cranial features and coloring. Their frills and ridges tend to be more snake-like in nature and they have large mouths with needle-like fangs.",
                 "Race proficiencies": {
-                    "Armor": [],
+                    
                     "Weapon": [],
-                    "Tool": [],
-                    "Language": [],
                     "Skill": [
                         "Survival"
                     ]
@@ -124,10 +122,8 @@
                 "Description": "As one of the most common Argonian ancestries found outside of the Black Marsh, most people are familiar with you and your connection with the Hist. Saxhleel are known for their dedication to alchemy and creating healing concoctions.",
                 "Basics": "<b>Size.</b> Argonians are about the same size as humans, averaging around 6 feet tall, but their frills and feathers make them appear larger. Your size is Medium.<br><br><b>Appearance.</b> Argonians have a wide variety of cranial features such as fins, feathers, ridges, spines, spikes, or horns. Some Argonians have been known to pierce their cranial features.",
                 "Race proficiencies": {
-                    "Armor": [],
+                    
                     "Weapon": [],
-                    "Tool": [],
-                    "Language": [],
                     "Skill": []
                 },
                 "Traits": {
@@ -152,7 +148,7 @@
         "Summary": "The best archers in all of Tamriel, the Bosmer snatch and fire arrows in one continuous motion; they are even rumored to have invented the bow. They have many natural and unique abilities; notably, they can command simple-minded creatures and have a nearly chameleon-like ability to hide in forested areas. Many in the forests of Valenwood follow the tenets of the Green Pact. These 'Green Pact Bosmer' are religiously carnivorous and cannibalistic, and do not harm the vegetation of Valenwood, though they are not averse to using wooden or plant-derived products created by others.<br><br>The Bosmer are one of the smallest races in Tamriel and are born with skin colors ranging from light brown to pale tan to light green. Biologically, the Bosmer are cousins of the Dunmer, or Dark Elves, and the Altmer, or High Elves. The Wood Elves lineage is less noble than that of the Altmer, but they have adapted well to Tamriel. After the Ayleids fled mainland Cyrodiil, they joined the Bosmer in seclusion, eventually being totally assimilated by the Bosmer. This probably significantly affected biology of modern day Bosmer.",
         "Basics": "<b>Attribute Score Increases.</b> When determining your attribute scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.<br><br><b>Alignment.</b> Each ancestry has stereotypes about what they believe, but these are broad strokes that might only apply to a group, rather than to an individual. Each player character’s alignment is entirely under the purview of the player.<br><br>Stereotypically, Wood Elves love their freedom from the more structured societies, but they also come from a history of strict tradition. Bosmer are neutral good more often than not, but those who ignore the pact might favor the gentler aspects of chaos.<br><br><b>Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>Age.</b> Like the Altmer, Bosmer mature the same way as humans do, but they can live up to 300 years or more.<br><br><b>Size.</b> Bosmer are smaller and more delicate than other races, they are rarely over 5 and a half feet in height. Your size is Medium.<br><br><b>Speed.</b> Your base walking speed is 35 feet.",
         "Race proficiencies": {
-            "Armor": [],
+            
             "Weapon": [
                 "Marksman"
             ],
@@ -198,7 +194,7 @@
         "Summary": "Bretons are the descendants of either an Aldmeri-Nedic or Aldmeri-Atmoran hybrid race of the 1st Era and are consequently termed as 'the mongrel race of Tamriel'. Their elven blood is heavily diluted, due to their ancestors intermingling with the Nordic population in Skyrim and High Rock. Bretons are sometimes called 'Manmeri' as a result of the interbreeding, literally translating to 'man-elf'. Although their Aldmeri ancestry is shadowed by their appearance, they still inherit the magical affinity of their elven blood. Their physical features resemble their Nedic ancestors, including their pale skin tone and the obvious physical resemblance to Imperials/Nords, but some still inherit the frail, sharp appearance of the elves, along with the arrogance, and some do have slight points in their ears.",
         "Basics": "<b>        Attribute Score Increases.</b> When determining your attribute scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.<br><br><b>Alignment.</b> Bretons tend towards neutral good. Their feudal governments lend them a mix of freedoms and laws, depending on their station in life.<br><br><b>Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>Size.</b> Bretons take after their elven bloodlines and are typically more slender than your average human. They range from 5 to 6 feet tall. Your size is Medium.<br><br><b>Speed.</b> Your base walking speed is 30 feet.",
         "Race proficiencies": {
-            "Armor": [],
+            
             "Weapon": [],
             "Tool": [
                 "Alchemist supplies"
@@ -250,20 +246,17 @@
         "Basics": "<b>Attribute Score Increases.</b> When determining your attribute scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.<br><br><b>Alignment.</b> Each ancestry has stereotypes about what they believe, but these are broad strokes that might only apply to a group, rather than to an individual. Each player character’s alignment is entirely under the purview of the player.<br><br>Dunmer tend to be neutral with a propensity for chaos. They have rejected many of the traditions that were set before them, while adopting new customs of their own.<br><br><b>Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>Age.</b> As all elves, Dunmer are long lived, maturing at the same rate as humans, but possibly living longer than 300 years.<br><br><b>Size.</b> Dark Elves have average builds, and their height is between 5 and 6 feet tall. Your size is Medium.<br><br><b>Speed.</b> Your base walking speed is 30 feet.",
         "Race proficiencies": {
             "Armor": [
-                "sss"
             ],
             "Weapon": [
-                "sss"
+                "Blade","Marksman"
             ],
             "Tool": [
-                "sss"
             ],
             "Language": [
-                "Tamrielic",
+                "Dunmeris",
                 "Tamrielic"
             ],
             "Skill": [
-                "sss"
             ],
             "Resistance": [
                 "Fire damage"
@@ -300,7 +293,7 @@
         "Summary": "Though physically less imposing than the other races, the Imperials have proved to be shrewd diplomats and traders, and these traits, along with their remarkable skill and training as light infantry, have enabled them to subdue all the other nations and races and erect the monument to peace and prosperity that comprises the Glorious Empire. Their hegemony has waxed and waned throughout the eras, and most historians refer to three distinct Empires, the ends of which each mark a new epoch in Tamrielic history.",
         "Basics": "<b>Attribute Score Increases.</b> A classic depiction of an Imperial would suggest that your Personality score increases by 2. <br><br><b>Alignment.</b> Each ancestry has stereotypes about what they believe, but these are broad strokes that might only apply to a group, rather than to an individual. Each player character’s alignment is entirely under the purview of the player.<br><br><b>Speed.</b>Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>Speed.</b>Size.</b> Imperials range from 5 to 6 feet tall, and vary in build. Your size is medium.<br><br><b>Speed.</b> Your base walking speed is 30 feet.        ",
         "Race proficiencies": {
-            "Armor": [],
+            
             "Weapon": [],
             "Tool": [],
             "Language": [
@@ -363,10 +356,8 @@
                 "Description": "The Cyro-Nords that settled in the west created the Colovian Estates, and in turn called themselves Colovians. They are typically more rugged and hardy than their Nibenese counterparts. They are uncomplicated, self-sufficient, and extremely loyal to other Colovians.",
                 "Basics": "<b>Attribute Score Increase.</b> Increase your Strength by 1.",
                 "Race proficiencies": {
-                    "Armor": [],
+                    
                     "Weapon": [],
-                    "Tool": [],
-                    "Language": [],
                     "Skill": []
                 },
                 "Traits": {
@@ -378,10 +369,8 @@
                 "Description": "The Imperials that settled in the East, by the Nibenay, became the Nibenese. This area was brought together by the Alessian order and maintains strong merchant guilds. Nibenese are proud cosmopolitan people who maintain strong relationships with the other provinces through merchant guilds. They are more given to the studies of magic, philosophy, and the evolution of ancient tradition. Many outfit themselves in garish clothing, tattoos, and brandings.",
                 "Basics": "<b>Attribute Score Increase.</b> Your Intelligence score increases by 1.",
                 "Race proficiencies": {
-                    "Armor": [],
+                    
                     "Weapon": [],
-                    "Tool": [],
-                    "Language": [],
                     "Skill": []
                 },
                 "Traits": {
@@ -406,7 +395,7 @@
         "Summary": "Physiologically, Khajiit differ greatly from both the varied races of man and mer, not only in their skeletal structure (possessing a tail and, in some forms, a digitigrade stance, i.e. toe walking) and dermal makeup (the 'fur' that covers their bodies) but in their digestion and metabolism as well. The Khajiit, along with the Argonians and theImga, make up the so called 'beast races' of the Empire, due to their anthropomorphic qualities. Khajiit have a lifespan similar to that of humans. It is currently unclear whether a successful union between Khajiit and other races may occur, for no well-documented cases exist despite rumors. The divergent appearance and mannerisms of the Khajiit often lead bigoted members of other races to look down on them.",
         "Basics": "<b>Attribute Score Increase.</b> Your Agility score increases by 2.        <br><br>        <b>Age.</b> Different Khajiit born under different cycles have significantly different life spans. They can range from 150 to 400 years, if not more.        <br><br>        <b>Alignment.</b> Khajiit tend toward chaotic alignments, as they let impulse and fancy guide their decisions. They are rarely evil, except for those driven by greed or other dark impulses.        <br><br>        <b>Speed.</b> Your base walking speed is 35 feet.        <br><br>        <b>Languages.</b> You can speak, read, and write Tamrielic and Ta'agra. Ta'agra script combines unique and fluid motions. Artistic interpretation is praised and varies greatly between authors.",
         "Race proficiencies": {
-            "Armor": [],
+            
             "Weapon": [],
             "Tool": [],
             "Language": [
@@ -426,21 +415,7 @@
                 "Description": "Alfiq resemble ordinary housecats, but they should not be underestimated. These highly intelligent Khajiit are celebrated as spellcasters and often wear clothing to distinguish themselves from a typical cat.",
                 "Basics": "<b>Attribute Score Increase.</b> Increase your Intelligence by 1               <br><br>                <b>Size.</b> Alfiq are the size of an average housecat, around 1 foot tall and weighing 4 to 7 pounds. Your size is Tiny.",
                 "Race proficiencies": {
-                    "Armor": [
-                        "sss"
-                    ],
-                    "Weapon": [
-                        "sss"
-                    ],
-                    "Tool": [
-                        "sss"
-                    ],
-                    "Language": [
-                        "sss"
-                    ],
-                    "Skill": [
-                        "sss"
-                    ]
+                    "Resistance": ["Falling damage"]
                 },
                 "Traits": {
                     "Compensating for Size": "You have an innate well of magicka within you. You have 2 magicka points that you can use to cast spells. Additionally, you know one cantrip and one 1st level spell from the mage spell list. You regain all expended magicka when you finish a long rest. Intelligence, Willpower, or Personality is your spellcasting ability for these spells (your choice when you choose this ancestry), you must expend magicka to cast them, and you can only cast them at their base level.",
@@ -472,13 +447,11 @@
                 "Description": "The Ohmes generally look more similar to the Bosmer, although slightly smaller in stature, than they do to their feline brothers. Many Ohmes will paint or tattoo their faces to resemble their feline heritage. Unlike other Khajiit, they have no fur, no tail, or any other distinguishable Khajiit feature.                <br><br>                Ohmes-raht have slightly larger builds than their ohmes cousins, usually similar in size and appearance of men, other than their short light fur and tails. Also similar to men, the Ohmes-raht walk on their heels as opposed to the balls of their feet like many other species of Khajiit.",
                 "Basics": "<b>Attribute Score Increase.</b> Your Personality score increases by 1.                <br><br>                <b>Size.</b> Ohmes Khajiit are similar in size to the Bosmer, rarely taller than 5 feet tall, whereas Ohmes-raht range from 5 to 6 feet tall. Your size is medium.",
                 "Race proficiencies": {
-                    "Armor": [],
+                    
                     "Weapon": [
                         "Hand-to-Hand",
                         "Short Blade"
                     ],
-                    "Tool": [],
-                    "Language": [],
                     "Skill": [
                         "Deception",
                         "Persuasion"
@@ -493,21 +466,6 @@
                 "Description": "Similar in height to the Ohmes but that is mostly where the similarities end. The Suthay are much more cat like in appearance with their high set ears and feline facial features, along with a long tail and digitigrade legs.                <br><br>                Suthay-raht are nearly the same as the Suthay in all their features except their stature closer resembles the height of men. The Suthay-raht are the most common breed of Khajiit outside of Elsweyr.",
                 "Basics": "<b>Attribute Score Increase.</b> Your Endurance score increases by 1.                <br><br>                <b>Size.</b> Suthay Khajiit are similar in size to the Ohmes, rarely taller than 5 feet tall. Suthay-raht range from 5 feet to 6 feet tall. Your size is medium.",
                 "Race proficiencies": {
-                    "Armor": [
-                        "sss"
-                    ],
-                    "Weapon": [
-                        "sss"
-                    ],
-                    "Tool": [
-                        "sss"
-                    ],
-                    "Language": [
-                        "sss"
-                    ],
-                    "Skill": [
-                        "sss"
-                    ]
                 },
                 "Traits": {
                     "Natural Bandit": "You are able to use your claws as thieves' tools. You can add your proficiency modifier to any check using your claws in this way, even if you are not proficient in thieves' tools.",
@@ -518,21 +476,6 @@
                 "Description": "Similar to the Suthay-raht in appearance and bi-pedalism, however they possess greater stature and strength.                <br><br>                Cathay-raht are larger and more powerful and are often described as 'jaguar-men'.",
                 "Basics": "<b>Attribute Score Increase.</b> Your Strength score increases by 1.                <br><br>                <b>Size.</b> Cathay Khajiit are similar in size to most men and range from 5 feet to 6 ½ feet. Your size is medium.",
                 "Race proficiencies": {
-                    "Armor": [
-                        "sss"
-                    ],
-                    "Weapon": [
-                        "sss"
-                    ],
-                    "Tool": [
-                        "sss"
-                    ],
-                    "Language": [
-                        "sss"
-                    ],
-                    "Skill": [
-                        "sss"
-                    ]
                 },
                 "Traits": {
                     "Powerful Build": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
@@ -543,21 +486,6 @@
                 "Description": "Dagi live in the trees of the Tenmar forest. Due to their smaller size and light weight, they are able to dwell in the higher branches which even the Bosmer cannot reach. The Dagi have a natural affinity for magic, and are known spellcasters, a characteristic often taken advantage of in Khajiiti battle-tactics.            <br><br>            The Dagi-raht are similar in all respects, while their size is somewhat larger.",
                 "Basics": "<b>Attribute Score Increase.</b> Your Intelligence score increases by 1.            <br><br>            <b>Size.</b> Dagi and Dagi-raht average about 3 to 4 feet tall and weigh around 40 pounds. Your Size is small.",
                 "Race proficiencies": {
-                    "Armor": [
-                        "sss"
-                    ],
-                    "Weapon": [
-                        "sss"
-                    ],
-                    "Tool": [
-                        "sss"
-                    ],
-                    "Language": [
-                        "sss"
-                    ],
-                    "Skill": [
-                        "sss"
-                    ]
                 },
                 "Traits": {
                     "Natural Magic": "You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the magic missile spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Intelligence, Willpower, or Personality is your spellcasting ability for these spells (your choice when you choose this ancestry)."
@@ -581,7 +509,7 @@
         "Summary": "Eager to augment their martial skills beyond the traditional methods of Skyrim, they excel in all manner of warfare, and are known as a militant people by their neighbors. Nords are also natural seamen, and have benefited from nautical trade since their first migrations from Atmora. They captain and crew many merchant fleets, and may be found all along the coasts of Tamriel.",
         "Basics": "<b>Attribute Score Increases.</b> A classic depiction of a Nord would suggest that your Endurance score increases by 2 and your Strength scores increase by 1.<br><br><b>Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>Age.</b> Nords, like most men, are not particularly long lived, and they mature at a normal rate, and almost never live longer than a century.<br><br><b>Size.</b> Nords are the largest of men, ranging from 6 to 6½ feet tall. Your size is Medium.<br><br><b>Speed.</b> Your base walking speed is 30 feet.",
         "Race proficiencies": {
-            "Armor": [],
+            
             "Weapon": [
                 "Axe",
                 "Spear"
@@ -612,7 +540,7 @@
         "Summary": "Orcs were born during the latter days of the Dawn Era. History has mislabeled them beastfolk, related to the goblin races, but the Orcs are actually the children of Trinimac, strongest of the Aldmeri ancestor spirits. When Trinimac was eaten by the Daedric Prince Boethiah, and transformed in that foul god's insides, the Orcs were transformed as well. The ancient name for the 'Orsimer,' which means 'The Pariah Folk.' They now follow Malauch, better known as Malacath, the remains of Trinimac.",
         "Basics": "<b>Attribute Score Increases.</b> A classic depiction of an Orsimer would suggest that your Endurance and Willpower scores increase by 1.<br><br><b>        Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>Age.</b> While they are Mer, Orcs do not live as long as their distant cousins. They could live up to 80 years old, but the Code of Malacath demands that an old Orc should end his life before he becomes weak and a burden to his clan. They rarely live longer than 50 years. They reach adulthood at age 16.<br><br><b>Size.</b> Orcs are broad and hardy, they are usually around 6 feet tall and weigh around 200 pounds. Your size is Medium.<br><br><b>Speed.</b> Your base walking speed is 30 feet.",
         "Race proficiencies": {
-            "Armor": [],
+            
             "Weapon": [],
             "Tool": [
                 "Smith's tools"
@@ -639,10 +567,8 @@
                 "Description": "Not all Orsimer choose to live in the strongholds. Those that choose to live in the cities live a much more cosmopolitan life, but they are sometimes derided by other orcs for doing so.",
                 "Basics": "<b>Attribute Score Increase.</b> Increase your Intelligence by 1 ",
                 "Race proficiencies": {
-                    "Armor": [],
+                    
                     "Weapon": [],
-                    "Tool": [],
-                    "Language": [],
                     "Skill": []
                 },
                 "Traits": {
@@ -665,10 +591,8 @@
                 "Description": "Traditional Orsimer society is centered around living in stronghold settlements. These independent villages follow the Code of Malacath, and the strength of each tribe depends on their strongest warrior.",
                 "Basics": "<b>Attribute Score Increase.</b> increase your Strength by 1",
                 "Race proficiencies": {
-                    "Armor": [],
+                    
                     "Weapon": [],
-                    "Tool": [],
-                    "Language": [],
                     "Skill": []
                 },
                 "Traits": {
@@ -679,10 +603,8 @@
                 "Description": "Valenwood is typically home to the Bosmer, but many tribes of Orismer have made this forested province their home. Like other orcs, they prize strength and honor, but to the wood orcs this means having agility and mobility as much as it does muscular power and endurance.",
                 "Basics": "<b>Attribute Score Increase.</b> Increase your Willpower by 1",
                 "Race proficiencies": {
-                    "Armor": [],
+                    
                     "Weapon": [],
-                    "Tool": [],
-                    "Language": [],
                     "Skill": []
                 },
                 "Traits": {
@@ -696,7 +618,7 @@
         "Summary": "Custom and dress differ by district; the Redguards of Elinhir are Colovian in fashion and taste, while some in Rihad go naked in the streets. In demeanor, they are haughty and easily provoked, and, obsessed with personal honor.<br><br>There is no standing army in Hammerfell, only paid militias of the oft-contested border-states and along its coastline. Ancient tradition has predisposed the Redguards to knightly order, though, customarily in the service of royal families. Initiates of these orders must prove themselves in dangerous, even deadly, tests of skill.",
         "Basics": "<b>Attribute Score Increases.</b> A classic depiction of a Redguard would suggest that your Your Agility, Endurance, and Strength scores increase by 1.<br><br><b>Languages.</b> Your character can speak, read, and write Tamrielic (sometimes referred to as Cyrodiilic or Common) and one other language that you and your GM agree is appropriate for the character.<br><br><b>Age.</b> Redguards age as the rest of the the human races, rarely living over a century.<br><br><b>Size.</b> Redguards are strong and tall, often over 6 feet tall. Your size is Medium.<br><br><b>Speed.</b> Your base walking speed is 30 feet.",
         "Race proficiencies": {
-            "Armor": [],
+            
             "Weapon": [
                 "Blade"
             ],
@@ -723,10 +645,8 @@
                 "Description": "Descendants of the Na-Totambu, the Crowns revere tradition and shun outsiders. They typically come from the harsh interior of Hammerfell and take pride in their traditions and religion.",
                 "Basics": " ",
                 "Race proficiencies": {
-                    "Armor": [],
+                    
                     "Weapon": [],
-                    "Tool": [],
-                    "Language": [],
                     "Skill": []
                 },
                 "Traits": {
@@ -737,12 +657,11 @@
                 "Description": "                The warriors of the Ra’Gada that first came to Tamriel from Yokuda eventually became known as the Forebears. Most Forebear settlements exist on the edges of Hammerfell, and they are a progressive and cosmopolitan people.",
                 "Basics": " ",
                 "Race proficiencies": {
-                    "Armor": [],
+                    
                     "Weapon": [],
                     "Tool": [
                         "Vehicles (land)"
                     ],
-                    "Language": [],
                     "Skill": []
                 },
                 "Traits": {
