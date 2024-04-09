@@ -490,7 +490,7 @@
                     },
                     "Minor Marks": {
                         "Input type": "Checkbox",
-                        "Max options": {
+                        "Max options per level": {
                             "6": 1,
                             "10": 2,
                             "14": 3
