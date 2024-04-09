@@ -171,7 +171,7 @@
                 "Description": "You gain an uncanny sense of when things nearby aren’t as they should be, giving you an edge when you dodge away from danger.<br><br>You have advantage on Agility saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can’t be blinded, deafened, or incapacitated."
             },
             "Primal Path": {
-"Special":"Subclass",
+                "Special": "Subclass",
                 "Level": 3,
                 "Description": "Choose a path that shapes the nature of your rage, all detailed at the end of the class description. Additionally, you can choose any barbarian's Primal Path outlined in the 5e Core Rules. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels."
             },
@@ -255,7 +255,7 @@
                     },
                     "Dread Warrior": {
                         "Level": 10,
-                        "Description": "Beginning at 10th level, your physique is so intimidating that you inspire dread in your enemies. You can use a bonus action to make yourself appear exceptionally fearful. Every creature within 10 feet of you suffers from one of the following effects of your choice:<ul><li>                        Disadvantage on Strength and Agility checks</li><li>                        Disadvantage on Willpower and Personality checks</li><li>                        All intimidation checks by you and your allies have advantage.</li></ul>                        This effect lasts up to 1 minute, and requires concentration to maintain. Once you use this feature, you cannot use it again until you finish a short or long rest."
+                        "Description": "Beginning at 10th level, your physique is so intimidating that you inspire dread in your enemies. You can use a bonus action to make yourself appear exceptionally fearful. Every creature within 10 feet of you suffers from one of the following effects of your choice:<ul><li>Disadvantage on Strength and Agility checks</li><li>Disadvantage on Willpower and Personality checks</li><li>All intimidation checks by you and your allies have advantage.</li></ul>This effect lasts up to 1 minute, and requires concentration to maintain. Once you use this feature, you cannot use it again until you finish a short or long rest."
                     },
                     "Reaper's Verdict": {
                         "Level": 14,
@@ -276,7 +276,7 @@
                     },
                     "Heavylifting": {
                         "Level": 10,
-                        "Description": "                        Beginning at 10th level, while raging and not wearing heavy armor, you are able to engage in two-weapon fighting with all weapons except for those with the heavy or two handed traits.<br><br>                        Additionally, weapons with the heavy or two handed traits can be held in one hand."
+                        "Description": "Beginning at 10th level, while raging and not wearing heavy armor, you are able to engage in two-weapon fighting with all weapons except for those with the heavy or two handed traits.<br><br>Additionally, weapons with the heavy or two handed traits can be held in one hand."
                     },
                     "Relentless Storm": {
                         "Level": 14,
@@ -285,7 +285,7 @@
                 }
             },
             "Path of the Vanguard": {
-                "Summary": "                Drawn to a life of adventure, combat, and rabble rousing, a barbarian of the Path of the Vanguard seeks out the challenge of honing their skills, seeking new ways to overcome any obstacles. A barbarian of this path uses their rage to focus on their combat training.<br><br>Spending countless hours in grueling training, and just as many out in the wilds to learn the finer points of tracking, Path of the Vanguard barbarians prove their merit and worth both on and off the battlefield where others would fail.",
+                "Summary": "Drawn to a life of adventure, combat, and rabble rousing, a barbarian of the Path of the Vanguard seeks out the challenge of honing their skills, seeking new ways to overcome any obstacles. A barbarian of this path uses their rage to focus on their combat training.<br><br>Spending countless hours in grueling training, and just as many out in the wilds to learn the finer points of tracking, Path of the Vanguard barbarians prove their merit and worth both on and off the battlefield where others would fail.",
                 "Features": {
                     "Bonus Proficiencies": {
                         "Level": 3,
@@ -306,6 +306,18 @@
                     "Weaponmaster": {
                         "Level": 14,
                         "Description": "You draw back to the intense training and focus your swings. While raging, you can make a melee weapon attack as a bonus action on each of your turns."
+                    }
+                },
+                "Feature options": {
+                    "Fighting Style": {
+                        "Input type": "Dropdown",
+                        "Options": [
+                            "Defensive",
+                            "Dueling",
+                            "Great Weapon Fighter",
+                            "Protection",
+                            "Two-Weapon Fighting"
+                        ]
                     }
                 }
             },
@@ -447,6 +459,24 @@
                         "Level": 14,
                         "Description": "Starting at 14th level, while raging, you push your attacks beyond their natural limits. Once on your turn, when you hit a creature with a melee weapon attack, you can expend one hit die to add a d12 to your damage roll."
                     }
+                },
+                "Feature options": {
+                    "Weal Markings": {
+                        "Input type": "Dropdown",
+                        "Options": [
+                            "Mark of Strength",
+                            "Mark of Speed",
+                            "Mark of Resilience"
+                        ]
+                    },
+                    "Powerful Markings": {
+                        "Input type": "Dropdown",
+                        "Options": [
+                            "Mark of Strength",
+                            "Mark of Speed",
+                            "Mark of Resilience"
+                        ]
+                    }
                 }
             },
             "Path of the Wilds": {
@@ -466,7 +496,7 @@
                     },
                     "Camouflaged Hunter": {
                         "Level": 10,
-                        "Description": "While camouflaged, you can use a bonus action to mark a creature as your prey, which lasts as long as you are camouflaged. Once on each of your turns, you deal an extra 1d6 damage when you hit the marked target with a weapon attack.<br><br>                        You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                        "Description": "While camouflaged, you can use a bonus action to mark a creature as your prey, which lasts as long as you are camouflaged. Once on each of your turns, you deal an extra 1d6 damage when you hit the marked target with a weapon attack.<br><br>You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
                     },
                     "Silent Strider": {
                         "Level": 10,
