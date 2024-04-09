@@ -3,7 +3,6 @@
         "Description": "These barbarians, different as they might be, are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea. For some, their rage springs from a connection with ancient traditions. Others draw from a roiling reservoir of anger from memories of past battles. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.",
         "Basics": {
             "Hit Die": 12,
-            "Primary Ability": "Strength",
             "Saves": [
                 "Strength",
                 "Endurance"
@@ -775,413 +774,178 @@
             }
         },
         "Class Features": {
-            "Rage": {
+            "Spellcasting": {
                 "Level": 1,
-                "Description": "In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren’t wearing heavy armor:<ul><li>You have advantage on Strength checks and Strength saving throws.</li><li>When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.</li><li>You have resistance to bludgeoning, piercing, and slashing damage.</li></ul>If you are able to cast spells, you can’t cast them or concentrate on them while raging. Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven’t attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.<br><br>Once you have raged the number of times shown for your barbarian level in the Rages column of the Barbarian table, you must finish a long rest before you can rage again."
+                "Description": "You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations. See chapter 10 of the Basic Rules for the general rules of spellcasting and chapter 11 for the bard spell list.<br><br><b>                Cantrips (0-Level Spells)</b><br> You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Bard table. <br><br> <b>Magicka</b><br> The Bard table shows how much magicka you have to cast your bard spells of 1st level and higher. To cast one of these spells, you must expend magicka, as noted in the spell's description and the Magicka Cost table found in chapter 10 of the Basic Rules. You regain all expended magicka when you finish a long rest. For example, if you know the 1st-level spell cure wounds and have a spell level of 2nd, you can use magicka to cast cure wounds at either level. <br><br> <b>Spells Known of 1st Level and Higher</b><br> You know four 1st-level spells of your choice from the bard spell list. <br><br> The Spells Known column of the Bard table shows when you learn more bard spells of your choice. Each of these spells must be of a level for which you can cast, as shown on the table's Spell Level column for your bard level. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level. <br><br> Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level that you can cast. <br><br> Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the bard spell list. The new spell must be the same level as the spell you replace. <br><br> <b>Spellcasting Attribute</b><br> Personality is your spellcasting attribute for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Personality whenever a spell refers to your spellcasting attribute. In addition, you use your Personality modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one. <br><br> <b>Spell save DC</b> = 8 + your proficiency bonus + your Personality modifier <br><b>Spell attack modifier</b> = your proficiency bonus + your Personality modifier <b>Ritual Casting</b><br> You can cast any bard spell you know as a ritual if that spell has the ritual tag."
             },
-            "Unarmored Defense": {
+            "Bardic Inspiration": {
                 "Level": 1,
-                "Description": "You can throw aside all concern for defense to attack with fierce desperation. When you make an attack, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn."
+                "Description": "You can inspire others through your stirring words or music. To do so, you use a bonus action on your turn to choose one creature, other than yourself, within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.<br><br>                Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the GM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.<br><br>                               You can use this feature a number of times equal to your Personality modifier (a minimum of once). You regain any expended uses when you finish a long rest.<br><br>                                Your Bardic Inspiration die changes when you reach certain levels in the class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level."
             },
-            "Danger Sense": {
+            "Jack of All Trades": {
                 "Level": 2,
-                "Description": "You gain an uncanny sense of when things nearby aren’t as they should be, giving you an edge when you dodge away from danger.<br><br>You have advantage on Agility saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can’t be blinded, deafened, or incapacitated."
+                "Description": "You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
             },
-            "Primal Path": {
+            "Song of Rest": {
+                "Level": 2,
+                "Description": "You can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one more more Hit Dice, each of those creatures regains an extra 1d6 hit points.<br><br>The extra hit points increase when you reach certain levels in the class to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level."
+            },
+            "Bard College": {
                 "Special": "Subclass",
                 "Level": 3,
-                "Description": "Choose a path that shapes the nature of your rage, all detailed at the end of the class description. Additionally, you can choose any barbarian's Primal Path outlined in the 5e Core Rules. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels."
+                "Description": "You delve into the advanced techniques of a bard college of your choice. Additionally, you can choose any bard's Bard College outlined in the 5e Core Rules. Your choice grants you features at 3rd level and again at 6th and 14th level."
+            },
+            "Expertise": {
+                "Level": 3,
+                "Description": "Choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.<br><br>At 10th level, you can choose another two skill proficiencies to gain this benefit."
             },
             "Attribute Score Improvement": {
                 "Level": 4,
                 "Description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one attribute score of your choice by 2, or you can increase two attribute scores of your choice by 1. As normal, you can't increase an attribute score above 20 using this feature."
             },
-            "Extra Attack": {
+            "Font of Inspiration": {
                 "Level": 5,
-                "Description": "You can attack twice, instead of once, whenever you use the Attack action on your turn."
+                "Description": "You regain all of your expended uses of Bardic Inspiration when you finish a short or long rest."
             },
-            "Fast Movement": {
-                "Level": 5,
-                "Description": "Your speed increases by 10 feet while you aren't wearing heavy armor."
+            "Countercharm": {
+                "Level": 6,
+                "Description": "You gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain the benefit, The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required)."
             },
-            "Feral Instinct": {
-                "Level": 7,
-                "Description": "Your instincts are so honed that you have advantage on initiative rolls.<br><br>Additionally, if you are surprised at the beginning of combat and aren’t incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn."
+            "Magical Secrets": {
+                "Level": 10,
+                "Description": "You have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including this one. A spell you choose must be a level you can cast, as shown on the Bard table, or a cantrip.<br><br>                The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.                <br><br>                      You learn two additional spells from any classes at 14th level and again at 18th level."
             },
-            "Brutal Critical": {
-                "Level": 9,
-                "Description": "You can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.<br><br>This increases to two additional dice at 13th level, and three additional dice at 17th level."
-            },
-            "Relentless Rage": {
-                "Level": 11,
-                "Description": "Your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you’re raging and don’t die outright, you can make a DC 10 Endurance saving throw. If you succeed, you drop to 1 hit point instead.<br><br>Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10."
-            },
-            "Persistent Rage": {
-                "Level": 15,
-                "Description": "Your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it."
-            },
-            "Indomitable Might": {
-                "Level": 18,
-                "Description": "If your total for a Strength check is less than your Strength score, you can use that score in place of the total."
-            },
-            "Primal Champion": {
+            "Superior Inspiration": {
                 "Level": 20,
-                "Description": "You embody the power of the wilds. Your Strength and Endurance scores increase by 4. Your maximum for those scores is now 24."
+                "Description": "                When you roll initiative and have no uses of Bardic Inspiration left, you regain one use."
             }
         },
         "Subclasses summary": {
-            "Name": "Primal paths",
-            "Summary": "Rage burns in every barbarian's heart, a furnace that drives them towards greatness. Different barbarians attribute their rage to different sources, however. For some, their scars become symbols of victories won, while others look within to their unyielding spirits."
+            "Name": "Bard Colleges",
+            "Summary": "The way of a bard is gregarious. Bards seek each other out to swap songs and stories, boast of their accomplishments, and share their knowledge. Bards form loose associations, which they call colleges, to facilitate their gatherings and preserve their traditions."
         },
         "Subclasses": {
-            "Path of the Battleworn": {
-                "Summary": "For some barbarians, they are measured through battles won and they wear their scars with pride. The Path of the Battleworn is path paved with patience, pain, and perseverance. Whether an veteran legion soldier or the dedicated kin of Orsimer clan, a Battleworn channels their experience into their rage.",
-                "Features": {
-                    "Thick Skin": {
-                        "Level": 3,
-                        "Description": "Your body is scarred and calloused from years of battle. When you choose this path at 3rd level, your unarmored AC is equal to 12 + your Agility modifier + your Endurance modifier."
-                    },
-                    "Reckless Abandon": {
-                        "Level": 6,
-                        "Description": "Beginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Endurance modifier (minimum of 1). They vanish if any of them are left when your rage ends."
-                    },
-                    "Battle Scars": {
-                        "Level": 10,
-                        "Description": "At 10th level, your scarred body and strong presence is readily noticeable. You have advantage on all Intimidation checks."
-                    },
-                    "Boiling Point": {
-                        "Level": 14,
-                        "Description": "Starting at 14th level, while raging, you push your attacks beyond their natural limits. Once on your turn, when you hit a creature with a melee weapon attack, you can expend one hit die to add a d12 to your damage roll."
-                    }
-                }
-            },
-            "Path of the Reaver": {
-                "Summary": "Barbarians that follow the Path of the Reaver are brutal hunters that strike in well orchestrated packs, leaving behind nothing but corpses and destruction. Despite their primitive behavior, Reavers often make up the important front lines of tactical combat. The forsworn of the Reach and the aggressive Wood Orc clans commonly use these maneuvers to intimidate their foes and catch them off guard.",
-                "Features": {
-                    "Accelerated Regeneration": {
-                        "Level": 3,
-                        "Description": "When you choose this path at 3rd level, your wounds naturally stitch together at a faster rate. When you use hit dice to recover hit points during a short rest, you gain additional hit points equal to 1d12 + your Endurance modifier."
-                    },
-                    "Reaver's Charge": {
-                        "Level": 3,
-                        "Description": "Beginning at 3rd level, when you enter into a rage, your speed doubles for the rest of your turn. You can only use this additional speed to move towards an enemy. Additionally, you can take the Dash action as a bonus action on your subsequent turns while you are raging."
-                    },
-                    "Pack Tactics": {
-                        "Level": 6,
-                        "Description": "At 6th level, while raging, you have advantage on attack rolls against a creature if at least one of your allies are within 5 feet of you and the ally isn't unconscious."
-                    },
-                    "Dread Warrior": {
-                        "Level": 10,
-                        "Description": "Beginning at 10th level, your physique is so intimidating that you inspire dread in your enemies. You can use a bonus action to make yourself appear exceptionally fearful. Every creature within 10 feet of you suffers from one of the following effects of your choice:<ul><li>Disadvantage on Strength and Agility checks</li><li>Disadvantage on Willpower and Personality checks</li><li>All intimidation checks by you and your allies have advantage.</li></ul>This effect lasts up to 1 minute, and requires concentration to maintain. Once you use this feature, you cannot use it again until you finish a short or long rest."
-                    },
-                    "Reaper's Verdict": {
-                        "Level": 14,
-                        "Description": "Beginning at 14th level, while raging, you can attack three times, instead of twice, whenever you take the Attack action on your turn."
-                    }
-                }
-            },
-            "Path of the Savage": {
-                "Summary": "Some barbarians only know destruction and violence. The Path of the Savage is a path of fury and death, learned from years of war. These tribes pass down their techniques and strategies to their cubs and kin, further honing their skills with every new generation. Myths and tales of warnings spread throughout nearby towns and villages where these barbarian tribes exist.",
-                "Features": {
-                    "Frenzied Armsman": {
-                        "Level": 3,
-                        "Description": "Starting at level 3, while raging, you are able to exploit your weapons to become even more devastating. You gain the following benefits:<br><br><b>Axes.</b> Once on each of your turns, when you hit a creature with an axe weapon, make a second attack roll. If your second roll would also hit the creature, you rend the target, causing them to bleed extensively. Your attack deals an additional 1d6 necrotic damage.<br><br><b>Blunt.</b> Your attacks are exceptionally forceful and can penetrate even the most tempered armors. You gain a +2 bonus to attack rolls made with blunt weapons.<br><br><b>Long Blades.</b> When you attack with a long blade weapon, you gain a +2 bonus to damage rolls with that weapon."
-                    },
-                    "Uppercut": {
-                        "Level": 6,
-                        "Description": "At 6th level, when you take the Attack action on your turn, you can forgo your movement and a possible bonus action to use one of your attacks to make a powerful upward blow.<br><br>Make a melee weapon attack. If the attack hits a creature, you deal damage as normal and it must make a Strength saving throw with a DC of 8 + your proficiency bonus + your Strength modifier. On a failed save, the target is knocked back 10 feet and left prone. On a successful save, the creature has disadvantage on attacks until the start of your next turn. This ability can only affect large or smaller creatures."
-                    },
-                    "Heavylifting": {
-                        "Level": 10,
-                        "Description": "Beginning at 10th level, while raging and not wearing heavy armor, you are able to engage in two-weapon fighting with all weapons except for those with the heavy or two handed traits.<br><br>Additionally, weapons with the heavy or two handed traits can be held in one hand."
-                    },
-                    "Relentless Storm": {
-                        "Level": 14,
-                        "Description": "At 14th level, you can use your action to whirl around, attacking all enemies within range of your melee weapon. Roll a separate attack roll for each creature you attack. While whirling, you can move up to half your movement speed. Any opportunity attacks against you have disadvantage while moving."
-                    }
-                }
-            },
-            "Path of the Vanguard": {
-                "Summary": "Drawn to a life of adventure, combat, and rabble rousing, a barbarian of the Path of the Vanguard seeks out the challenge of honing their skills, seeking new ways to overcome any obstacles. A barbarian of this path uses their rage to focus on their combat training.<br><br>Spending countless hours in grueling training, and just as many out in the wilds to learn the finer points of tracking, Path of the Vanguard barbarians prove their merit and worth both on and off the battlefield where others would fail.",
-                "Proficiencies": {
-                    "Skills": [
-                        "Athletics",
-                        "Survival"
-                    ]
-                },
+            "College of Reveries": {
+                "Summary": "Bards of the College of Reveries are renowned performers and artists. All members of the college are handpicked for their passion and are taught to live for the love of their craft, and for the thrill of the performance.<br><br>                Unlike many other colleges, those who study under the Grand Maestro are encouraged to discard their identities and take on a new persona. All of the players in the College of Reveries wear anonymous painted masks and take up new names, often associated with their act.                <br><br>                Any bard willing to remove the shackles of selfishness to live solely for the art will find a place in the college. They use their anonymity to gain a thousand faces, though they never show their own.",
                 "Features": {
                     "Bonus Proficiencies": {
                         "Level": 3,
-                        "Description": "You gain proficiency in the Athletics and Survival skills if you don't already have it."
+                        "Description": "                        When you join the College of Reveries at 3rd level, you gain proficiency in disguise kits, and forgery kits. You also learn one language of your choice."
                     },
-                    "Fighting Style": {
+                    "Performer's Vainglory": {
                         "Level": 3,
-                        "Description": "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you later get to choose again.<br><br><b>Defensive.</b> While you are wearing armor, you gain a +1 bonus to AC.<br><br><b>Dueling.</b> When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.<br><br><b>Great Weapon Fighter.</b> When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.<br><br><b>Protection.</b> When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.<br><br><b>Two-Weapon Fighting.</b> When you engage in two-weapon fighting, you can add your attribute modifier to the damage of the second attack."
+                        "Description": "At 3rd level, you become invigorated when you witness someone being inspired by your own performances. When at least one creature you have inspired with your Bardic Inspiration is within 30 feet of you and they still have their Bardic Inspiration die, you gain a bonus to your attacks. When your attack hits a target, roll a die equal to your Bardic Inspiration die and add that number to the attacks damage roll."
                     },
-                    "Expert Hunter": {
+                    "Player's Muse": {
+                        "Level": 3,
+                        "Description": "Additionally at 3rd level, adventurer's of the College of Reveries gain a persona that represents their performing act. This persona is a disguise that includes a mask and garb that hides the wearer's original identity. While wearing this disguise, other bards and patrons recognize you as your persona. You have advantage on Personality (Persuasion) and Personality (Performance) checks when speaking with fans of your work."
+                    },
+                    "Flexible Performance": {
                         "Level": 6,
-                        "Description": "You gain insight and knowledge on those you’re contracted to defeat. When you finish a long rest, choose one creature type to focus your hunt on. The first time you attack a creature of this chosen type on your turn, you add your Willpower attribute modifier (minimum 1) to the attack roll.<br><br>When you reach 10th level, your weapon attacks score a critical hit on a roll of 19 or 20 against your chosen creature type from this feature."
+                        "Description": "When you reach 6th level, you weave in the pageantry and pomposity of your performances into your everyday conversations. You can use your Performance skill instead of Deception when trying to impersonate someone, and instead of Intimidation when trying to demoralize someone. You can also use Performance instead of Persuasion when trying to flatter someone."
                     },
-                    "Unyielding Might": {
-                        "Level": 10,
-                        "Description": "You can harness your superior might to remain in the heat of the battle. While raging, when you take damage, you can use your reaction to expend one of your hit dice and heal yourself. Roll the die, add your Endurance attribute modifier, and regain a number of hit points equal to the total (minimum of 1)."
-                    },
-                    "Weaponmaster": {
+                    "Compelling Inspiration": {
                         "Level": 14,
-                        "Description": "You draw back to the intense training and focus your swings. While raging, you can make a melee weapon attack as a bonus action on each of your turns."
-                    }
-                },
-                "Feature options": {
-                    "Fighting Style": {
-                        "Input type": "Dropdown",
-                        "Options": [
-                            "Defensive",
-                            "Dueling",
-                            "Great Weapon Fighter",
-                            "Protection",
-                            "Two-Weapon Fighting"
-                        ]
+                        "Description": "At 14th level, your inspiring performances can compel even your harshest critics. You can use your Bardic Inspiration on a creature within 60 feet of you and force it to make a Willpower saving throw. On a failed save, the creature is compelled by you until the start of your next turn. The compelled creature has disadvantage on all attack rolls, and all attacks made against the compelled creature have advantage."
                     }
                 }
             },
-            "Path of the War Crier": {
-                "Summary": "The Path of the War Crier is a spiritual journey, as the barbarian learns to channel their life essence through their voice and breath. War Criers are rare in barbarian tribes, but those who have the gift are usually put into positions of power, either as shaman, spiritual leaders, or chieftains. Most Nords have some innate capacity for the power of the Voice, believing that their breath holds their vital essence. The other races can learn how to wield such power, but may require greater study, perhaps spending time with powerful Tongues.",
-                "Proficiencies": {
-                    "Language": [
-                        "Dovahzul"
-                    ]
-                },
+            "College of Solitude": {
+                "Summary": "High in the frigid north, the College of Solitude is found in the city of the same name, the capital of Skyrim. Living and studying in the north comes with its own challenges, and the bards that attend this college are taught how to endure the harsh conditions while rallying their allies to keep pushing through.",
                 "Features": {
-                    "Battle Thu'um": {
+                    "Bonus Proficiencies": {
                         "Level": 3,
-                        "Description": "You learn how to harness the power of the dragon tongue to form powerful shouts. A shout requires you to spend shout points each time you use one.<br><br><b>Shouts.</b> You know the Unrelenting Force shout and two other shouts of your choice, which are detailed in the “Dragon Shouts” section at the end of the subclass description. You learn two additional shouts of your choice at 6th, 10th, and 14th level.<br><br>Whenever you gain a level in this class, you can choose one of the dragon shouts you know and replace it with another dragon shout that you could learn at that level.<br><br><b>Shout Points.</b> You have 2 shout points and you regain any expended shout points when you finish a short or long rest. Additionally, you regain 1 shout point when you enter your rage.<br><br>You gain two additional shout points at 6th level (4), and again at 10th level (6), and 14th level (8).<br><br><b>Using Words of Power.</b> The Thu’um is a form of magic that uses words of power from the draconic language to form powerful shouts. While the effects of a dragon shout are considered spells, they break some of the rules of spellcasting:<ul><li>You can use shouts even while raging.</li><li>You require the ability to speak to be able to use a dragon shout.</li><li>You do not require to use somatic or material components to cast spells as a dragon shout.</li><li>Dragon shouts that create spells or effects that have a duration longer than instantaneous do not require concentration to maintain. You can only have one effect active at a time and any effects immediately end if you are incapacitated or cast another shout with a duration longer than instantaneous.</li><li>You can only use one shout on each turn.</li></ul>Some dragon shouts require the target to make a saving throw to resist its effects. The saving throw DC is calculated as follows:<br><br><b>Dragon Shout save DC</b> = 8 + your proficiency bonus + your Endurance modifier<br><br>Once you reach 6th level in this class, you can spend additional shout points to increase the power of a shout that you cast, provided that it has an enhanced effect, as Unrelenting Force does.<br><br>The maximum number of shout points you can spend to cast a shout in this way (including its base shout point cost and any additional shout points you spend to increase its effect) is determined by your barbarian level, as shown in the Maximum Shout Points table below.<br><br><b>Maximum Shout Points</b> <table> <tr> <th>Barbarian Level</th> <th>Max. Shout Points for a Shout</th> </tr> <tr> <td>6th-8th</td> <td> 3</td> </tr> <tr> <td>9th-12th</td> <td> 4</td> </tr> <tr> <td>13th-16th</td> <td> 5</td> </tr> <tr> <td>17th-20th</td> <td> 6</td> </tr> </table>"
+                        "Description": "When you join the College of Solitude at 3rd level, you gain proficiency with medium armor, as well as axe and blunt weapons."
                     },
-                    "Draconic Tongue": {
+                    "Fighting Style": {
                         "Level": 3,
-                        "Description": "You gain mastery with draconic words. You are now proficient in the Dovahzul language."
+                        "Description": "At 3rd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if something in the game lets you choose again.<br> <br> <b>Archery</b><br> You gain a +2 bonus to your attack rolls you make with ranged weapons.<br> <br> <b>Dueling</b><br> When you are wielding a melee weapon in one hand and no other weapons, you gain +2 bonus to damage rolls with that weapon.<br> <br> <b>Great Weapon Fighting</b><br> When you roll a 1 or a 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if it is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.<br> <br> <b>Two-Weapon Fighting</b><br> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
                     },
-                    "Shout Resistance": {
+                    "Disarming Charm": {
                         "Level": 6,
-                        "Description": "Your knowledge of the Thu’um has made you resistant to it. You have advantage on all saving throws made against shouts."
+                        "Description": "When you reach 6th level, you gain the ability to use your charisma to cause your enemies to falter. As a reaction, when a creature attacks you with a melee strike, you gain a +2 bonus to your AC until the start of your next turn.<br><br>You can use this feature an amount of times equal to your personality modifier. You regain any expended uses when you finish a long rest.<br><br>Beginning at 17th level, you gain a +4 bonus to your AC when you use this feature."
                     },
-                    "Wrathful Shouts": {
+                    "Battle Anthem": {
+                        "Level": 10,
+                        "Description": "At 14th level, you gain the ability to use your instruments or voice to inspire your allies in the heat of battle. As an action, all allies or enemies within 60 feet of you that can see and hear you, gain one effect of your choice for the duration of the anthem. The effect lasts up to 1 minute, as though you are concentrating on a spell. As an action on your following turns you can change the effect of your Battle Anthem.<br> <br> <b>Anthem of War.</b> Each ally that can see and hear you gains advantage on attack rolls for the duration.<br> <br> <b>Anthem of Protection.</b> Each ally that can see and hear you gains a +2 bonus to their AC for the duration.<br> <br> <b>Anthem of Intimidation.</b> Each enemy that can see and hear you has disadvantage on saving throws for the duration.<br> <br> Once you use this feature, you must finish a long rest to be able to use it again."
+                    }
+                }
+            },
+            "College of Courtesy": {
+                "Summary": "Diplomats, ambassadors, and negotiators understand the importance of appearances and when words can be more powerful than a sword. Bards of the College of Courtesy use their talents in speechcraft to make connections with virtually anyone. They can speak to royalty with confidence while also blending in with the common rabble, allowing them to gain favor with all manners of people.",
+                "Features": {
+                    "Courtly Manners": {
+                        "Level": 3,
+                        "Description": "You have been trained in the ways of court to understand the world around you and have an undeniable understanding of etiquette. You gain proficiency in the Insight or Persuasion skill (your choice), and you have advantage on Willpower (Insight) or Intelligence (History) checks to understand or recall cultures or social norms, and to gain insight in people’s agendas."
+                    },
+                    "Battlefield Etiquette": {
+                        "Level": 3,
+                        "Description": "You learn how to manipulate the battlefield through the use of militaristic traditions and polite suggestions. As a bonus action, you can expend one of your Bardic Inspiration dice in order to produce one of the following options:<br> <br> <b>Parley.</b> You cast calm emotions without expending magicka.<br> <br> <b>Duel.</b> You force a number of hostile creatures up to your Personality attribute modifier (minimum of 1) that can hear and understand you to duel an ally of your choice. Each target must make a Willpower saving throw equal to your spell save DC. On a failed save, the target has disadvantage on attacks made against any creature that isn’t that ally for the next minute.<br> <br> <b>Discipline.</b> You bestow your allies with temporary hit points equal to your bard level + your Personality modifier for the next minute.<br>"
+                    },
+                    "Graceful Redress": {
                         "Level": 6,
-                        "Description": "When you deal damage with a shout while raging, you add the damage bonus of your rage to one of the damage rolls."
+                        "Description": "When you or an ally that you can see and hear fails a Deception, Intimidation, or Persuasion skill check, you can use your reaction to expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to the skill check, using the new result in place of the failed one, possibly changing the result.<br><br>Additionally, you when you make any Personality skill check, you can add a Bardic Inspiration die to the roll without expending a use. Once you use this feature in this way, you can’t use it again until you finish a short or long rest."
                     },
-                    "Destructive Shouts": {
-                        "Level": 10,
-                        "Description": "You can focus on your shouts, making them deadlier by lowering your guard. Once on your turn when you cast a shout that requires a saving throw you can give one target disadvantage against the shout’s saving throw, but attack rolls against you have advantage until your next turn."
-                    },
-                    "Draconic Rage": {
-                        "Level": 10,
-                        "Description": "When you use a bonus action to enter into a rage, you can cast a dragon shout as part of the bonus action."
-                    },
-                    "Thu’um Master": {
+                    "Diplomatic Immunity": {
                         "Level": 14,
-                        "Description": "When you use your action to cast a dragon shout, you can make one weapon attack as a bonus action. Additionally, when you enter your rage you recover 2 shout points, instead of 1."
+                        "Description": "Your reputation will keep hostile humanoids reluctant from attacking you and your allies. If you or one of your allies hasn’t attacked yet, an enemy must succeed on a Personality saving throw equal to your spellcasting save DC to be able to attack you or your allies on that turn."
+                    }
+                }
+            },
+            "College of Divines": {
+                "Summary": "Gifted in the art of oratory, a Speaker of the Divines devotes themselves to spreading the worship of the Imperial Temple through song, dance, and art. They are given gifts from the patron that smiles upon them the most, who demands little more than respect and praise. Unlike priests and crusaders, these individuals do not necessarily drive their life by every wish, whim, and tenet set by the divines but they accomplish little deeds across Tamriel.",
+                "Features": {
+                    "Bonus Proficiencies": {
+                        "Level": 3,
+                        "Description": "You gain proficiency with the Religion skill. Your proficiency bonus is doubled for any attribute check you make that uses that skill."
+                    },
+                    "Speaker of the Divine": {
+                        "Level": 3,
+                        "Description": "You proclaim yourself under a divine, learning a Speaker Prayer for the deity and gaining its benefits, as listed below. You can choose an additional prayer from another deity at 11th level, and again at 17th."
+                    },
+                    "Blessing of Music": {
+                        "Level": 6,
+                        "Description": "When a creature you can see uses your Bardic Inspiration, you can use your reaction to have them gain the effects of your choice of the divine favor or heroism spell. These effects use your spellcasting modifier and they do not require concentration to maintain them.<br><br>Once you use this feature, you can’t do so again until you finish a short or long rest."
+                    },
+                    "Song of the Divine": {
+                        "Level": 14,
+                        "Description": "                        You can spend 1 minute to recite a holy ritual. Any creature of your choice that is within 30 feet that can hear you becomes proficient in all saving throws for the next hour or until they take a short or long rest. In addition, a creature who is under this effect can choose to spend 10 minutes meditating on your ritual, ending the effect early to gain the benefits as though they had finished a short rest.<br><br>Once you use this feature, you can’t use it again until you finish a long rest."
                     }
                 },
                 "Subclass spells summary": {
-                    "Name": "Dragon Shouts",
-                    "Summary": "The dragon shouts are presented in alphabetical order. If a shout has prerequisites, you must meet them to learn it. You can learn the shout at the same time that you meet its prerequisites. A level prerequisite refers to your level in this class."
+                    "Name": "Speaker Prayer Options",
+                    "Summary": "The following speaker prayers are listed in alphabetical order."
                 },
                 "Subclass spells": {
-                    "Animal Allegiance (Raan Mir Tah)": {
-                        "Prerequisite": 6,
-                        "Description": "As an action, You can spend 2 shout points to summon beasts of the wild. You conjure fey spirits that take on the form of Beasts, as though you had cast the conjure animals spell at 3rd level. The number of creatures that appear is twice as many if you spend 2 additional shout points, three times as many with 3 additional shout points, and four times as many with 4 additional shout points."
+                    "Akatosh": {
+                        "Description": "When you use your Bardic Inspiration, you can also gain magicka points equal to your Personality modifier. Once you use this feature, you can't use it again until you finish a long rest."
                     },
-                    "Aura Whisper (Laas Yah Nir)": {
-                        "Prerequisite": 0,
-                        "Description": "As an action, you can spend 1 shout point to whisper a short phrase, revealing all life forces to yourself, as though you had cast the detect life spell. The range increases by 10 feet for each additional shout point you spend."
+                    "Arkay": {
+                        "Description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this feature, you can't use it again until you finish a long rest."
                     },
-                    "Battle Fury (Mid Vur Shaan)": {
-                        "Prerequisite": 6,
-                        "Description": "As a bonus action, you can spend 1 shout point to enchant your allies’ weapons, allowing them to make a quick attack. One creature of your choice that is within 30 feet of you can immediately use their reaction to make a weapon attack.<br><br>One additional creature within 30 feet of you can use their reaction to make a weapon attack for each additional shout point you spend."
+                    "Dibella": {
+                        "Description": "You gain proficiency in either the Deception, Intimidation, Performance, or Persuasion skill. Your proficiency bonus is doubled for any attribute check you make that uses that skill."
                     },
-                    "Call of Valor (Hun Kaal Zoor)": {
-                        "Prerequisite": 6,
-                        "Description": "As an action, you can spend 2 shout points to summon a valiant warrior of ages past that journeys beyond space and time to aid you. The spirit appears in an unoccupied space that you can see within 60 feet of you. The spirit is considered to be a Celestial and it disappears after 1 minute, when it drops to 0 hit points, or if you become unconscious.<br><br>The summoned spirit is friendly to you and your companions. Roll initiative for the spirit, which has its own turns. It obeys any verbal commands that you issue it (no action required by you). If you don’t issue any commands to the spirit, it defends itself from hostile creatures but otherwise takes no actions. See this creature’s game statistics in the Valiant Warrior, stat block (Enemies of Elsweyr), but you add your level to its hit points and half your proficiency bonus to its attack roll and damage roll."
+                    "Julianos": {
+                        "Description": "When you make an attribute check that would normally use Intelligence or Willpower, you can add your Personality modifier instead. Once you use this feature, you can't use it again until you finish a short or long rest."
                     },
-                    "Clear Skies (Lok Vah Koor)": {
-                        "Prerequisite": 0,
-                        "Description": "As an action, you can spend 1 shout point to use your voice to dispel any natural or magical inclement weather that you can see within 1 mile, forcing only clear skies to remain. Clouds of fog, mist, or other natural or magical weather effects also end. The range increases by a mile for each additional shout point you spend."
+                    "Kynareth": {
+                        "Description": "You can communicate with beasts and plants as if they shared a language with you."
                     },
-                    "Cyclone (Ven Gar Nos)": {
-                        "Prerequisite": 14,
-                        "Description": "As an action, you can spend 4 shout points to create a whirling 5-foot radius cyclone that appears in a location within 60 feet of you that you can see. When the cyclone appears, each creature within 5 feet of it must make a Strength saving throw, taking 2d8 bludgeoning damage on a failed save, or half as much damage on a successful save. A creature must repeat this save when it comes within 5 feet of the cyclone for the first time on a turn or ends its turn there.<br><br>As a bonus action, you can move the cyclone up to 30 feet in any direction. The cyclone heavily obscures its area and sucks up any small materials, such as loose rocks, sand, or coins, within a 10-foot radius of it. The cyclone ends after one minute, if you end it as an action or if you are incapacitated.<br><br>The damage increases by 1d8 for each additional shout point you spend."
+                    "Mara": {
+                        "Description": "When you use a spell that restores hit points, target receives additional hit points equal to a roll of your Bardic Inspiration die, and it can cure one disease currently afflicting the target. Once you use this feature, you can't use it again until you finish a short or long rest."
                     },
-                    "Disarm (Zun Haal Viik)": {
-                        "Prerequisite": 6,
-                        "Description": "As an action, you use 2 shout points to create a shout that defies matter. One creature of your choice that you can see within 30 feet of you must make a Strength saving throw. On a failed save, the creature drops one object of your choice it is holding in its hands and the object lands at a point of your choosing within 15 feet of the target. On a successful save, the creature continues to hold on to the objects in their hands, but they have disadvantage on any rolls made using the object, such as weapon attacks, until the end of their next turn."
+                    "Stendarr": {
+                        "Description": "As an action, you expend one Bardic Inspiration die and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Willpower saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage."
                     },
-                    "Dismay (Faas Ru Maar)": {
-                        "Prerequisite": 10,
-                        "Description": "As an action, you can spend 2 shout points to speak a force of terror. You use your voice to frighten a creature as though you had cast the fear spell at 3rd level."
+                    "A": {
+                        "Description": "urned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action. Once you use this feature, you can’t use it again until you finish a short rest."
                     },
-                    "Dragon Aspect (Mul Qah Diiv)": {
-                        "Prerequisite": 14,
-                        "Description": "As a bonus action, you can spend 6 shout points to take on the aspect of a dragon for 1 minute. You gain mystical dragon hide armor and your AC can’t be less than 20. Additionally, each of your weapon attacks gain a +2 bonus to attack and damage rolls."
+                    "Talos": {
+                        "Description": "When you hit a creature with a weapon attack, you can force that creature to make a Strength saving throw against your spell save DC. On a failed save, the creature is pushed back 15 feet and takes an additional 2d6 bludgeoning damage. Once you successfully use this feature, you can’t use it again until finishing a short or long rest."
                     },
-                    "Elemental Breath": {
-                        "Prerequisite": 6,
-                        "Description": "You can spend 2 shout points to exhale an element of your choice. Choose either fire, cold or lightning. Each creature in a 15-foot cone must make an Agility saving throw. A creature takes 4d8 elemental damage on a failed save, and half as much on a successful one. The shouts are: Fire Breath (Yol Toor Shul), Frost Breath (Fo Krah Diin) and Storm Breath (Sov Ag Slen). The damage increases by 1d8 and the size of its cone increases by 15 feet for each additional shout point you spend."
-                    },
-                    "Gale Winds (Ven Mul Riik)": {
-                        "Prerequisite": 10,
-                        "Description": "As an action, you spend 1 shout point to create a powerful wind storm, in a 30-foot radius, centered on you. The wind blows in all directions, causing dust and refuse to heavily obscure the area.<br><br>Additionally, the area is considered difficult terrain, and any projectile that is within or enters the area has disadvantage on hitting its target.<br><br>The winds last up to 1 minute. You can use an action to disperse the winds at any time. The range increases by 10 feet for each additional shout point you spend."
-                    },
-                    "Ice Form (Iiz Slen Nus)": {
-                        "Prerequisite": 14,
-                        "Description": "As an action, you can spend 4 shout points to freeze a creature. One creature of your choice that you can see within 90 feet of you must succeed on an Endurance saving throw or take 4d8 cold damage and be encased in a shell of ice. The encased creature is immobilized and can't speak, hear, move, or take any actions. The creature takes this damage again at the start of its turn while encased. The creature restrained by this spell must make another Endurance saving throw at the end of each of their turns to try and break free. If it successfully saves against this effect three times, the effect ends. If it fails its save three times, the frost hardens and the creature is subjected to the frozen condition. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind.<br><br>While the effect is active, the frost shell has an AC of 10 and has 30 hit points. When the frost shell reaches 0 hit points, the shell breaks, ending the effect. A dispel magic spell can also end the effects. The damage increases by 1d8 for each additional shout point you spend."
-                    },
-                    "Kyne’s Peace (Kaan Drem Ov)": {
-                        "Prerequisite": 0,
-                        "Description": "As an action, you can spend 1 shout point to speak to a group of animals to soothe them. Each Beast that is within 60 feet of you and can hear you must make a Personality saving throw; a creature can choose to fail this saving throw if it wishes. If the creature fails the saving throw, any effect causing the target to be charmed or frightened ends, and the target becomes indifferent about any creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its allies being harmed. The creature becomes hostile again after 1 minute, unless the GM rules otherwise. The duration increases by 1 minute for each additional shout point you spend."
-                    },
-                    "Marked for Death (Krii Lun Aus)": {
-                        "Prerequisite": 0,
-                        "Description": "As a bonus action, you can spend 1 shout point to mark a creature as though you cast the hunter’s mark spell at 1st level. The duration increases to 8 hours if you spend an additional shout point, and to 24 hours if you spend 2 additional shout points."
-                    },
-                    "Storm Call (Strun Bah Qo)": {
-                        "Prerequisite": 6,
-                        "Description": "As an action, you can spend 2 shout points to awaken the destructive force of Nirn. You summon a storm as though you had cast the call lightning spell at 3rd level. The damage increases by 1d10 for each additional shout point you spend."
-                    },
-                    "Unrelenting Force (Fus Ro Dah)": {
-                        "Prerequisite": 0,
-                        "Description": "As an action, you can spend 1 shout point to exhale a blast of force in a 30-foot cone. Each creature in that cone must make a Strength saving throw. On a failed save, a creature takes 3d6 force damage, is knocked back 20 feet, and falls prone. On a successful save, the creature takes half as much damage, isn’t knocked back, and remains standing. The damage increases by 1d6 for each additional shout point you spend."
-                    },
-                    "Whirlwind Sprint (Wuld Nah Kest)": {
-                        "Prerequisite": 0,
-                        "Description": "You can use a bonus action to spend 1 shout point to take the Dash action. Any opportunity attacks made against you have disadvantage until the end of your turn. Your speed increases by 10 feet for each additional shout point you spend."
-                    }
-                }
-            },
-            "Path of the Weal": {
-                "Summary": "Focusing on intimidating their opponents with their raw display of strength and mettle, barbarians of the Path of the Weal use a variety of magical markings that push their capabilities or harm their enemies. While legends of these warriors are sparse, they are most commonly seen as gladiators in the arena, where they can show off their peculiar gifts for the spectacle. There are also rumors of mercenaries and bandit kings who use these techniques in the wilds of Tamriel.<br><br>A barbarian of this path can gain these markings in a variety of ways. Perhaps you were tattooed with magical inks, or your flesh or fur was decorated with infused paints. Consider if the marks are deep scars with mystical powers, or if the markings suddenly appeared as though a greater power approved of your methods.",
-                "Features": {
-                    "Weal Markings": {
-                        "Level": 3,
-                        "Description": "Choose a marking from the list of weal marks listed below, which covers a large part of your body, such as your entire torso. The mark resembles an animal or other entity which represents the chosen effect. For example, if you choose Mark of Resilience, it can bear the image of a mammoth, troll, or roots. While you are raging, the markings glow with magical energy and you gain the effects as described.<br><br><b>Mark of Strength.</b> You are considered one size larger for the purposes of shoving and grappling, and when determining your carrying capacity and the weight you can push, drag, or lift.<br><br><b>Mark of Speed.</b> Your movement speed is increased by 10 feet.<br><br><b>Mark of Resilience.</b> You gain a +1 bonus to AC."
-                    },
-                    "Powerful Markings": {
-                        "Level": 6,
-                        "Description": "Your marks grow larger, and shine brightly while raging, giving you an additional magical effect of your choice. You can choose the same mark you chose at 3rd level, or an entirely new one.<br><br><b>Mark of Strength.</b> After attacking a creature, you can shove or grapple it as a bonus action.<br><br><b>Mark of Speed.</b> You gain advantage on Agility (Acrobatics) skill checks and Agility saving throws.<br><br><b>Mark of Resilience.</b> You gain advantage on Endurance saving throws."
-                    },
-                    "Minor Marks": {
-                        "Level": 6,
-                        "Description": "Choose a marking from the list of Minor Marks detailed at the end of the subclass description, which covers a small part of your body, such as a limb, or your neck. While you are raging, the marking glows with magical energy, and you gain the effects as described.<br><br>You can choose a second minor mark when you reach 10th level, and a third at 14th level. You can’t gain the benefits of the same minor mark twice, unless noted otherwise.<br><br><b>Mark of Death.</b> When you kill a small or larger creature that is hostile to you on your turn, you regain hit points equal to your Endurance modifier.<br><br><b>Mark of Elementals.</b> When you enter your rage, choose one of fire, lightning, cold or poison. As a bonus action on your turn, you can change the damage type of your rage damage to your chosen elemental damage type, which lasts until your rage ends or you use a bonus action to change it again.<br><br><b>Mark of Fear.</b> You can use a bonus action to strike fear into an enemy. Choose one creature that is within 60 feet of you that can see and hear you. That target must succeed on a Willpower saving throw (DC equal to 8 + your Endurance modifier + your proficiency modifier) or become frightened of you. The frightened target can repeat the saving throw at the end of each of it's turns, ending the effect on itself on a success, and becoming immune to being frightened in this way for 1 hour.<br><br><b>Mark of Intimidation.</b> You gain proficiency in Intimidation. Additionally, you can use either your Strength or Endurance attribute when making an Intimidation skill check instead of Personality.<br><br><b>Mark of Ruin.</b> When you hit a creature with a melee weapon attack, you can attempt to inflict one of the following conditions of your choice: blinded, deafened, or staggered. The target must succeed on an Endurance saving throw (DC equal to 8 + your Endurance modifier + your proficiency modifier) or be affected by the chosen condition until the end of your next turn. You can only use this ability only once per rage.<br><br><b>Mark of Perseverance.</b> When you enter your rage, choose one saving throw. You gain a +2 bonus to that saving throw while raging.<br><br><b>Mark of Perception.</b> You gain a +2 bonus to your Willpower (Perception) skill, and you can sense invisible creatures within 10 feet of you as though you have blindsense.<br><br><b>Mark of Shielding.</b> When you enter your rage, you gain temporary health points equal to 1d8 + your Endurance modifier. These temporary hit points vanish when your rage ends.<br><br><b>Mark of Water.</b> You gain a swimming speed equal to your walking speed."
-                    },
-                    "Remarkable Markings": {
-                        "Level": 10,
-                        "Description": "Your marks cover more of your body, allowing you to control another magical effect of your choice. You can choose the same marks you have chosen previously, or an entirely new one.<br><br><b>Mark of Strength.</b> You gain a +1 bonus to your rage damage.<br><br><b>Mark of Speed.</b> If you move at least 20 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can add one additional weapon damage die to one of your attacks.<br><br><b>Mark of Resilience.</b> You gain an additional +1 bonus to AC, and you can go one extra round without attacking or taking damage before your rage ends."
-                    },
-                    "Marks of the Covenant": {
-                        "Level": 10,
-                        "Description": "You gain the ability to share your minor marks with others. During a short rest, you can choose one minor mark you possess and share it with an ally, giving them the effects of the chosen mark while you are raging. The ally’s mark fades when you finish a short or long rest."
-                    },
-                    "Extraordinary Markings": {
-                        "Level": 14,
-                        "Description": "Your marks have become one with you, applying their effects even while you are not raging. Additionally, your marks fuse you with an additional magical ability of your choice. You can choose the same marks you have chosen previously, or an entirely new one.<br><br><b>Mark of Strength.</b> Your attack rolls score a critical hit on a roll of 19 or 20.<br><br><b>Mark of Speed.</b> Your speed increases by an additional 5 feet, and opportunity attacks made against you are made at a disadvantage.<br><br><b>Mark of Resilience.</b> Whenever you take any damage, you can use your reaction and expend one hit die to reduce the total by 1d12 + your Endurance modifier."
-                    },
-                    "Boiling Point": {
-                        "Level": 14,
-                        "Description": "Starting at 14th level, while raging, you push your attacks beyond their natural limits. Once on your turn, when you hit a creature with a melee weapon attack, you can expend one hit die to add a d12 to your damage roll."
-                    }
-                },
-                "Feature options": {
-                    "Weal Markings": {
-                        "Input type": "Dropdown",
-                        "Options": [
-                            "Mark of Strength",
-                            "Mark of Speed",
-                            "Mark of Resilience"
-                        ]
-                    },
-                    "Powerful Markings": {
-                        "Input type": "Dropdown",
-                        "Options": [
-                            "Mark of Strength",
-                            "Mark of Speed",
-                            "Mark of Resilience"
-                        ]
-                    },
-                    "Minor Marks": {
-                        "Input type": "Checkbox",
-                        "Max options per level": {
-                            "6": 1,
-                            "10": 2,
-                            "14": 3
-                        },
-                        "Options": [
-                            "Mark of Death",
-                            "Mark of Elementals",
-                            "Mark of Fear",
-                            "Mark of Intimidation",
-                            "Mark of Ruin",
-                            "Mark of Perseverance",
-                            "Mark of Perception",
-                            "Mark of Shielding",
-                            "Mark of Water"
-                        ]
-                    },
-                    "Remarkable Markings": {
-                        "Input type": "Dropdown",
-                        "Options": [
-                            "Mark of Strength",
-                            "Mark of Speed",
-                            "Mark of Resilience"
-                        ]
-                    },
-                    "Extraordinary Markings": {
-                        "Input type": "Dropdown",
-                        "Options": [
-                            "Mark of Strength",
-                            "Mark of Speed",
-                            "Mark of Resilience"
-                        ]
-                    }
-                }
-            },
-            "Path of the Wilds": {
-                "Summary": "Using a combination of teamwork and stealth, barbarians of the Path of the Wilds are ambushers who use their knowledge of the land to overwhelm their foes. Their connection to the old gods and nature spirits grants them the protection of the wild, a manifestation that cloaks them from their enemies and fortifies their resolve. The Reachfolk of Skyrim and the Orsimer tribes that live in the wilds throughout Tamriel are looked over by these spirits. All pariahs gain their favor, including the hulkynds of Summerset and others who have been rejected by the people of Nirn.",
-                "Features": {
-                    "Primal Cunning": {
-                        "Level": 3,
-                        "Description": "You have an unmatched connection to the natural environment. You become proficient in one skill of your choice from Animal Handling, Nature, Medicine, Perception, Stealth, or Survival. While in a natural environment, your proficiency bonus is doubled for any attribute check you make that uses this chosen skill."
-                    },
-                    "Cloak of the Wild": {
-                        "Level": 3,
-                        "Description": "When you enter your rage, your physical form changes, manifesting a cloak of the wild, adjusting to fit into your surroundings. Until the rage ends, you gain the camouflaged condition. While camouflaged, you can use a bonus action to take the Hide action on each of your turns, and your rage does not end early as long as you are hiding from a creature that you can see or hear.<br><br>Additionally, you can use an action to gain the camouflaged condition while not raging. This effect lasts for 10 minutes or until you use an action to make an attack. Once you use this feature in this way, you can’t use it again until you finish a short rest."
-                    },
-                    "Hunt-Father's Advance": {
-                        "Level": 6,
-                        "Description": "When you or an ally within 10 feet of you attacks and hits a creature that is surprised, the target takes an additional 1d4 damage. This damage increases when you reach certain levels: to 2d4 at 11th level, 3d4 at 16th level, and 4d4 at 20th level. The bonus damage depends on the damage type of the weapon or spell being used."
-                    },
-                    "Camouflaged Hunter": {
-                        "Level": 10,
-                        "Description": "While camouflaged, you can use a bonus action to mark a creature as your prey, which lasts as long as you are camouflaged. Once on each of your turns, you deal an extra 1d6 damage when you hit the marked target with a weapon attack.<br><br>You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-                    },
-                    "Silent Strider": {
-                        "Level": 10,
-                        "Description": "Your walking speed increases by 5 feet and you gain your choice of either a climbing speed or a swimming speed, which equals your walking speed.<br><br>Additionally, you have advantage on an Agility (Stealth) check if you move no more than half your speed on the same turn."
-                    },
-                    "Resilient Rage": {
-                        "Level": 14,
-                        "Description": "While raging, you are immune to the charmed and frightened condition and you have advantage on saving throws against being blinded, deafened, paralyzed, petrified, poisoned, or stunned."
-                    }
-                },
-                "Feature options": {
-                    "Primal Cunning": {
-                        "Input type": "Dropdown",
-                        "Type": "SkillProficiency",
-                        "Options": [
-                            "Animal Handling",
-                            "Nature",
-                            "Medicine",
-                            "Perception",
-                            "Stealth",
-                            "Survival"
-                        ]
+                    "Zenithar": {
+                        "Description": "You gain proficiency with two artisan’s tools of your choice."
                     }
                 }
             }
