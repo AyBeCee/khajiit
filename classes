@@ -286,6 +286,12 @@
             },
             "Path of the Vanguard": {
                 "Summary": "Drawn to a life of adventure, combat, and rabble rousing, a barbarian of the Path of the Vanguard seeks out the challenge of honing their skills, seeking new ways to overcome any obstacles. A barbarian of this path uses their rage to focus on their combat training.<br><br>Spending countless hours in grueling training, and just as many out in the wilds to learn the finer points of tracking, Path of the Vanguard barbarians prove their merit and worth both on and off the battlefield where others would fail.",
+                "Proficiencies": {
+                    "Skills": [
+                        "Athletics",
+                        "Survival"
+                    ]
+                },
                 "Features": {
                     "Bonus Proficiencies": {
                         "Level": 3,
@@ -323,6 +329,11 @@
             },
             "Path of the War Crier": {
                 "Summary": "The Path of the War Crier is a spiritual journey, as the barbarian learns to channel their life essence through their voice and breath. War Criers are rare in barbarian tribes, but those who have the gift are usually put into positions of power, either as shaman, spiritual leaders, or chieftains. Most Nords have some innate capacity for the power of the Voice, believing that their breath holds their vital essence. The other races can learn how to wield such power, but may require greater study, perhaps spending time with powerful Tongues.",
+                "Proficiencies": {
+                    "Language": [
+                        "Dovahzul"
+                    ]
+                }
                 "Features": {
                     "Battle Thu'um": {
                         "Level": 3,
@@ -476,6 +487,41 @@
                             "Mark of Speed",
                             "Mark of Resilience"
                         ]
+                    },
+                    "Minor Marks": {
+                        "Input type": "Checkbox",
+                        "Max options": {
+                            "6": 1,
+                            "10": 2,
+                            "14": 3
+                        },
+                        "Options": [
+                            "Mark of Death",
+                            "Mark of Elementals",
+                            "Mark of Fear",
+                            "Mark of Intimidation",
+                            "Mark of Ruin",
+                            "Mark of Perseverance",
+                            "Mark of Perception",
+                            "Mark of Shielding",
+                            "Mark of Water"
+                        ]
+                    },
+                    "Remarkable Markings": {
+                        "Input type": "Dropdown",
+                        "Options": [
+                            "Mark of Strength",
+                            "Mark of Speed",
+                            "Mark of Resilience"
+                        ]
+                    },
+                    "Extraordinary Markings": {
+                        "Input type": "Dropdown",
+                        "Options": [
+                            "Mark of Strength",
+                            "Mark of Speed",
+                            "Mark of Resilience"
+                        ]
                     }
                 }
             },
@@ -505,6 +551,20 @@
                     "Resilient Rage": {
                         "Level": 14,
                         "Description": "While raging, you are immune to the charmed and frightened condition and you have advantage on saving throws against being blinded, deafened, paralyzed, petrified, poisoned, or stunned."
+                    }
+                },
+                "Feature options": {
+                    "Primal Cunning": {
+                        "Input type": "Dropdown",
+                        "Type": "SkillProficiency",
+                        "Options": [
+                            "Animal Handling",
+                            "Nature",
+                            "Medicine",
+                            "Perception",
+                            "Stealth",
+                            "Survival"
+                        ]
                     }
                 }
             }
