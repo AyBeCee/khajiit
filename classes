@@ -884,6 +884,36 @@
                         "Level": 14,
                         "Description": "At 14th level, your inspiring performances can compel even your harshest critics. You can use your Bardic Inspiration on a creature within 60 feet of you and force it to make a Willpower saving throw. On a failed save, the creature is compelled by you until the start of your next turn. The compelled creature has disadvantage on all attack rolls, and all attacks made against the compelled creature have advantage."
                     }
+                },
+                "Feature options": {
+                    "Bonus Proficiencies": {
+                        "Input type": "Dropdown",
+                        "Options": [
+                            "Altmeris",
+                            "Bosmeris",
+                            "Dunmeris",
+                            "Jel",
+                            "Nordic",
+                            "Orcish",
+                            "Ta'agra",
+                            "Yoku",
+                            "Akaviri",
+                            "Ald Chimeris",
+                            "Aldmeris",
+                            "Ayleidoon",
+                            "Daedric",
+                            "Dovahzul",
+                            "Dwemeris",
+                            "Ehlnofex",
+                            "Falmeris",
+                            "Hist",
+                            "Nedic",
+                            "Pyandonean",
+                            "Sload",
+                            "Reach-tongue",
+                            "Tsaesci"
+                        ]
+                    }
                 }
             },
             "College of Solitude": {
