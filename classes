@@ -780,7 +780,7 @@
             },
             "Bardic Inspiration": {
                 "Level": 1,
-                "Description": "You can inspire others through your stirring words or music. To do so, you use a bonus action on your turn to choose one creature, other than yourself, within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.<br><br>                Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the GM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.<br><br>                               You can use this feature a number of times equal to your Personality modifier (a minimum of once). You regain any expended uses when you finish a long rest.<br><br>                                Your Bardic Inspiration die changes when you reach certain levels in the class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level."
+                "Description": "You can inspire others through your stirring words or music. To do so, you use a bonus action on your turn to choose one creature, other than yourself, within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.<br><br>                Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the GM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.<br><br>        You can use this feature a number of times equal to your Personality modifier (a minimum of once). You regain any expended uses when you finish a long rest.<br><br>         Your Bardic Inspiration die changes when you reach certain levels in the class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level."
             },
             "Jack of All Trades": {
                 "Level": 2,
@@ -866,7 +866,7 @@
                 "Features": {
                     "Bonus Proficiencies": {
                         "Level": 3,
-                        "Description": "                        When you join the College of Reveries at 3rd level, you gain proficiency in disguise kits, and forgery kits. You also learn one language of your choice."
+                        "Description": " When you join the College of Reveries at 3rd level, you gain proficiency in disguise kits, and forgery kits. You also learn one language of your choice."
                     },
                     "Performer's Vainglory": {
                         "Level": 3,
@@ -945,7 +945,7 @@
                     },
                     "Song of the Divine": {
                         "Level": 14,
-                        "Description": "                        You can spend 1 minute to recite a holy ritual. Any creature of your choice that is within 30 feet that can hear you becomes proficient in all saving throws for the next hour or until they take a short or long rest. In addition, a creature who is under this effect can choose to spend 10 minutes meditating on your ritual, ending the effect early to gain the benefits as though they had finished a short rest.<br><br>Once you use this feature, you can’t use it again until you finish a long rest."
+                        "Description": " You can spend 1 minute to recite a holy ritual. Any creature of your choice that is within 30 feet that can hear you becomes proficient in all saving throws for the next hour or until they take a short or long rest. In addition, a creature who is under this effect can choose to spend 10 minutes meditating on your ritual, ending the effect early to gain the benefits as though they had finished a short rest.<br><br>Once you use this feature, you can’t use it again until you finish a long rest."
                     }
                 },
                 "Subclass spells summary": {
@@ -982,6 +982,375 @@
                     },
                     "Zenithar": {
                         "Description": "You gain proficiency with two artisan’s tools of your choice."
+                    }
+                }
+            }
+        }
+    },
+    "Crusader": {
+        "Description": "A crusader swears to uphold justice and righteousness, to stand with the good things of the world against the encroaching darkness, and to hunt the forces of evil wherever they lurk. Different crusaders focus on various aspects of the cause of righteousness, but all are bound by the devotions that grant them power to do their sacred work. Although many crusaders are devoted to gods of good, a crusader’s power comes as much from a commitment to justice itself as it does from a god.",
+        "Basics": {
+            "Hit Die": 10,
+            "Saves": [
+                "Willpower",
+                "Personality"
+            ]
+        },
+        "Proficiencies": {
+            "Armor": [
+                "All armor",
+                "Shield"
+            ],
+            "Weapons": [
+                "All weapons"
+            ],
+            "Tools": "None",
+            "Skills": [
+                2,
+                "Athletics",
+                "Insight",
+                "Intimidation",
+                "Medicine",
+                "Persuasion",
+                "Religion"
+            ]
+        },
+        "Class table": {
+            "1": {
+                "Proficiency Bonus": "+2",
+                "Class Features": "Divine Sense, Lay on Hands",
+                "Magicka Points": "-",
+                "Spell Level": "-"
+            },
+            "2": {
+                "Proficiency Bonus": "+2",
+                "Class Features": "Fighting Style, Spellcasting, Divine Smite",
+                "Magicka Points": "4",
+                "Spell Level": "1st"
+            },
+            "3": {
+                "Proficiency Bonus": "+2",
+                "Class Features": "Divine Health, Devotion",
+                "Magicka Points": "6",
+                "Spell Level": "1st"
+            },
+            "4": {
+                "Proficiency Bonus": "+2",
+                "Class Features": "Attribute Score Improvement",
+                "Magicka Points": "10",
+                "Spell Level": "1st"
+            },
+            "5": {
+                "Proficiency Bonus": "+3",
+                "Class Features": "Extra Attack",
+                "Magicka Points": "14",
+                "Spell Level": "2nd"
+            },
+            "6": {
+                "Proficiency Bonus": "+3",
+                "Class Features": "Aura of Protection",
+                "Magicka Points": "15",
+                "Spell Level": "2nd"
+            },
+            "7": {
+                "Proficiency Bonus": "+3",
+                "Class Features": "Devotion Feature",
+                "Magicka Points": "17",
+                "Spell Level": "2nd"
+            },
+            "8": {
+                "Proficiency Bonus": "+3",
+                "Class Features": "Attribute Score Improvement",
+                "Magicka Points": "19",
+                "Spell Level": "2nd"
+            },
+            "9": {
+                "Proficiency Bonus": "+4",
+                "Class Features": "-",
+                "Magicka Points": "22",
+                "Spell Level": "3rd"
+            },
+            "10": {
+                "Proficiency Bonus": "+4",
+                "Class Features": "Aura of Courage",
+                "Magicka Points": "27",
+                "Spell Level": "3rd"
+            },
+            "11": {
+                "Proficiency Bonus": "+4",
+                "Class Features": "Improved Divine Smite",
+                "Magicka Points": "30",
+                "Spell Level": "3rd"
+            },
+            "12": {
+                "Proficiency Bonus": "+4",
+                "Class Features": "Attribute Score Improvement",
+                "Magicka Points": "35",
+                "Spell Level": "3rd"
+            },
+            "13": {
+                "Proficiency Bonus": "+5",
+                "Class Features": "-",
+                "Magicka Points": "38",
+                "Spell Level": "4th"
+            },
+            "14": {
+                "Proficiency Bonus": "+5",
+                "Class Features": "Cleansing Touch",
+                "Magicka Points": "40",
+                "Spell Level": "4th"
+            },
+            "15": {
+                "Proficiency Bonus": "+5",
+                "Class Features": "Devotion Feature",
+                "Magicka Points": "44",
+                "Spell Level": "4th"
+            },
+            "16": {
+                "Proficiency Bonus": "+5",
+                "Class Features": "Attribute Score Improvement",
+                "Magicka Points": "50",
+                "Spell Level": "4th"
+            },
+            "17": {
+                "Proficiency Bonus": "+6",
+                "Class Features": "-",
+                "Magicka Points": "57",
+                "Spell Level": "5th"
+            },
+            "18": {
+                "Proficiency Bonus": "+6",
+                "Class Features": "Aura Improvements",
+                "Magicka Points": "60",
+                "Spell Level": "5th"
+            },
+            "19": {
+                "Proficiency Bonus": "+6",
+                "Class Features": "Attribute Score Improvement",
+                "Magicka Points": "64",
+                "Spell Level": "5th"
+            },
+            "20": {
+                "Proficiency Bonus": "+6",
+                "Class Features": "Devotion Feature",
+                "Magicka Points": "64",
+                "Spell Level": "5th"
+            }
+        },
+        "Class Features": {
+            "Divine Sense": {
+                "Level": 1,
+                "Description": "The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial (aedra), fiend (daedra), or undead within 60 feet of you that is not behind total cover. You know the type of any being whose presence you sense, but not its identity. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.<br><br>You can use this feature a number of times equal to 1 + your Personality modifier. When you finish a long rest, you regain all expended uses."
+            },
+            "Lay on Hands": {
+                "Level": 1,
+                "Description": "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your crusader level × 5.<br><br>As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.<br><br>Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.<br><br>This feature has no effect on undead and constructs."
+            },
+            "Fighting Style": {
+                "Level": 2,
+                "Description": "You adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.<br><br><b>Defense.</b> While you are wearing armor, your AC is increased by +1.<br><br><b>Divine Warrior.</b> You learn two cantrips of your choice from the priest spell list. They count as crusader spells for you, and Personality is your spellcasting attribute for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the priest spell list.<br><br><b>Dueling.</b> When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.<br><br><b>Great Weapon Fighting.</b> When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.<br><br><b>Protection.</b> When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+            },
+            "Spellcasting": {
+                "Level": 2,
+                "Description": "You have learned to draw magic through meditation and prayer to cast spells. See chapter 10 of the Basic Rules for the general rules of spellcasting and chapter 11 for the crusader spell list.<br><br><b>Preparing and Casting Spells</b><br>The Crusader table shows how many magicka points you have to cast your crusader spells. To cast one of your crusader spells of 1st level and higher, you must expend magicka points, as noted in the spell's description and the Magicka Cost table found in chapter 10 of the Basic Rules. You regain all expended magicka points when you finish a long rest.<br><br>You prepare the list of crusader spells that are available for you to cast, choosing from the crusader spell list. When you do so, choose a number of crusader spells equal to your Personality modifier + half your crusader level (minimum of one spell). The spells must be of a level for which you can cast, as shown on the Spell Level column of the Crusader table.<br><br>For example, if you are a 5th-level crusader, you can cast a prepared spell at either 1st or 2nd level. With a Personality of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it at either 1st or 2nd level. Casting the spell doesn’t remove it from your list of prepared spells.<br><br>You can change your list of prepared spells when you finish a long rest. Preparing a new list of crusader spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.<br><br><b>Spellcasting Attribute</b><br>Personality is your spellcasting ability for your crusader spells, since their power derives from the strength of your convictions. You use your Personality whenever a crusader spell refers to your spellcasting attribute. In addition, you use your Personality modifier when setting the saving throw DC for a crusader spell you cast and when making an attack roll with one.<br><br><b>Spell save DC</b> = 8 + your proficiency bonus + your Personality modifier<br><b>Spell attack modifier</b> = your proficiency bonus + your Personality modifier<br><b>Spellcasting Focus</b><br>You can use an holy symbol (see chapter 5, “Equipment” of the 5e Core Rules) as a spellcasting focus for your crusader spells."
+            },
+            "Divine Smite": {
+                "Level": 2,
+                "Description": "When you hit a creature with a melee weapon attack, you can expend magicka points to deal radiant damage to the target, in addition to the weapon’s damage. The extra damage is 2d8 for a 1st level spell, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend."
+            },
+            "Divine Health": {
+                "Level": 3,
+                "Description": "The divine magic flowing through you makes you immune to disease."
+            },
+            "Devotion": {
+                "Special": "Subclass",
+                "Level": 3,
+                "Description": "You devote yourself by following a way of life that defines you as a crusader. Up to this time, you have been in a preparatory stage, committed to a path, but not sworn to it. Now you choose a devotion.<br><br>Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include devotion spells and a Channel Divinity feature.<br><br><b>Devotion Spells</b><br>Each devotion has a list of associated spells. You gain access to these spells at the levels specified in the devotion description. Once you gain access to a devotion spell, you always have it prepared. Devotion spells don't count against the number of spells you can prepare each day.<br><br>If you gain a devotion spell that doesn't appear on the crusader spell list, the spell is nonetheless a crusader spell for you.<br><br><b>Channel Divinity</b><br>Your devotion allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your devotion explains how to use it.<br><br>When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again.<br><br>Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your crusader spell save DC."
+            },
+            "Attribute Score Improvement": {
+                "Level": 4,
+                "Description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one attribute score of your choice by 2, or you can increase two attribute scores of your choice by 1. As normal, you can't increase an attribute score above 20 using this feature."
+            },
+            "Extra Attack": {
+                "Level": 5,
+                "Description": "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+            },
+            "Aura of Protection": {
+                "Level": 6,
+                "Description": "Whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Personality modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.<br><br>At 18th level, the range of this aura increases to 30 feet."
+            },
+            "Aura of Courage": {
+                "Level": 10,
+                "Description": "You and friendly creatures within 10 feet of you can’t be frightened while you are conscious.<br><br>At 18th level, the range of this aura increases to 30 feet."
+            },
+            "Improved Divine Smite": {
+                "Level": 11,
+                "Description": "You are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite."
+            },
+            "Cleansing Touch": {
+                "Level": 14,
+                "Description": "You can use your action to end one spell on yourself or on one willing creature that you touch.<br><br>You can use this feature a number of times equal to your Personality modifier (a minimum of once). You regain expended uses when you finish a long rest."
+            }
+        },
+        "Class Feature Options": {
+            "Fighting Style": {
+                "Input type": "Dropdown",
+                "Options": [
+                    "Defense",
+                    "Divine Warrior",
+                    "Dueling",
+                    "Great Weapon Fighting",
+                    "Protection"
+                ]
+            }
+        },
+        "Subclasses summary": {
+            "Name": "Crusader Devotions",
+            "Summary": "TBecoming a crusader involves taking vows that commit the crusader to the cause of righteousness, an active path of fighting wickedness. Their devotion is the culmination of all the crusader's training. Some characters with this class don’t consider themselves to be true crusaders until they’ve reached 3rd level and made this devotion. For others, their devotion is a formality, an official stamp on what has always been true in the crusader’s heart."
+        },
+        "Subclasses": {
+            "Knight": {
+                "Summary": "Of noble birth, or distinguished in battle or tourney, Knights are civilized warriors that are schooled in letters and courtesy, and are governed by the codes of chivalry. In addition to the arts of war, Knights study the lore of healing and enchantment.<br><br>Knights are warriors who pledge service to rulers, religious orders, and noble causes. They are known for their moralistic nature and principled behavior, pledging their honor to those who share their righteous endeavors.",
+                "Features": {
+                    "Devotion Spells": {
+                        "Level": 3,
+                        "Description": "<br> You gain devotion spells at the crusader levels listed. <br><br> <b>Knight Devotion Spells</b> <table> <tr> <th> Level</th><th>Spells</th></tr> <tr><td>3rd</td><td>sanctuary, shield of faith</td></tr> <tr><td>5th</td><td>find steed, warding bond</td></tr> <tr><td>9th</td><td>remove curse, spirit guardians</td></tr> <tr><td>13th</td><td>compulsion, freedom of movement</td></tr> <tr><td>17th</td><td>dispel evil and good, hold monster</td></tr> </table>"
+                    },
+                    "Channel Divinity": {
+                        "Level": 3,
+                        "Description": "You gain the following Channel Divinity options.<br><br><b>Honorable Combat.</b> As a bonus action, you challenge a creature that you can see that is within 30 feet of you to honorable combat. You gain a bonus to your attack rolls equal to your Personality modifier when you attack this creature. This effect ends if a creature other than you attacks your target.<br><br><b>Knight’s Confidence.</b> As an action, you can use your Channel Divinity to exude a noble and trustworthy presence. For the next 10 minutes, you have advantage on Personality (Intimidation) and Personality (Persuasion) checks."
+                    },
+                    "Aura of the Aegis": {
+                        "Level": 7,
+                        "Description": "When a creature within 10 feet of you is targeted by an attack, you can use your reaction to impose a spectral projection of yourself between the target and their attacker. The creature uses your AC instead of their own, unless their AC is greater.<br><br>At 18th level, the range of this aura increases to 30 feet."
+                    },
+                    "Divine Smite: Thunder": {
+                        "Level": 7,
+                        "Description": "Whenever you use the Divine Smite feature, you can choose to infuse your weapon strikes with thunder damage instead of radiant."
+                    },
+                    "Emboldened Defense": {
+                        "Level": 15,
+                        "Description": "You learn quickly from failures to defend yourself. When you are hit by an attack, the next creature to make an attack against you within the next minute has disadvantage on its attack roll."
+                    },
+                    "Exemplar’s Ward": {
+                        "Level": 20,
+                        "Description": "You can manifest a glowing protective ward that surrounds you. As a bonus action you gain the following benefits for 1 minute:<ul><li>When you or a creature of your choice within 30 feet takes damage, the total damage dealt is reduced by an amount equal to your Personality modifier.</li><li>If you or a creature within 30 feet of you fails a saving throw, it can use its reaction to reroll it. It must use this new roll.</li></ul>Once you use this feature, you can't use it again until you finish a long rest, unless you expend magicka as though you had cast a 5th-level spell to use it again."
+                    }
+                }
+            },
+            "Templar": {
+                "Summary": "Templars are resolute devotees of the light who have sworn to help the sick and protect the weak. These traveling knights call upon the powers of light and the burning sun to smite their enemies, defend their allies, and heal the sick.<br><br>Those that follow Stendarr are priests that clothe themselves in his righteous aura of blessed light. They are worshipers who renounce all forms of violence and freely spread knowledge of cleansing and healing rituals. Following the word of Stendarr, they seek out abominations and unnatural profanities that are abhorrent in their eyes. Purging daedra, undead, Hircine's man-beasts, and Molag Bal's vampires from the Mundus.<br><br>Templars in accord with Meridia have similar goals. They relentlessly pursue the undead, cleansing risen corpses whose rotting bodies persist with a loathsome and unnatural vigor, and the vampires that feast upon honest citizens.",
+                "Features": {
+                    "Devotion Spells": {
+                        "Level": 3,
+                        "Description": "You gain devotion spells at the crusader levels listed. <br><br> <b>Templar Devotion Spells </b> <table> <tr> <th>Level</th> <th>Spells</th> </tr> <tr><td>3rd</td><td>guiding bolt, hellish rebuke</td></tr> <tr><td>5th</td><td>aurora javelin, spiritual weapon</td></tr> <tr><td>9th</td><td>beacon of hope, haste</td></tr> <tr><td>13th</td><td>fire shield, radiant shield</td></tr> <tr><td>17th</td><td>anti-life shell, Stendarr's aura</td></tr> </table>"
+                    },
+                    "Channel Divinity": {
+                        "Level": 3,
+                        "Description": "You gain the following Channel Divinity options.<br><br><b>Radiant Destruction.</b> You can use your Channel Divinity to burn your enemies with a ray of holy fire.<br>                        <br>                        As an action, you conjure a ray of light in a 30-foot line that is 5 feet wide. Each creature in that line must make an Agility saving throw. A creature takes radiant damage equal to 2d10 + your crusader level on a failed saving throw, and half as much damage on a successful one. A creature that is below half its maximum hit points takes an additional 1d10 damage.<br>                        <br><b>Illuminating Spirit.</b> As an action, you use your Channel Divinity to cause light to shine down on you, restoring a number of magicka points equal to half your Crusader level, rounded down."
+                    },
+                    "Illuminating Aura": {
+                        "Level": 7,
+                        "Description": "You emanate an aura of invisible magical light. If you aren’t incapacitated, you and any creature of your choice within 10 feet of you gains the ability to see in dim light and darkness within 60 feet of it as though it were bright light.<br><br>When you reach 18th level in this class, the range of the aura increases to 30 feet."
+                    },
+                    "Divine Smite: Fire": {
+                        "Level": 7,
+                        "Description": "Whenever you use the Divine Smite feature, you can choose to infuse your weapon strikes with fire damage instead of radiant."
+                    },
+                    "Burning Light": {
+                        "Level": 15,
+                        "Description": "You gain mastery with the effects of sunlight. Whenever you cast a spell that deals fire or radiant damage, you can add your Personality modifier to the damage. This amount is doubled against undead or fiends."
+                    },
+                    "Radiant Ward": {
+                        "Level": 20,
+                        "Description": "You surround yourself with solar rays. You shed bright light in a 30-foot radius and dim light for an additional 30 feet. You can extinguish or restore the light as a bonus action.<br><br>While surrounded by the light, at the start of each of your turns, you gain 10 temporary hit points. Additionally, each time you take damage from a melee weapon attack, you pulse with violent light, and the attacker takes radiant damage equal to your Personality modifier."
+                    }
+                }
+            },
+            "Witchhunter": {
+                "Summary": "Witchhunters are dedicated to rooting out and destroying the perverted practices of dark cults and profane sorcery. They train for martial, magical, and stealthy war against vampires, witches, warlocks, and necromancers.",
+                "Features": {
+                    "Devotion Spells": {
+                        "Level": 3,
+                        "Description": "You gain devotion spells at the crusader levels listed. <br><br> <b>Witchhunter Devotion Spells </b> <table> <tr> <th>Level</th> <th>Spells</th> </tr> <tr><td>3rd</td><td>bane, hunter's mark </td></tr> <tr><td>5th</td><td>hold person, spiritual weapon </td></tr> <tr><td>9th</td><td>bestow curse, counterspell </td></tr> <tr><td>13th</td><td>banishment, rune prison </td></tr> <tr><td>17th</td><td>hold monster, scrying </td></tr> </table>"
+                    },
+                    "Channel Divinity": {
+                        "Level": 3,
+                        "Description": "You gain the following Channel Divinity options.<br><br>                        <b>Hunter’s Ire.</b> As a bonus action, you can channel your focus against a creature you can see within 30 feet of you, using your Channel Divinity. For the next minute, or until the creature drops to 0 hit points, you can add 1d6 to each attack roll made against the creature target. Additionally, you can add 1d6 whenever the target forces you to make a saving throw, or when you make an attribute check related to the target.<br>                        <br>                        <b>Turn Evil.</b> As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Willpower saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.<br>                        <br>                        A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+                    },
+                    "Wavering Aura": {
+                        "Level": 7,
+                        "Description": "Your supernatural connection to the creatures you face causes them to falter. Creatures of your choice that are within 10 feet of you have disadvantage on saving throws to maintain concentration.<br><br>When you reach 18th level in this class, the range of the aura increases to 20 feet."
+                    },
+                    "Divine Smite: Force": {
+                        "Level": 7,
+                        "Description": "Also at 7th level, whenever you use the Divine Smite feature, you can choose to infuse your weapon strikes with force damage instead of radiant."
+                    },
+                    "Stop the Wicked": {
+                        "Level": 15,
+                        "Description": "When you see a creature casting a spell, you can use your reaction to move up to half your movement speed toward the spellcaster. If the creature is within range, you can make a melee weapon attack against it as part of this reaction. If the attack hits, the creature must succeed on a Willpower saving throw against your spell save DC, or its spell fails and is wasted."
+                    },
+                    "Paragon of Protection": {
+                        "Level": 20,
+                        "Description": "Your very being becomes branded with the magical energy of supernatural protection. You can use your action to gain the following benefits for 1 minute:<ul><li>                        You impose disadvantage to all attacks made against you and any of your allies within 15 feet of you.</li><li>                        The first time a fiend or undead creature comes within 15 feet of you or starts its turn there, you can force the creature to make a Willpower saving throw. On a failed save, it becomes frightened for 1 minute or until it takes any damage.</li><li>                        Attack rolls made against any creature frightened by you have advantage.</li></ul>                        Once you use this feature, you can't use it again until you finish a long rest."
+                    }
+                }
+            },
+            "Herald": {
+                "Summary": "Declarers of the word, crusaders of the Herald devotion are symbols of righteousness and of the pronouncement of the glad tiding of good news. Heralds are often seen as the pinnacle of a religious order or faith and their presence is often one of inspiration. Sent forth to uplift and ease the burdens of others, heralds often see themselves as servants to the common folk and are highly regarded for their selfless acts of kindness and mercy. Even the most hopeless soul is not beyond the reach of a Herald.",
+                "Features": {
+                    "Devotion Spells": {
+                        "Level": 3,
+                        "Description": "You gain devotion spells at the crusader levels listed. <br><br> <b>Herald Devotion Spells </b> <table> <tr> <th>Level</th> <th>Spells</th> </tr> <tr><td>3rd</td><td>bless, shield of faith </td></tr> <tr><td>5th</td><td>aid, calm emotions </td></tr> <tr><td>9th</td><td>beacon of hope, tongues </td></tr> <tr><td>13th</td><td>guardian of faith, freedom of movement </td></tr> <tr><td>17th</td><td>greater restoration, hallow </td></tr> </table>"
+                    },
+                    "Channel Divinity": {
+                        "Level": 3,
+                        "Description": "You gain the following two Channel Divinity options. See the Devotion class feature for how Channel Divinity works.<br><br>                        <b>Shield the Faithful.</b> You can use your Channel Divinity to utter divine words that uplift your allies. As an action, you present your holy symbol, and each friendly creature within 30 feet of you that can hear you gains renewed power. Until the start of your next turn, the creature gains a 1d4 to all of their attack rolls, attribute checks, and saving throws.<br>                        <br>                        <b>Blessing of Peace.</b> You can use your Channel Divinity to infuse yourself with unwavering serenity and expel foul magic. As an action, you present your holy symbol, and end any one magical effect that is afflicting you."
+                    },
+                    "Aura of Faith": {
+                        "Level": 7,
+                        "Description": "Friendly creatures within 10 feet of you cannot be charmed while you are conscious.<br><br>At 18th level, the range of this aura increases to 30 feet."
+                    },
+                    "Divine Smite: Psychic": {
+                        "Level": 14,
+                        "Description": "Whenever you use the Divine Smite feature, you can choose to infuse your weapon strikes with psychic damage instead of radiant."
+                    },
+                    "Divine Ward": {
+                        "Level": 14,
+                        "Description": "Whenever you succeed a saving throw against a magical effect, you gain temporary hit points equal to 2d6 + your Willpower attribute modifier."
+                    },
+                    "Divine Emissary": {
+                        "Level": 20,
+                        "Description": "Your devotion to the gods instills divinity into your being for a moment in order to transform you into their champion.<br><br>Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:<ul><li>You have resistance to all damage.</li><li>You shed bright light out to a range of 60 feet, and dim light out an additional 60 feet.</li><li>Allies within 30 feet of you gain 2d10 temporary hit points at the start of each of your turns.</li><li>As a bonus action on each of your turns, a creature of your choosing (other than yourself) within 30 feet of you gains a d8. The target can use this d8 to add to any roll of their choosing before the start of your next turn. The creature loses this d8 at the start of your next turn if it was not used.</li></ul>Once you use this feature, you can’t use it again until you finish a long rest."
+                    }
+                }
+            },
+            "Zealot": {
+                "Summary": "Whether a radical or a true believer, a Zealot is an ardent follower of their faith. Inspired by the actions and life of saints, demi-gods, or inspiring leaders, a Zealot devotes their life in the service of their temple or shrine under the direction of their deity.<br><br>                Missionaries of the Imperial Cult seek to spread the word of the Divines throughout all corners of Nirn, adherents of the Tribunal Temple serve as guardians and Ordinators, and supplicants of the Daedric Princes embody the sphere their lord represents. A Zealot will follow without thought of themselves, whatever their cause may be.",
+                "Features": {
+                    "Devotion Spells": {
+                        "Level": 3,
+                        "Description": "You gain devotion spells at the crusader levels listed. <br><br> <b>Zealot Devotion Spells </b> <table> <tr> <th>Level</th> <th>Spells</th> </tr> <tr><td>3rd</td><td>bane, divine favor </td></tr> <tr><td>5th</td><td>hold person, spiritual weapon </td></tr> <tr><td>9th</td><td>beacon of hope, bestow curse </td></tr> <tr><td>13th</td><td>compulsion, dark flare </td></tr> <tr><td>17th</td><td>commune, dominate person </td></tr> </table>"
+                    },
+                    "Channel Divinity": {
+                        "Level": 3,
+                        "Description": "You gain the following two Channel Divinity options. See the Devotion class feature for how Channel Divinity works.<br><br><b>Turn the Faithless.</b> You can use your Channel Divinity to utter divine words that are painful for aberrations, fey, and fiends to hear. As an action, you present your holy symbol, and each fey, fiend, or aberration within 30 feet of you that can hear you must make a Willpower saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.<br><br>If the creature's true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned.<br><br><b>Aetherial Blessing.</b> You can use your Channel Divinity to infuse your attacks with supernatural might. As a bonus action, you present your holy symbol, whenever you make a damage roll, you can add your Willpower attribute modifier to weapon attacks (minimum of 1) for the next minute"
+                    },
+                    "Aura of Fury": {
+                        "Level": 7,
+                        "Description": "Friendly creatures within 10 feet of you add your Willpower attribute modifier to a damage roll (minimum of 1) once per turn.<br><br>At 18th level, the range of this aura increases to 30 feet."
+                    },
+                    "Divine Smite: Thunder": {
+                        "Level": 14,
+                        "Description": "Whenever you use the Divine Smite feature, you can choose to infuse your weapon strikes with thunder damage instead of radiant."
+                    },
+                    "Unwavering Devotion": {
+                        "Level": 15,
+                        "Description": "Your unwavering resolve cannot be shaken even when you are at your weakest. You can make a single melee weapon attack as a bonus action on each of your turns if you have no more than half of your hit points left"
+                    },
+                    "Exemplar’s Ward": {
+                        "Level": 20,
+                        "Description": "Your devotion to the gods instills divinity into your being for a moment in order to transform you into their champion.<br><br>Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:<ul><li>You have resistance to radiant, necrotic, psychic, and force damage. As a reaction on your turn, when a creature within 30 feet of you is harmed by radiant, necrotic, psychic, or force damage, you can grant that target resistance to that damage roll.</li><li>When an ally within 30 feet of you misses a target with a weapon attack, they can reroll the attack but must they use the new roll. A creature can only make this roll once per round.</li><li>As a bonus action on each of your turns, a creature of your choosing within 30 feet of you regains 2d4 hit points. Once you use this feature, you can’t use it again until you finish a long rest.</li></ul>"
                     }
                 }
             }
