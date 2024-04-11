@@ -1,5 +1,6 @@
 {
     "Barbarian": {
+        "Overview": "The Barbarian is a martial class that employs brute force and empowering rage to cut down their foe.",
         "Description": "These barbarians, different as they might be, are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea. For some, their rage springs from a connection with ancient traditions. Others draw from a roiling reservoir of anger from memories of past battles. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.",
         "Basics": {
             "Hit Die": 12,
@@ -570,6 +571,7 @@
         }
     },
     "Bard": {
+        "Overview": "The Bard is a spellcasting class specializing in aiding others through weaving song and music into their magic.",
         "Description": "In the world of Nirn, words and music are not just vibrations of air, but vocalizations with power all their own. The bard is a master of song, speech, and the magic they contain. Bards say that the Mundus was spoken into existence, that the words of the et’Ada gave it shape, and that echoes of these primordial Words of Creation still resound throughout both Aetherius and Oblivion. The music of bards is an attempt to snatch and harness those echoes, subtly woven into their spells and powers.",
         "Basics": {
             "Hit Die": 8,
@@ -1018,6 +1020,7 @@
         }
     },
     "Crusader": {
+        "Overview": "The Crusader is a half-spellcasting class specializing in combing martial prowess and infusing their strikes with magicka to smite their foes.",
         "Description": "A crusader swears to uphold justice and righteousness, to stand with the good things of the world against the encroaching darkness, and to hunt the forces of evil wherever they lurk. Different crusaders focus on various aspects of the cause of righteousness, but all are bound by the devotions that grant them power to do their sacred work. Although many crusaders are devoted to gods of good, a crusader’s power comes as much from a commitment to justice itself as it does from a god.",
         "Basics": {
             "Hit Die": 10,
