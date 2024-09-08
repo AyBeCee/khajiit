@@ -175,10 +175,6 @@
                 "Level": 3,
                 "Description": "Choose a path that shapes the nature of your rage, all detailed at the end of the class description. Additionally, you can choose any barbarian's Primal Path outlined in the 5e Core Rules. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels."
             },
-            "Attribute Score Improvement": {
-                "Level": 4,
-                "Description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one attribute score of your choice by 2, or you can increase two attribute scores of your choice by 1. As normal, you can't increase an attribute score above 20 using this feature."
-            },
             "Extra Attack": {
                 "Level": 5,
                 "Description": "You can attack twice, instead of once, whenever you use the Attack action on your turn."
@@ -801,10 +797,6 @@
                 "Level": 3,
                 "Description": "Choose two skills which you are already proficient in. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.<br><br>At 10th level, you can choose another two skill proficiencies to gain this benefit."
             },
-            "Attribute Score Improvement": {
-                "Level": 4,
-                "Description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one attribute score of your choice by 2, or you can increase two attribute scores of your choice by 1. As normal, you can't increase an attribute score above 20 using this feature."
-            },
             "Font of Inspiration": {
                 "Level": 5,
                 "Description": "You regain all of your expended uses of Bardic Inspiration when you finish a short or long rest."
@@ -1199,10 +1191,6 @@
                 "Special": "Subclass",
                 "Level": 3,
                 "Description": "You devote yourself by following a way of life that defines you as a crusader. Up to this time, you have been in a preparatory stage, committed to a path, but not sworn to it. Now you choose a devotion.<br><br>Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include devotion spells and a Channel Divinity feature.<br><br><b>Devotion Spells</b><br>Each devotion has a list of associated spells. You gain access to these spells at the levels specified in the devotion description. Once you gain access to a devotion spell, you always have it prepared. Devotion spells don't count against the number of spells you can prepare each day.<br><br>If you gain a devotion spell that doesn't appear on the crusader spell list, the spell is nonetheless a crusader spell for you.<br><br><b>Channel Divinity</b><br>Your devotion allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your devotion explains how to use it.<br><br>When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again.<br><br>Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your crusader spell save DC."
-            },
-            "Attribute Score Improvement": {
-                "Level": 4,
-                "Description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one attribute score of your choice by 2, or you can increase two attribute scores of your choice by 1. As normal, you can't increase an attribute score above 20 using this feature."
             },
             "Extra Attack": {
                 "Level": 5,
