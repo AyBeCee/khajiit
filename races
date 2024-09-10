@@ -217,11 +217,9 @@
             "Magical Skill": {
                 "Type": "SkillProficiency",
                 "Options": [
-                    [
-                        1,
-                        "Arcana",
-                        "Nature"
-                    ]
+                    1,
+                    "Arcana",
+                    "Nature"
                 ]
             },
             "Magical Studies": {
